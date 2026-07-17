@@ -1,0 +1,5 @@
+﻿variable,moran_I,z_score,p_value,significativo,HH,LL,HL,LH,NS
+Total Delitos,-0.07286,-0.0456,0.96366,False,0,0,0,2,14
+Fallas Alumbrado,-0.10027,-0.2472,0.80472,False,1,0,0,1,14
+Delitos Nocturnos,-0.09974,-0.2433,0.80776,False,0,0,0,1,15
+Incidencias Locatel,-0.07311,-0.0474,0.96221,False,0,0,0,0,16

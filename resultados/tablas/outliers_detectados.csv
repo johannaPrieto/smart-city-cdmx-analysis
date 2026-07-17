@@ -1,0 +1,1406 @@
+﻿alcaldia_catalogo,colonia_catalogo,total_incidencias,total_delitos,total_alumbrado,total_delitos_nocturnos,out_iqr_total_incidencias,out_zscore_total_incidencias,out_iqr_total_delitos,out_zscore_total_delitos,out_iqr_total_alumbrado,out_zscore_total_alumbrado,out_iqr_total_delitos_nocturnos,out_zscore_total_delitos_nocturnos,anomaly_score,out_isoforest,out_iqr_any,out_zscore_any,outlier_consenso
+Azcapotzalco,Aguilera,7,23,0.0,6.0,False,False,False,False,False,False,False,False,0.2191711138020448,False,False,False,False
+Azcapotzalco,Aldana,3,45,0.0,8.0,False,False,False,False,False,False,False,False,0.2178400600397386,False,False,False,False
+Azcapotzalco,Ampliacion Cosmopolita,5,22,0.0,6.0,False,False,False,False,False,False,False,False,0.22112786338131796,False,False,False,False
+Azcapotzalco,Ampliacion Del Gas,13,73,2.0,22.0,False,False,False,False,False,False,False,False,0.19041146879132753,False,False,False,False
+Azcapotzalco,Ampliacion Petrolera,11,31,1.0,8.0,False,False,False,False,False,False,False,False,0.2100544853874562,False,False,False,False
+Azcapotzalco,Ampliacion San Pedro Xalpa,27,206,2.0,60.0,False,False,False,False,False,False,False,False,0.1281892476754432,False,False,False,False
+Azcapotzalco,Angel Zimbron,14,38,0.0,9.0,False,False,False,False,False,False,False,False,0.2160548352411123,False,False,False,False
+Azcapotzalco,Arenal,39,44,1.0,12.0,False,False,False,False,False,False,False,False,0.19381705676755434,False,False,False,False
+Azcapotzalco,Barrio Coltongo,9,42,3.0,13.0,False,False,False,False,False,False,False,False,0.19044723342442715,False,False,False,False
+Azcapotzalco,Barrio Los Reyes,1,48,0.0,14.0,False,False,False,False,False,False,False,False,0.21057986679998436,False,False,False,False
+Azcapotzalco,Barrio Nextengo,20,77,2.0,18.0,False,False,False,False,False,False,False,False,0.1891072835259731,False,False,False,False
+Azcapotzalco,Barrio San Andres,17,57,0.0,14.0,False,False,False,False,False,False,False,False,0.21179711685976305,False,False,False,False
+Azcapotzalco,Barrio San Marcos,12,82,1.0,23.0,False,False,False,False,False,False,False,False,0.19974244329338536,False,False,False,False
+Azcapotzalco,Barrio San Mateo,22,22,3.0,6.0,False,False,False,False,False,False,False,False,0.17848840985652847,False,False,False,False
+Azcapotzalco,Barrio Santa Apolonia,17,80,1.0,24.0,False,False,False,False,False,False,False,False,0.1986634894028882,False,False,False,False
+Azcapotzalco,Barrio Santa Lucia,7,16,0.0,4.0,False,False,False,False,False,False,False,False,0.21400631040243756,False,False,False,False
+Azcapotzalco,Centro De Azcapotzalco,22,221,2.0,52.0,False,False,True,False,False,False,False,False,0.1212740208745885,False,True,False,False
+Azcapotzalco,Claveria,50,181,4.0,47.0,False,False,False,False,False,False,False,False,0.11867241406030404,False,False,False,False
+Azcapotzalco,Coltongo,9,25,1.0,7.0,False,False,False,False,False,False,False,False,0.21391933244738914,False,False,False,False
+Azcapotzalco,Cosmopolita,10,40,0.0,13.0,False,False,False,False,False,False,False,False,0.21601906898985562,False,False,False,False
+Azcapotzalco,Del Gas,15,106,2.0,29.0,False,False,False,False,False,False,False,False,0.1795375678548911,False,False,False,False
+Azcapotzalco,Del Maestro,1,38,1.0,9.0,False,False,False,False,False,False,False,False,0.20868998453724974,False,False,False,False
+Azcapotzalco,Del Recreo,62,116,5.0,30.0,True,False,False,False,False,False,False,False,0.12693641390334554,False,True,False,False
+Azcapotzalco,El Jaguey,5,43,0.0,12.0,False,False,False,False,False,False,False,False,0.21711463448562435,False,False,False,False
+Azcapotzalco,El Rosario,151,360,9.0,99.0,True,False,True,False,True,False,True,False,-0.039031897840450025,True,True,False,True
+Azcapotzalco,Estacion Pantaco,7,45,1.0,9.0,False,False,False,False,False,False,False,False,0.21274201209872606,False,False,False,False
+Azcapotzalco,Euzkadi,15,39,0.0,12.0,False,False,False,False,False,False,False,False,0.2131125534191885,False,False,False,False
+Azcapotzalco,Ex-Hacienda El Rosario,31,111,1.0,27.0,False,False,False,False,False,False,False,False,0.17326973538967322,False,False,False,False
+Azcapotzalco,Ferreria,1,17,0.0,6.0,False,False,False,False,False,False,False,False,0.21654507401581846,False,False,False,False
+Azcapotzalco,Ignacio Allende,11,16,2.0,2.0,False,False,False,False,False,False,False,False,0.1785741156282174,False,False,False,False
+Azcapotzalco,Industrial San Antonio,4,15,1.0,5.0,False,False,False,False,False,False,False,False,0.2084031974189477,False,False,False,False
+Azcapotzalco,Industrial Vallejo,24,216,3.0,48.0,False,False,True,False,False,False,False,False,0.11820026467714545,False,True,False,False
+Azcapotzalco,Jardin Azpeitia,2,46,0.0,10.0,False,False,False,False,False,False,False,False,0.21553218450491224,False,False,False,False
+Azcapotzalco,La Preciosa,24,48,2.0,13.0,False,False,False,False,False,False,False,False,0.19724026861121302,False,False,False,False
+Azcapotzalco,La Raza,7,81,1.0,23.0,False,False,False,False,False,False,False,False,0.19775433141182863,False,False,False,False
+Azcapotzalco,Las Salinas,15,14,2.0,5.0,False,False,False,False,False,False,False,False,0.18893329939158993,False,False,False,False
+Azcapotzalco,Liberacion,26,39,0.0,9.0,False,False,False,False,False,False,False,False,0.20554179745400375,False,False,False,False
+Azcapotzalco,Libertad,13,13,1.0,4.0,False,False,False,False,False,False,False,False,0.2018882180401686,False,False,False,False
+Azcapotzalco,Monte Alto,2,8,0.0,7.0,False,False,False,False,False,False,False,False,0.20586003536123193,False,False,False,False
+Azcapotzalco,Nueva El Rosario,5,54,0.0,16.0,False,False,False,False,False,False,False,False,0.21274431553850204,False,False,False,False
+Azcapotzalco,Nueva España,7,22,1.0,7.0,False,False,False,False,False,False,False,False,0.21435520255143348,False,False,False,False
+Azcapotzalco,Nueva Santa Maria,80,192,17.0,51.0,True,False,False,False,True,False,False,False,-0.02800974119205113,True,True,False,True
+Azcapotzalco,Nuevo Barrio San Rafael,4,19,0.0,8.0,False,False,False,False,False,False,False,False,0.2193440414414876,False,False,False,False
+Azcapotzalco,Obrero Popular,13,79,0.0,25.0,False,False,False,False,False,False,False,False,0.19909407633924364,False,False,False,False
+Azcapotzalco,Pasteros,19,65,0.0,24.0,False,False,False,False,False,False,False,False,0.1954217855413749,False,False,False,False
+Azcapotzalco,Patrimonio Familiar,3,16,0.0,6.0,False,False,False,False,False,False,False,False,0.21968909483954518,False,False,False,False
+Azcapotzalco,Petrolera,22,56,7.0,12.0,False,False,False,False,True,False,False,False,0.1336871055685825,False,True,False,False
+Azcapotzalco,Plenitud,32,53,2.0,13.0,False,False,False,False,False,False,False,False,0.1944050944092623,False,False,False,False
+Azcapotzalco,Porvenir,5,46,0.0,13.0,False,False,False,False,False,False,False,False,0.21516600837587363,False,False,False,False
+Azcapotzalco,Potrero Del Llano,4,10,0.0,1.0,False,False,False,False,False,False,False,False,0.19439260266306457,False,False,False,False
+Azcapotzalco,Prados Del Rosario,27,59,2.0,16.0,False,False,False,False,False,False,False,False,0.1941639317858675,False,False,False,False
+Azcapotzalco,Pro Hogar,52,149,12.0,55.0,False,False,False,False,True,False,False,False,0.017660509055701046,False,True,False,False
+Azcapotzalco,Providencia,50,91,3.0,25.0,False,False,False,False,False,False,False,False,0.16164328574081377,False,False,False,False
+Azcapotzalco,Pueblo San Andres,55,40,4.0,10.0,False,False,False,False,False,False,False,False,0.13980583314732498,False,False,False,False
+Azcapotzalco,Pueblo San Andres De Las Salinas,2,8,0.0,2.0,False,False,False,False,False,False,False,False,0.20332988876993302,False,False,False,False
+Azcapotzalco,Pueblo San Bartolo Cahualtongo,3,28,1.0,6.0,False,False,False,False,False,False,False,False,0.21038270035711437,False,False,False,False
+Azcapotzalco,Pueblo San Francisco Tetecala,44,72,2.0,19.0,False,False,False,False,False,False,False,False,0.17787298305674215,False,False,False,False
+Azcapotzalco,Pueblo San Francisco Xocotitla,3,53,0.0,17.0,False,False,False,False,False,False,False,False,0.2108226532315854,False,False,False,False
+Azcapotzalco,Pueblo San Juan Tlihuaca,62,129,2.0,39.0,True,False,False,False,False,False,False,False,0.14829528209162823,False,True,False,False
+Azcapotzalco,Pueblo San Martin Xochinahuac,85,122,3.0,35.0,True,False,False,False,False,False,False,False,0.12260209382639986,False,True,False,False
+Azcapotzalco,Pueblo San Miguel Amantla,27,92,7.0,17.0,False,False,False,False,True,False,False,False,0.12612858216746975,False,True,False,False
+Azcapotzalco,Pueblo San Pedro Xalpa,13,105,0.0,29.0,False,False,False,False,False,False,False,False,0.18349966998652084,False,False,False,False
+Azcapotzalco,Pueblo Santa Barbara,39,118,1.0,26.0,False,False,False,False,False,False,False,False,0.17256286019627537,False,False,False,False
+Azcapotzalco,Pueblo Santa Catarina,5,32,0.0,10.0,False,False,False,False,False,False,False,False,0.2175683830412803,False,False,False,False
+Azcapotzalco,Pueblo Santa Cruz Acayucan,6,25,0.0,4.0,False,False,False,False,False,False,False,False,0.21391856825485078,False,False,False,False
+Azcapotzalco,Pueblo Santa Maria Malinalco,13,67,1.0,15.0,False,False,False,False,False,False,False,False,0.2079968943449832,False,False,False,False
+Azcapotzalco,Pueblo Santiago Ahuizotla,25,122,2.0,26.0,False,False,False,False,False,False,False,False,0.17312148510959935,False,False,False,False
+Azcapotzalco,Pueblo Santo Domingo,24,51,2.0,17.0,False,False,False,False,False,False,False,False,0.19480630095729545,False,False,False,False
+Azcapotzalco,Reynosa Tamaulipas,48,72,0.0,17.0,False,False,False,False,False,False,False,False,0.17566115861266224,False,False,False,False
+Azcapotzalco,San Alvaro,23,80,2.0,23.0,False,False,False,False,False,False,False,False,0.18625730700711174,False,False,False,False
+Azcapotzalco,San Antonio,18,53,7.0,17.0,False,False,False,False,True,False,False,False,0.13696287777484062,False,True,False,False
+Azcapotzalco,San Rafael,7,24,0.0,9.0,False,False,False,False,False,False,False,False,0.21809561751585227,False,False,False,False
+Azcapotzalco,San Salvador Xochimanca,11,29,0.0,6.0,False,False,False,False,False,False,False,False,0.21582900027373064,False,False,False,False
+Azcapotzalco,San Sebastian,9,39,1.0,11.0,False,False,False,False,False,False,False,False,0.2129522925879967,False,False,False,False
+Azcapotzalco,Santa Cruz De Las Salinas,11,76,0.0,18.0,False,False,False,False,False,False,False,False,0.20644207882949467,False,False,False,False
+Azcapotzalco,Santa Ines,30,34,0.0,13.0,False,False,False,False,False,False,False,False,0.20335052415499405,False,False,False,False
+Azcapotzalco,Santo Tomas,18,72,0.0,18.0,False,False,False,False,False,False,False,False,0.20315038858328527,False,False,False,False
+Azcapotzalco,Sector Naval,5,10,2.0,4.0,False,False,False,False,False,False,False,False,0.18629045519022414,False,False,False,False
+Azcapotzalco,Sindicato Mexicano De Electricistas,20,41,1.0,10.0,False,False,False,False,False,False,False,False,0.20552771442492018,False,False,False,False
+Azcapotzalco,Tezozomoc,34,121,3.0,35.0,False,False,False,False,False,False,False,False,0.15257203764436467,False,False,False,False
+Azcapotzalco,Tierra Nueva,5,63,0.0,17.0,False,False,False,False,False,False,False,False,0.2075906500361221,False,False,False,False
+Azcapotzalco,Tlatilco,34,53,2.0,16.0,False,False,False,False,False,False,False,False,0.19144663716563587,False,False,False,False
+Azcapotzalco,Trabajadores De Hierro,9,20,0.0,6.0,False,False,False,False,False,False,False,False,0.21861182942401403,False,False,False,False
+Azcapotzalco,Un Hogar Para Cada Trabajador,4,27,0.0,5.0,False,False,False,False,False,False,False,False,0.21848151117128117,False,False,False,False
+Azcapotzalco,Unidad Cuitlahuac,31,77,2.0,15.0,False,False,False,False,False,False,False,False,0.18498580508589202,False,False,False,False
+Azcapotzalco,Victoria De Las Democracias,17,126,0.0,24.0,False,False,False,False,False,False,False,False,0.1757045265058474,False,False,False,False
+Benito Juárez,8 De Agosto,6,37,2.0,7.0,False,False,False,False,False,False,False,False,0.20134219072408394,False,False,False,False
+Benito Juárez,Acacias,16,97,0.0,16.0,False,False,False,False,False,False,False,False,0.18884095934435324,False,False,False,False
+Benito Juárez,Actipan,18,74,0.0,14.0,False,False,False,False,False,False,False,False,0.20218734577755315,False,False,False,False
+Benito Juárez,Alamos,98,420,18.0,146.0,True,False,True,False,True,False,True,False,-0.09385497621437922,True,True,False,True
+Benito Juárez,Albert,2,60,1.0,14.0,False,False,False,False,False,False,False,False,0.2007077069193719,False,False,False,False
+Benito Juárez,Americas Unidas,19,111,0.0,22.0,False,False,False,False,False,False,False,False,0.17516434732728053,False,False,False,False
+Benito Juárez,Ampliacion Napoles,12,97,0.0,15.0,False,False,False,False,False,False,False,False,0.1924266134447209,False,False,False,False
+Benito Juárez,Atenor Salas,3,33,0.0,8.0,False,False,False,False,False,False,False,False,0.22226634358607733,False,False,False,False
+Benito Juárez,Barrio Santa Maria Nonoalco,1,1,0.0,0.0,False,False,False,False,False,False,False,False,0.16508938421146796,False,False,False,False
+Benito Juárez,Ciudad De Los Deportes,28,128,4.0,42.0,False,False,False,False,False,False,False,False,0.14033612814914037,False,False,False,False
+Benito Juárez,Credito Constructor,4,54,1.0,15.0,False,False,False,False,False,False,False,False,0.20932692969490052,False,False,False,False
+Benito Juárez,Del Carmen,8,37,0.0,15.0,False,False,False,False,False,False,False,False,0.21485452385726073,False,False,False,False
+Benito Juárez,Del Lago,2,18,0.0,6.0,False,False,False,False,False,False,False,False,0.21964740844721586,False,False,False,False
+Benito Juárez,Del Valle Centro,84,673,6.0,138.0,True,False,True,True,True,False,True,False,-0.08229177205615046,True,True,True,True
+Benito Juárez,Del Valle Norte,98,520,11.0,96.0,True,False,True,False,True,False,True,False,-0.05263312425950395,True,True,False,True
+Benito Juárez,Del Valle Sur,78,593,4.0,146.0,True,False,True,False,False,False,True,False,-0.07069206422386876,True,True,False,True
+Benito Juárez,Ermita,10,31,1.0,8.0,False,False,False,False,False,False,False,False,0.21002681945117796,False,False,False,False
+Benito Juárez,Escandon Ii Seccion,1,1,1.0,0.0,False,False,False,False,False,False,False,False,0.15234829426640517,False,False,False,False
+Benito Juárez,Extremadura Insurgentes,14,58,0.0,14.0,False,False,False,False,False,False,False,False,0.21210783195373023,False,False,False,False
+Benito Juárez,General Pedro Ma Anaya,21,127,5.0,32.0,False,False,False,False,False,False,False,False,0.1391766896190078,False,False,False,False
+Benito Juárez,Independencia,28,166,4.0,51.0,False,False,False,False,False,False,False,False,0.12381059436559799,False,False,False,False
+Benito Juárez,Insurgentes Mixcoac,25,212,5.0,52.0,False,False,False,False,False,False,False,False,0.10583356527048005,False,False,False,False
+Benito Juárez,Insurgentes San Borja,10,52,0.0,12.0,False,False,False,False,False,False,False,False,0.21523592318523077,False,False,False,False
+Benito Juárez,Iztaccihuatl,11,48,3.0,12.0,False,False,False,False,False,False,False,False,0.18903462267671767,False,False,False,False
+Benito Juárez,Josefa Ortiz De Dominguez,8,21,0.0,10.0,False,False,False,False,False,False,False,False,0.21435070372344944,False,False,False,False
+Benito Juárez,Letran Valle,31,223,2.0,55.0,False,False,True,False,False,False,False,False,0.12178828615954829,False,True,False,False
+Benito Juárez,Merced Gomez,4,61,0.0,8.0,False,False,False,False,False,False,False,False,0.20730566916345955,False,False,False,False
+Benito Juárez,Miguel Aleman,5,17,0.0,3.0,False,False,False,False,False,False,False,False,0.20899990706682814,False,False,False,False
+Benito Juárez,Miravalle,19,73,2.0,17.0,False,False,False,False,False,False,False,False,0.19068494615527987,False,False,False,False
+Benito Juárez,Mixcoac,23,129,1.0,30.0,False,False,False,False,False,False,False,False,0.17354694606184418,False,False,False,False
+Benito Juárez,Moderna,43,183,7.0,53.0,False,False,False,False,True,False,False,False,0.0974030105977704,False,True,False,False
+Benito Juárez,Napoles,45,491,2.0,115.0,False,False,True,False,False,False,True,False,-0.01750985332225996,True,True,False,True
+Benito Juárez,Narvarte Oriente,82,488,10.0,122.0,True,False,True,False,True,False,True,False,-0.04505842233621937,True,True,False,True
+Benito Juárez,Narvarte Poniente,102,636,14.0,191.0,True,False,True,True,True,False,True,True,-0.12878286313308163,True,True,True,True
+Benito Juárez,Nativitas,52,191,17.0,44.0,False,False,False,False,True,False,False,False,-0.021352694740980005,True,True,False,True
+Benito Juárez,Niños Heroes,17,146,4.0,48.0,False,False,False,False,False,False,False,False,0.129726824891311,False,False,False,False
+Benito Juárez,Noche Buena,18,50,0.0,16.0,False,False,False,False,False,False,False,False,0.2091912548166039,False,False,False,False
+Benito Juárez,Periodista,18,26,2.0,11.0,False,False,False,False,False,False,False,False,0.1955879194356272,False,False,False,False
+Benito Juárez,Piedad Narvarte,11,326,1.0,81.0,False,False,True,False,False,False,True,False,0.041107664066317606,False,True,False,False
+Benito Juárez,Portales Norte,68,340,7.0,99.0,True,False,True,False,True,False,True,False,0.013455984114417396,False,True,False,False
+Benito Juárez,Portales Oriente,9,99,1.0,27.0,False,False,False,False,False,False,False,False,0.19015673973000186,False,False,False,False
+Benito Juárez,Portales Sur,68,325,7.0,95.0,True,False,True,False,True,False,True,False,0.023177623229654776,False,True,False,False
+Benito Juárez,Postal,13,58,0.0,21.0,False,False,False,False,False,False,False,False,0.2074352957620394,False,False,False,False
+Benito Juárez,Residencial Emperadores,4,47,0.0,8.0,False,False,False,False,False,False,False,False,0.21571399046968293,False,False,False,False
+Benito Juárez,San Jose Insurgentes,28,165,1.0,50.0,False,False,False,False,False,False,False,False,0.13687293450306115,False,False,False,False
+Benito Juárez,San Juan,16,137,2.0,33.0,False,False,False,False,False,False,False,False,0.16047117409622158,False,False,False,False
+Benito Juárez,San Pedro De Los Pinos,82,404,12.0,80.0,True,False,True,False,True,False,True,False,-0.03683639021660523,True,True,False,True
+Benito Juárez,San Simon Ticumac,35,214,8.0,63.0,False,False,True,False,True,False,True,False,0.07629253284285392,False,True,False,False
+Benito Juárez,Santa Cruz Atoyac,46,531,10.0,108.0,False,False,True,False,True,False,True,False,-0.042026876675246405,True,True,False,True
+Benito Juárez,Santa Maria Nonoalco,39,169,1.0,53.0,False,False,False,False,False,False,False,False,0.13206210490385878,False,False,False,False
+Benito Juárez,Tlacoquemecatl,32,191,1.0,35.0,False,False,False,False,False,False,False,False,0.13492121930457357,False,False,False,False
+Benito Juárez,Vertiz Narvarte,21,110,1.0,20.0,False,False,False,False,False,False,False,False,0.17681327935347924,False,False,False,False
+Benito Juárez,Viaducto Piedad,2,7,0.0,3.0,False,False,False,False,False,False,False,False,0.20448702482230985,False,False,False,False
+Benito Juárez,Villa De Cortes,21,46,7.0,15.0,False,False,False,False,True,False,False,False,0.13343003371099538,False,True,False,False
+Benito Juárez,Xoco,18,420,1.0,105.0,False,False,True,False,False,False,True,False,-0.0002638723211234595,True,True,False,True
+Coyoacán,Adolfo Ruiz Cortinez,61,147,13.0,56.0,True,False,False,False,True,False,False,False,0.005398899865202478,False,True,False,False
+Coyoacán,Ajusco,139,578,28.0,175.0,True,False,True,False,True,True,True,True,-0.16521886095013694,True,True,True,True
+Coyoacán,Alianza Popular Revolucionaria,58,114,18.0,36.0,False,False,False,False,True,False,False,False,-0.026331802860706133,True,True,False,True
+Coyoacán,Atlantida,9,53,1.0,15.0,False,False,False,False,False,False,False,False,0.21411197064346799,False,False,False,False
+Coyoacán,Avante,64,133,10.0,34.0,True,False,False,False,True,False,False,False,0.05244219319996102,False,True,False,False
+Coyoacán,Barrio Del Niño Jesus,11,51,0.0,14.0,False,False,False,False,False,False,False,False,0.21498047316751373,False,False,False,False
+Coyoacán,Barrio La Concepcion,10,59,0.0,17.0,False,False,False,False,False,False,False,False,0.2116600405991642,False,False,False,False
+Coyoacán,Barrio Oxtopulco Universidad,9,109,0.0,30.0,False,False,False,False,False,False,False,False,0.1801339476494888,False,False,False,False
+Coyoacán,Barrio San Lucas,21,50,0.0,16.0,False,False,False,False,False,False,False,False,0.20630022422719796,False,False,False,False
+Coyoacán,Barrio Santa Catarina,28,148,3.0,32.0,False,False,False,False,False,False,False,False,0.1500140354962703,False,False,False,False
+Coyoacán,Bosques De Tetlameya,16,12,2.0,6.0,False,False,False,False,False,False,False,False,0.18317877709699,False,False,False,False
+Coyoacán,Cafetales,14,40,6.0,9.0,False,False,False,False,True,False,False,False,0.14088796742706877,False,True,False,False
+Coyoacán,Campestre Churubusco,60,329,9.0,101.0,True,False,True,False,True,False,True,False,0.004925343792992143,False,True,False,False
+Coyoacán,Campestre Coyoacan,3,11,0.0,2.0,False,False,False,False,False,False,False,False,0.2062594083207705,False,False,False,False
+Coyoacán,Cantil Del Pedregal,17,12,3.0,5.0,False,False,False,False,False,False,False,False,0.16851547221626773,False,False,False,False
+Coyoacán,Carmen Serdan,20,79,0.0,22.0,False,False,False,False,False,False,False,False,0.19516800899851028,False,False,False,False
+Coyoacán,Churubusco Country Club,11,75,1.0,19.0,False,False,False,False,False,False,False,False,0.20401263294831484,False,False,False,False
+Coyoacán,Ciudad Jardin,24,82,3.0,24.0,False,False,False,False,False,False,False,False,0.17711162911190798,False,False,False,False
+Coyoacán,Ciudad Universitaria,13,230,0.0,42.0,False,False,True,False,False,False,False,False,0.10981121714731928,False,True,False,False
+Coyoacán,Copilco El Alto,6,37,0.0,15.0,False,False,False,False,False,False,False,False,0.21456835829992377,False,False,False,False
+Coyoacán,Copilco El Bajo,7,88,1.0,24.0,False,False,False,False,False,False,False,False,0.1960049071548403,False,False,False,False
+Coyoacán,Copilco Universidad,5,76,0.0,22.0,False,False,False,False,False,False,False,False,0.19856103012425397,False,False,False,False
+Coyoacán,Cuadrante De San Francisco,12,108,5.0,28.0,False,False,False,False,False,False,False,False,0.14571176359033983,False,False,False,False
+Coyoacán,Culhuacan C.T.M. Secciën X,30,57,7.0,21.0,False,False,False,False,True,False,False,False,0.13421529720024444,False,True,False,False
+Coyoacán,Culhuacan Ctm Canal Nacional,12,49,2.0,8.0,False,False,False,False,False,False,False,False,0.19624908819075054,False,False,False,False
+Coyoacán,Culhuacan Ctm Croc,21,34,0.0,3.0,False,False,False,False,False,False,False,False,0.19603901218665698,False,False,False,False
+Coyoacán,Culhuacan Ctm Seccion Iii,9,15,1.0,5.0,False,False,False,False,False,False,False,False,0.2057641126010531,False,False,False,False
+Coyoacán,Culhuacan Ctm Seccion Ix-A,19,48,9.0,14.0,False,False,False,False,True,False,False,False,0.09735592292055373,False,True,False,False
+Coyoacán,Culhuacan Ctm Seccion Ix-B,37,47,6.0,18.0,False,False,False,False,True,False,False,False,0.1286604238875862,False,True,False,False
+Coyoacán,Culhuacan Ctm Seccion Piloto,11,33,0.0,14.0,False,False,False,False,False,False,False,False,0.2116974442302874,False,False,False,False
+Coyoacán,Culhuacan Ctm Seccion V,56,103,13.0,42.0,False,False,False,False,True,False,False,False,0.010874621025944942,False,True,False,False
+Coyoacán,Culhuacan Ctm Seccion Vi,12,79,3.0,24.0,False,False,False,False,False,False,False,False,0.18212587175358913,False,False,False,False
+Coyoacán,Culhuacan Ctm Seccion Vii,15,70,2.0,21.0,False,False,False,False,False,False,False,False,0.192039339443291,False,False,False,False
+Coyoacán,Culhuacan Ctm Seccion Viii,32,128,4.0,44.0,False,False,False,False,False,False,False,False,0.13824185868906735,False,False,False,False
+Coyoacán,Culhuacan Ctm Seccion X-A,14,27,2.0,8.0,False,False,False,False,False,False,False,False,0.198296985168102,False,False,False,False
+Coyoacán,Del Carmen,70,427,10.0,128.0,True,False,True,False,True,False,True,False,-0.03382865305728999,True,True,False,True
+Coyoacán,Educacion,43,94,6.0,27.0,False,False,False,False,True,False,False,False,0.13120644895165368,False,True,False,False
+Coyoacán,El Caracol,5,35,0.0,8.0,False,False,False,False,False,False,False,False,0.22095391749071963,False,False,False,False
+Coyoacán,El Centinela,7,44,1.0,15.0,False,False,False,False,False,False,False,False,0.21306076150097775,False,False,False,False
+Coyoacán,El Mirador,2,25,0.0,5.0,False,False,False,False,False,False,False,False,0.2188578673319908,False,False,False,False
+Coyoacán,El Parque De Coyoacan,6,19,1.0,7.0,False,False,False,False,False,False,False,False,0.2110129686041809,False,False,False,False
+Coyoacán,El Reloj,10,30,2.0,6.0,False,False,False,False,False,False,False,False,0.19790950718709693,False,False,False,False
+Coyoacán,El Rosario,6,26,2.0,8.0,False,False,False,False,False,False,False,False,0.19765180893301526,False,False,False,False
+Coyoacán,El Rosedal,14,88,1.0,31.0,False,False,False,False,False,False,False,False,0.1896617123970189,False,False,False,False
+Coyoacán,Emiliano Zapata,5,21,1.0,6.0,False,False,False,False,False,False,False,False,0.21258233076138028,False,False,False,False
+Coyoacán,Emiliano Zapata Fraccionamiento Popular,10,63,1.0,19.0,False,False,False,False,False,False,False,False,0.20706492434729612,False,False,False,False
+Coyoacán,Espartaco,23,70,1.0,21.0,False,False,False,False,False,False,False,False,0.1964667215747537,False,False,False,False
+Coyoacán,Ex Ejido San Pablo Tepetlapa,9,26,1.0,5.0,False,False,False,False,False,False,False,False,0.21049001517029886,False,False,False,False
+Coyoacán,Ex Hacienda Coapa,10,51,0.0,19.0,False,False,False,False,False,False,False,False,0.21223038096405045,False,False,False,False
+Coyoacán,Ex-Ejido De San Francisco Culhuacan,14,163,1.0,56.0,False,False,False,False,False,False,False,False,0.13401852326865116,False,False,False,False
+Coyoacán,Ex-Hacienda De Guadalupe Chimalistac,1,1,0.0,0.0,False,False,False,False,False,False,False,False,0.16508938421146796,False,False,False,False
+Coyoacán,Haciendas De Coyoacan,5,45,0.0,12.0,False,False,False,False,False,False,False,False,0.21788888124734734,False,False,False,False
+Coyoacán,Hermosillo,6,13,1.0,3.0,False,False,False,False,False,False,False,False,0.19843027403851338,False,False,False,False
+Coyoacán,Huayamilpas,9,29,3.0,10.0,False,False,False,False,False,False,False,False,0.1852457116823646,False,False,False,False
+Coyoacán,Insurgentes Cuicuilco,17,318,0.0,73.0,False,False,True,False,False,False,True,False,0.04451825623400696,False,True,False,False
+Coyoacán,Jardines De Coyoacan,7,41,1.0,14.0,False,False,False,False,False,False,False,False,0.20972143273687044,False,False,False,False
+Coyoacán,Jardines Del Pedregal De San Angel,5,65,0.0,13.0,False,False,False,False,False,False,False,False,0.20894694970708466,False,False,False,False
+Coyoacán,Los Cedros,9,14,1.0,3.0,False,False,False,False,False,False,False,False,0.1970489918725204,False,False,False,False
+Coyoacán,Los Cipreses,10,103,0.0,24.0,False,False,False,False,False,False,False,False,0.18782895228037982,False,False,False,False
+Coyoacán,Los Girasoles,28,106,4.0,22.0,False,False,False,False,False,False,False,False,0.15437664194313216,False,False,False,False
+Coyoacán,Los Olivos,9,6,6.0,2.0,False,False,False,False,True,False,False,False,0.10691858610210836,False,True,False,False
+Coyoacán,Los Sauces,5,36,0.0,14.0,False,False,False,False,False,False,False,False,0.21396733532137013,False,False,False,False
+Coyoacán,Nueva Diaz Ordaz,2,16,0.0,7.0,False,False,False,False,False,False,False,False,0.2180970945862047,False,False,False,False
+Coyoacán,Olimpica,6,14,0.0,6.0,False,False,False,False,False,False,False,False,0.21265676685130291,False,False,False,False
+Coyoacán,Parque San Andres,64,154,2.0,50.0,True,False,False,False,False,False,False,False,0.12806875970946535,False,True,False,False
+Coyoacán,Paseos De Taxqueña,63,141,12.0,37.0,True,False,False,False,True,False,False,False,0.02420731939071752,False,True,False,False
+Coyoacán,Pedregal De Carrasco,54,237,8.0,66.0,False,False,True,False,True,False,True,False,0.06871110419182386,False,True,False,False
+Coyoacán,Pedregal De Santa Ursula,119,429,26.0,139.0,True,False,True,False,True,True,True,False,-0.12961495443119664,True,True,True,True
+Coyoacán,Pedregal De Santo Domingo,235,1033,50.0,322.0,True,False,True,True,True,True,True,True,-0.2507364158522941,True,True,True,True
+Coyoacán,Pedregal De Sn Francisco,1,8,0.0,1.0,False,False,False,False,False,False,False,False,0.19344688493048934,False,False,False,False
+Coyoacán,Petrolera Taxqueña,4,40,0.0,13.0,False,False,False,False,False,False,False,False,0.2164996126241523,False,False,False,False
+Coyoacán,Prado Churubusco,70,138,5.0,36.0,True,False,False,False,False,False,False,False,0.11034008919921823,False,True,False,False
+Coyoacán,Prados De Coyoacan,23,29,5.0,7.0,False,False,False,False,False,False,False,False,0.14742202054255343,False,False,False,False
+Coyoacán,Presidentes Ejidales 1A Seccion,36,39,8.0,15.0,False,False,False,False,True,False,False,False,0.1201654059619281,False,True,False,False
+Coyoacán,Presidentes Ejidales 2A Seccion,28,56,4.0,15.0,False,False,False,False,False,False,False,False,0.1681444733965229,False,False,False,False
+Coyoacán,Pueblo De Los Reyes,44,203,5.0,63.0,False,False,False,False,False,False,True,False,0.09923382715487533,False,True,False,False
+Coyoacán,Pueblo De Santa Ursula Coapa,35,211,4.0,81.0,False,False,False,False,False,False,True,False,0.0766065390808543,False,True,False,False
+Coyoacán,Pueblo La Candelaria,14,123,3.0,44.0,False,False,False,False,False,False,False,False,0.14859960284521573,False,False,False,False
+Coyoacán,Pueblo San Pablo Tepetlapa,16,80,1.0,30.0,False,False,False,False,False,False,False,False,0.19294423556800577,False,False,False,False
+Coyoacán,Romero De Terreros,39,289,9.0,62.0,False,False,True,False,True,False,True,False,0.041254423383858985,False,True,False,False
+Coyoacán,San Diego Churubusco,18,79,2.0,26.0,False,False,False,False,False,False,False,False,0.19063219965897932,False,False,False,False
+Coyoacán,San Francisco Culhuacan Barrio De La Magdalena,11,46,1.0,11.0,False,False,False,False,False,False,False,False,0.21138494161354282,False,False,False,False
+Coyoacán,San Francisco Culhuacan Barrio De San Francisco,27,83,7.0,21.0,False,False,False,False,True,False,False,False,0.13332921788670798,False,True,False,False
+Coyoacán,San Francisco Culhuacan Barrio De San Juan,7,49,1.0,21.0,False,False,False,False,False,False,False,False,0.20429638402202743,False,False,False,False
+Coyoacán,San Francisco Culhuacan Barrio De Santa Ana,20,35,13.0,5.0,False,False,False,False,True,False,False,False,0.027072221870596436,False,True,False,False
+Coyoacán,San Mateo,4,26,1.0,13.0,False,False,False,False,False,False,False,False,0.20508390522999415,False,False,False,False
+Coyoacán,Santa Cecilia,9,26,1.0,5.0,False,False,False,False,False,False,False,False,0.21049001517029886,False,False,False,False
+Coyoacán,Viejo Ejido Santa Ursula Coapa,26,133,5.0,48.0,False,False,False,False,False,False,False,False,0.11847953430683839,False,False,False,False
+Coyoacán,Villa Coyoacan,10,107,0.0,35.0,False,False,False,False,False,False,False,False,0.16581131256901527,False,False,False,False
+Coyoacán,Villa Quietud,18,76,1.0,23.0,False,False,False,False,False,False,False,False,0.19844060411063924,False,False,False,False
+Coyoacán,Xotepingo,12,34,1.0,13.0,False,False,False,False,False,False,False,False,0.21113346652873088,False,False,False,False
+Cuajimalpa De Morelos,Abdias Garcia Soto,1,8,0.0,3.0,False,False,False,False,False,False,False,False,0.2027223129519753,False,False,False,False
+Cuajimalpa De Morelos,Adolfo Lopez Mateos,18,22,4.0,5.0,False,False,False,False,False,False,False,False,0.1636029839241266,False,False,False,False
+Cuajimalpa De Morelos,Agua Bendita,1,2,1.0,1.0,False,False,False,False,False,False,False,False,0.16615985292162,False,False,False,False
+Cuajimalpa De Morelos,Ahuatenco,1,2,0.0,1.0,False,False,False,False,False,False,False,False,0.18230761780360222,False,False,False,False
+Cuajimalpa De Morelos,Amado Nervo,3,5,1.0,1.0,False,False,False,False,False,False,False,False,0.18329790348469183,False,False,False,False
+Cuajimalpa De Morelos,Bosques De Las Lomas,35,167,8.0,35.0,False,False,False,False,True,False,False,False,0.09553840772089273,False,True,False,False
+Cuajimalpa De Morelos,Contadero,6,133,0.0,34.0,False,False,False,False,False,False,False,False,0.1521843978452424,False,False,False,False
+Cuajimalpa De Morelos,Cruz Blanca,1,4,1.0,0.0,False,False,False,False,False,False,False,False,0.16397179933831052,False,False,False,False
+Cuajimalpa De Morelos,Cuajimalpa,51,312,5.0,70.0,False,False,True,False,False,False,True,False,0.06370274186881403,False,True,False,False
+Cuajimalpa De Morelos,El Ebano,2,7,0.0,2.0,False,False,False,False,False,False,False,False,0.2031724198657729,False,False,False,False
+Cuajimalpa De Morelos,El Molinito,1,4,0.0,0.0,False,False,False,False,False,False,False,False,0.17470506226387145,False,False,False,False
+Cuajimalpa De Morelos,El Yaqui,7,49,0.0,20.0,False,False,False,False,False,False,False,False,0.2067396785387332,False,False,False,False
+Cuajimalpa De Morelos,Granjas Navidad,16,102,5.0,23.0,False,False,False,False,False,False,False,False,0.14836167872537293,False,False,False,False
+Cuajimalpa De Morelos,Jesus Del Monte,16,101,3.0,19.0,False,False,False,False,False,False,False,False,0.17517040691257096,False,False,False,False
+Cuajimalpa De Morelos,La Manzanita,17,53,8.0,12.0,False,False,False,False,True,False,False,False,0.12522691481774884,False,True,False,False
+Cuajimalpa De Morelos,La Pila,5,25,0.0,6.0,False,False,False,False,False,False,False,False,0.22030404205331622,False,False,False,False
+Cuajimalpa De Morelos,Las Maromas,9,31,6.0,11.0,False,False,False,False,True,False,False,False,0.1412571924865751,False,True,False,False
+Cuajimalpa De Morelos,Locaxco,3,10,0.0,6.0,False,False,False,False,False,False,False,False,0.21124038249302668,False,False,False,False
+Cuajimalpa De Morelos,Loma Del Padre,5,43,2.0,16.0,False,False,False,False,False,False,False,False,0.19834448136124905,False,False,False,False
+Cuajimalpa De Morelos,Lomas De Memetla,2,20,1.0,5.0,False,False,False,False,False,False,False,False,0.20962178420066335,False,False,False,False
+Cuajimalpa De Morelos,Lomas De Sn Pedro,1,9,0.0,4.0,False,False,False,False,False,False,False,False,0.20755553087770262,False,False,False,False
+Cuajimalpa De Morelos,Lomas De Vista Hermosa,18,85,3.0,25.0,False,False,False,False,False,False,False,False,0.18286693985662344,False,False,False,False
+Cuajimalpa De Morelos,Manzanastitla,3,9,0.0,2.0,False,False,False,False,False,False,False,False,0.2052539088123635,False,False,False,False
+Cuajimalpa De Morelos,Memetla,2,11,0.0,1.0,False,False,False,False,False,False,False,False,0.19559921998620877,False,False,False,False
+Cuajimalpa De Morelos,Paseo De Las Lomas,18,19,7.0,2.0,False,False,False,False,True,False,False,False,0.107879013704893,False,True,False,False
+Cuajimalpa De Morelos,Pueblo San Lorenzo Acopilco,5,111,1.0,26.0,False,False,False,False,False,False,False,False,0.18174489228516844,False,False,False,False
+Cuajimalpa De Morelos,Pueblo San Mateo Tlaltenango,11,145,5.0,40.0,False,False,False,False,False,False,False,False,0.12436945957310758,False,False,False,False
+Cuajimalpa De Morelos,Pueblo San Pablo Chimalpa,1,59,1.0,16.0,False,False,False,False,False,False,False,False,0.19910374417525722,False,False,False,False
+Cuajimalpa De Morelos,Pueblo Santa Rosa Xochiac,2,14,0.0,3.0,False,False,False,False,False,False,False,False,0.21042024567576245,False,False,False,False
+Cuajimalpa De Morelos,San Jose De Los Cedros,27,103,1.0,28.0,False,False,False,False,False,False,False,False,0.18215426635655052,False,False,False,False
+Cuajimalpa De Morelos,San Pedro,7,36,2.0,7.0,False,False,False,False,False,False,False,False,0.20169488525604973,False,False,False,False
+Cuajimalpa De Morelos,Santa Fe Cuajimalpa,55,349,1.0,65.0,False,False,True,False,False,False,True,False,0.049583492190734546,False,True,False,False
+Cuajimalpa De Morelos,Tepetongo,3,2,0.0,1.0,False,False,False,False,False,False,False,False,0.18381871782568054,False,False,False,False
+Cuajimalpa De Morelos,Xalpa,7,18,1.0,3.0,False,False,False,False,False,False,False,False,0.19965149254397407,False,False,False,False
+Cuajimalpa De Morelos,Zentlapatl,10,65,2.0,23.0,False,False,False,False,False,False,False,False,0.19405616015623744,False,False,False,False
+Cuauhtémoc,Algarin,29,137,5.0,33.0,False,False,False,False,False,False,False,False,0.1364937538892172,False,False,False,False
+Cuauhtémoc,Ampl. Asturias,35,173,4.0,48.0,False,False,False,False,False,False,False,False,0.12611726418563024,False,False,False,False
+Cuauhtémoc,Asturias,75,76,5.0,20.0,True,False,False,False,False,False,False,False,0.12108151390982141,False,True,False,False
+Cuauhtémoc,Atlampa,46,220,4.0,53.0,False,False,True,False,False,False,False,False,0.1061880757489766,False,True,False,False
+Cuauhtémoc,Buenavista,75,812,7.0,192.0,True,False,True,True,True,False,True,True,-0.12790067414227035,True,True,True,True
+Cuauhtémoc,Buenos Aires,21,105,1.0,42.0,False,False,False,False,False,False,False,False,0.15933921645153304,False,False,False,False
+Cuauhtémoc,Centro,454,4067,40.0,891.0,True,False,True,True,True,True,True,True,-0.28430522119257495,True,True,True,True
+Cuauhtémoc,Condesa,68,263,5.0,77.0,True,False,True,False,False,False,True,False,0.06103502668922972,False,True,False,False
+Cuauhtémoc,Cuauhtemoc,111,687,21.0,157.0,True,False,True,True,True,False,True,True,-0.15074897165282664,True,True,True,True
+Cuauhtémoc,Doctores,510,2339,199.0,403.0,True,False,True,True,True,True,True,True,-0.29291251943400554,True,True,True,True
+Cuauhtémoc,Esperanza,14,60,1.0,17.0,False,False,False,False,False,False,False,False,0.20659577546469204,False,False,False,False
+Cuauhtémoc,Ex Hipodromo De Peralvillo,77,273,3.0,66.0,True,False,True,False,False,False,True,False,0.07230841092375395,False,True,False,False
+Cuauhtémoc,Felipe Pescador,6,50,0.0,19.0,False,False,False,False,False,False,False,False,0.21060059780464158,False,False,False,False
+Cuauhtémoc,Guerrero,136,903,17.0,277.0,True,False,True,True,True,False,True,True,-0.19228608031391436,True,True,True,True
+Cuauhtémoc,Hipodromo,173,764,17.0,208.0,True,False,True,True,True,False,True,True,-0.16990762863858466,True,True,True,True
+Cuauhtémoc,Hipodromo Condesa,40,161,2.0,46.0,False,False,False,False,False,False,False,False,0.14243721771999301,False,False,False,False
+Cuauhtémoc,Juarez,97,1315,5.0,380.0,True,False,True,True,False,False,True,True,-0.1989778535362371,True,True,True,True
+Cuauhtémoc,Maza,3,31,0.0,9.0,False,False,False,False,False,False,False,False,0.2184991944410848,False,False,False,False
+Cuauhtémoc,Morelos,101,819,12.0,175.0,True,False,True,True,True,False,True,True,-0.13968814461540136,True,True,True,True
+Cuauhtémoc,Nonoalco Tlatelolco,120,492,38.0,124.0,True,False,True,False,True,True,True,False,-0.15571674298402438,True,True,True,True
+Cuauhtémoc,Obrera,148,677,17.0,196.0,True,False,True,True,True,False,True,True,-0.1574309817216143,True,True,True,True
+Cuauhtémoc,Paulino Navarro,21,51,1.0,18.0,False,False,False,False,False,False,False,False,0.20274840851624326,False,False,False,False
+Cuauhtémoc,Peralvillo,51,297,9.0,74.0,False,False,True,False,True,False,True,False,0.03127030505174799,False,True,False,False
+Cuauhtémoc,Roma Norte,222,1359,19.0,432.0,True,False,True,True,True,False,True,True,-0.23894707246251978,True,True,True,True
+Cuauhtémoc,Roma Sur,133,611,12.0,169.0,True,False,True,False,True,False,True,True,-0.12061205191498203,True,True,True,True
+Cuauhtémoc,San Rafael,88,441,9.0,124.0,True,False,True,False,True,False,True,False,-0.03245108197319857,True,True,False,True
+Cuauhtémoc,San Simon Tolnahuac,142,252,8.0,68.0,True,False,True,False,True,False,True,False,0.02145693255524117,False,True,False,False
+Cuauhtémoc,Santa Maria Insurgentes,29,66,3.0,20.0,False,False,False,False,False,False,False,False,0.18165054233761263,False,False,False,False
+Cuauhtémoc,Santa Maria La Ribera,181,750,34.0,186.0,True,False,True,True,True,True,True,True,-0.195538018259522,True,True,True,True
+Cuauhtémoc,Tabacalera,33,351,2.0,91.0,False,False,True,False,False,False,True,False,0.03545444781388318,False,True,False,False
+Cuauhtémoc,Transito,61,288,5.0,84.0,True,False,True,False,False,False,True,False,0.0534312601034439,False,True,False,False
+Cuauhtémoc,Valle Gomez,28,117,1.0,37.0,False,False,False,False,False,False,False,False,0.1636149177083871,False,False,False,False
+Cuauhtémoc,Vista Alegre,13,111,3.0,31.0,False,False,False,False,False,False,False,False,0.16549369651194384,False,False,False,False
+Gustavo A. Madero,15 De Agosto,2,49,0.0,17.0,False,False,False,False,False,False,False,False,0.20978954208134354,False,False,False,False
+Gustavo A. Madero,25 De Julio,13,34,2.0,21.0,False,False,False,False,False,False,False,False,0.19048298293645888,False,False,False,False
+Gustavo A. Madero,6 De Junio,3,12,0.0,3.0,False,False,False,False,False,False,False,False,0.2090587618535108,False,False,False,False
+Gustavo A. Madero,7 De Noviembre,8,68,2.0,20.0,False,False,False,False,False,False,False,False,0.1956790985019362,False,False,False,False
+Gustavo A. Madero,Acueducto De Guadalupe,29,114,4.0,27.0,False,False,False,False,False,False,False,False,0.152889824721272,False,False,False,False
+Gustavo A. Madero,Ahuehuetes,6,26,1.0,14.0,False,False,False,False,False,False,False,False,0.20445836749369517,False,False,False,False
+Gustavo A. Madero,Ampliacion Arboledas,9,4,2.0,0.0,False,False,False,False,False,False,False,False,0.1442641978400157,False,False,False,False
+Gustavo A. Madero,Ampliacion Benito Juarez,4,13,0.0,3.0,False,False,False,False,False,False,False,False,0.20980221048066966,False,False,False,False
+Gustavo A. Madero,Ampliacion Casas Aleman,32,257,3.0,76.0,False,False,True,False,False,False,True,False,0.08213338448290725,False,True,False,False
+Gustavo A. Madero,Ampliacion Castillo Grande,2,4,0.0,2.0,False,False,False,False,False,False,False,False,0.1979412621144805,False,False,False,False
+Gustavo A. Madero,Ampliacion Chalma De Guadalupe,2,3,1.0,0.0,False,False,False,False,False,False,False,False,0.16151193271701864,False,False,False,False
+Gustavo A. Madero,Ampliacion Cocoyotes,1,4,0.0,2.0,False,False,False,False,False,False,False,False,0.19570405228727006,False,False,False,False
+Gustavo A. Madero,Ampliacion Emiliano Zapata,3,18,1.0,3.0,False,False,False,False,False,False,False,False,0.20138600840759652,False,False,False,False
+Gustavo A. Madero,Ampliacion Gabriel Hernandez,14,130,0.0,37.0,False,False,False,False,False,False,False,False,0.1542370661451662,False,False,False,False
+Gustavo A. Madero,Ampliacion Guadalupe Proletaria,5,17,0.0,4.0,False,False,False,False,False,False,False,False,0.21608703721445405,False,False,False,False
+Gustavo A. Madero,Ampliacion Martires De Rio Blanco,6,31,0.0,8.0,False,False,False,False,False,False,False,False,0.2168189515566567,False,False,False,False
+Gustavo A. Madero,Ampliacion Panamericana,8,22,0.0,6.0,False,False,False,False,False,False,False,False,0.21939642095850204,False,False,False,False
+Gustavo A. Madero,Ampliacion Progreso Nacional,10,74,1.0,20.0,False,False,False,False,False,False,False,False,0.2026505561052851,False,False,False,False
+Gustavo A. Madero,Ampliacion Providencia,5,55,0.0,12.0,False,False,False,False,False,False,False,False,0.21380401282557898,False,False,False,False
+Gustavo A. Madero,Ampliacion San Juan De Aragon,8,63,1.0,12.0,False,False,False,False,False,False,False,False,0.2047963642204822,False,False,False,False
+Gustavo A. Madero,Aragon Inguaran,5,43,0.0,13.0,False,False,False,False,False,False,False,False,0.21623178373087054,False,False,False,False
+Gustavo A. Madero,Aragon La Villa,19,115,0.0,27.0,False,False,False,False,False,False,False,False,0.17399643382230257,False,False,False,False
+Gustavo A. Madero,Arboledas,8,42,2.0,18.0,False,False,False,False,False,False,False,False,0.19770681180048155,False,False,False,False
+Gustavo A. Madero,Barrio Candelaria Ticoman,25,57,4.0,18.0,False,False,False,False,False,False,False,False,0.16929991126270594,False,False,False,False
+Gustavo A. Madero,Barrio Guadalupe Ticoman,17,23,1.0,5.0,False,False,False,False,False,False,False,False,0.20578133718167535,False,False,False,False
+Gustavo A. Madero,Barrio La Laguna Ticoman,8,19,0.0,5.0,False,False,False,False,False,False,False,False,0.21626535188494334,False,False,False,False
+Gustavo A. Madero,Barrio La Purisima Ticoman,26,99,7.0,27.0,False,False,False,False,True,False,False,False,0.1328608997475968,False,True,False,False
+Gustavo A. Madero,Barrio San Juan Y Guadalupe Ticoman,7,37,2.0,16.0,False,False,False,False,False,False,False,False,0.19935526103455975,False,False,False,False
+Gustavo A. Madero,Barrio San Rafael Ticoman,10,11,0.0,3.0,False,False,False,False,False,False,False,False,0.19986145730760152,False,False,False,False
+Gustavo A. Madero,Belisario Dominguez,1,16,0.0,3.0,False,False,False,False,False,False,False,False,0.20939202042267185,False,False,False,False
+Gustavo A. Madero,Benito Juarez,23,49,2.0,14.0,False,False,False,False,False,False,False,False,0.1979197842905181,False,False,False,False
+Gustavo A. Madero,Bondojito,8,72,1.0,18.0,False,False,False,False,False,False,False,False,0.20370646523848357,False,False,False,False
+Gustavo A. Madero,C T M Aragon,5,68,0.0,17.0,False,False,False,False,False,False,False,False,0.20770999285509845,False,False,False,False
+Gustavo A. Madero,C T M Atzacoalco,37,97,1.0,31.0,False,False,False,False,False,False,False,False,0.18022963681706644,False,False,False,False
+Gustavo A. Madero,C T M El Risco,27,71,5.0,18.0,False,False,False,False,False,False,False,False,0.14877011380368294,False,False,False,False
+Gustavo A. Madero,Campestre Aragon,19,188,4.0,49.0,False,False,False,False,False,False,False,False,0.1144479180087381,False,False,False,False
+Gustavo A. Madero,Capultitlan,6,78,0.0,16.0,False,False,False,False,False,False,False,False,0.2039212568711254,False,False,False,False
+Gustavo A. Madero,Castillo Chico,12,11,2.0,5.0,False,False,False,False,False,False,False,False,0.18439145727212103,False,False,False,False
+Gustavo A. Madero,Castillo Grande,10,19,2.0,7.0,False,False,False,False,False,False,False,False,0.19732355421987124,False,False,False,False
+Gustavo A. Madero,Cerro Del Guerrero,4,28,1.0,9.0,False,False,False,False,False,False,False,False,0.21040542440460536,False,False,False,False
+Gustavo A. Madero,Chalma De Guadalupe,54,202,15.0,41.0,False,False,False,False,True,False,False,False,-0.0052949269494810824,True,True,False,True
+Gustavo A. Madero,Churubusco Tepeyac,4,20,0.0,8.0,False,False,False,False,False,False,False,False,0.22004608746161453,False,False,False,False
+Gustavo A. Madero,Cocoyotes,6,37,3.0,14.0,False,False,False,False,False,False,False,False,0.18750265267984967,False,False,False,False
+Gustavo A. Madero,Compositores Mexicanos,19,59,4.0,13.0,False,False,False,False,False,False,False,False,0.17102999124579288,False,False,False,False
+Gustavo A. Madero,Constitucion De La Republica,16,130,2.0,34.0,False,False,False,False,False,False,False,False,0.16284272861070248,False,False,False,False
+Gustavo A. Madero,Cuautepec Barrio Alto,11,97,0.0,30.0,False,False,False,False,False,False,False,False,0.1857579825213399,False,False,False,False
+Gustavo A. Madero,Cuautepec De Madero,12,92,0.0,27.0,False,False,False,False,False,False,False,False,0.18996787005702426,False,False,False,False
+Gustavo A. Madero,Cuchilla Del Tesoro,13,104,0.0,31.0,False,False,False,False,False,False,False,False,0.18164783487730246,False,False,False,False
+Gustavo A. Madero,Cuchilla La Joya,2,24,0.0,6.0,False,False,False,False,False,False,False,False,0.22107711579663808,False,False,False,False
+Gustavo A. Madero,D M Nacional,12,300,1.0,71.0,False,False,True,False,False,False,True,False,0.06761784249438085,False,True,False,False
+Gustavo A. Madero,Defensores De La Republica,11,45,0.0,12.0,False,False,False,False,False,False,False,False,0.21792611438800835,False,False,False,False
+Gustavo A. Madero,Del Bosque,6,23,2.0,5.0,False,False,False,False,False,False,False,False,0.19563815358396813,False,False,False,False
+Gustavo A. Madero,Del Carmen,12,34,4.0,12.0,False,False,False,False,False,False,False,False,0.17643076221686171,False,False,False,False
+Gustavo A. Madero,Del Obrero,4,30,0.0,5.0,False,False,False,False,False,False,False,False,0.21708381889073386,False,False,False,False
+Gustavo A. Madero,Dinamita,2,10,0.0,3.0,False,False,False,False,False,False,False,False,0.20734980034656147,False,False,False,False
+Gustavo A. Madero,El Arbolillo,2,7,1.0,4.0,False,False,False,False,False,False,False,False,0.19672571304342162,False,False,False,False
+Gustavo A. Madero,El Coyol,16,75,1.0,26.0,False,False,False,False,False,False,False,False,0.19752172614020358,False,False,False,False
+Gustavo A. Madero,El Olivo,1,32,0.0,9.0,False,False,False,False,False,False,False,False,0.21613452168190972,False,False,False,False
+Gustavo A. Madero,El Tepetatal,5,17,1.0,5.0,False,False,False,False,False,False,False,False,0.20927463063104473,False,False,False,False
+Gustavo A. Madero,Emiliano Zapata,13,34,4.0,6.0,False,False,False,False,False,False,False,False,0.16816094422799416,False,False,False,False
+Gustavo A. Madero,Estanzuela,8,11,0.0,2.0,False,False,False,False,False,False,False,False,0.1993434704212,False,False,False,False
+Gustavo A. Madero,Estrella,22,144,3.0,35.0,False,False,False,False,False,False,False,False,0.1498492428158681,False,False,False,False
+Gustavo A. Madero,Ex Ejido San Juan De Aragon Sector 32,2,23,0.0,6.0,False,False,False,False,False,False,False,False,0.22093600957795861,False,False,False,False
+Gustavo A. Madero,Ex Ejido San Juan De Aragon Sector 33,4,55,0.0,16.0,False,False,False,False,False,False,False,False,0.2126181565286756,False,False,False,False
+Gustavo A. Madero,Ex Escuela De Tiro,27,10,21.0,4.0,False,False,False,False,True,False,False,False,-0.02366463560275056,True,True,False,True
+Gustavo A. Madero,Faja De Oro,3,19,0.0,8.0,False,False,False,False,False,False,False,False,0.219351670498582,False,False,False,False
+Gustavo A. Madero,Fernando Casas Aleman,1,8,0.0,4.0,False,False,False,False,False,False,False,False,0.2063611583803685,False,False,False,False
+Gustavo A. Madero,Forestal,10,54,2.0,12.0,False,False,False,False,False,False,False,False,0.2011935249044282,False,False,False,False
+Gustavo A. Madero,Forestal I,5,10,1.0,6.0,False,False,False,False,False,False,False,False,0.19976878476662785,False,False,False,False
+Gustavo A. Madero,Forestal Ii,1,5,0.0,3.0,False,False,False,False,False,False,False,False,0.19967552911135739,False,False,False,False
+Gustavo A. Madero,Gabriel Hernandez,13,111,0.0,33.0,False,False,False,False,False,False,False,False,0.17160316079958432,False,False,False,False
+Gustavo A. Madero,General Felipe Berriozabal,10,33,1.0,16.0,False,False,False,False,False,False,False,False,0.20715346904924925,False,False,False,False
+Gustavo A. Madero,Gertrudis Sanchez 1A Seccion,12,33,6.0,14.0,False,False,False,False,True,False,False,False,0.14497998335489182,False,True,False,False
+Gustavo A. Madero,Gertrudis Sanchez 2A Seccion,28,88,5.0,34.0,False,False,False,False,False,False,False,False,0.13620012388839126,False,False,False,False
+Gustavo A. Madero,Gertrudis Sanchez 3A Seccion,18,84,5.0,28.0,False,False,False,False,False,False,False,False,0.15336278410521403,False,False,False,False
+Gustavo A. Madero,Granjas Modernas,9,209,2.0,59.0,False,False,False,False,False,False,False,False,0.11973083108967442,False,False,False,False
+Gustavo A. Madero,Guadalupe Insurgentes,16,61,1.0,18.0,False,False,False,False,False,False,False,False,0.20606789590336455,False,False,False,False
+Gustavo A. Madero,Guadalupe Proletaria,7,65,1.0,18.0,False,False,False,False,False,False,False,False,0.2057982417131035,False,False,False,False
+Gustavo A. Madero,Guadalupe Tepeyac,82,380,7.0,107.0,True,False,True,False,True,False,True,False,0.001377183871712373,False,True,False,False
+Gustavo A. Madero,Guadalupe Victoria,18,41,1.0,7.0,False,False,False,False,False,False,False,False,0.20795183122239347,False,False,False,False
+Gustavo A. Madero,Guadalupe Victoria Cuautepec,3,18,1.0,4.0,False,False,False,False,False,False,False,False,0.20841093997777388,False,False,False,False
+Gustavo A. Madero,Heroe De Nacozari,2,25,0.0,8.0,False,False,False,False,False,False,False,False,0.2201023718637004,False,False,False,False
+Gustavo A. Madero,Heroes De Cerro Prieto,4,29,0.0,6.0,False,False,False,False,False,False,False,False,0.21883217793021187,False,False,False,False
+Gustavo A. Madero,Heroes De Chapultepec,9,19,0.0,5.0,False,False,False,False,False,False,False,False,0.21674314704325576,False,False,False,False
+Gustavo A. Madero,Indeco,3,9,0.0,4.0,False,False,False,False,False,False,False,False,0.21071202759050994,False,False,False,False
+Gustavo A. Madero,Industrial,69,308,9.0,81.0,True,False,True,False,True,False,True,False,0.019947330472616098,False,True,False,False
+Gustavo A. Madero,Jorge Negrete,57,135,12.0,40.0,False,False,False,False,True,False,False,False,0.02634582496818061,False,True,False,False
+Gustavo A. Madero,Juan Gonzalez Romero,12,74,1.0,21.0,False,False,False,False,False,False,False,False,0.20192828869649315,False,False,False,False
+Gustavo A. Madero,Juventino Rosas,1,6,0.0,1.0,False,False,False,False,False,False,False,False,0.19233319348893835,False,False,False,False
+Gustavo A. Madero,La Casilda,5,37,1.0,9.0,False,False,False,False,False,False,False,False,0.21382756118665264,False,False,False,False
+Gustavo A. Madero,La Cruz,1,22,0.0,5.0,False,False,False,False,False,False,False,False,0.21798334068717273,False,False,False,False
+Gustavo A. Madero,La Esmeralda,8,75,0.0,18.0,False,False,False,False,False,False,False,False,0.20618149153498788,False,False,False,False
+Gustavo A. Madero,La Joya,4,60,0.0,15.0,False,False,False,False,False,False,False,False,0.21170683622727365,False,False,False,False
+Gustavo A. Madero,La Joyita,5,30,0.0,7.0,False,False,False,False,False,False,False,False,0.21861879343998408,False,False,False,False
+Gustavo A. Madero,La Lengueta,3,27,0.0,15.0,False,False,False,False,False,False,False,False,0.20723406326310928,False,False,False,False
+Gustavo A. Madero,La Malinche,40,38,0.0,16.0,False,False,False,False,False,False,False,False,0.19228431708116078,False,False,False,False
+Gustavo A. Madero,La Pastora,27,64,1.0,18.0,False,False,False,False,False,False,False,False,0.1981160890871304,False,False,False,False
+Gustavo A. Madero,La Pradera,22,90,0.0,21.0,False,False,False,False,False,False,False,False,0.18849355160932507,False,False,False,False
+Gustavo A. Madero,Li Legislatura,1,3,0.0,2.0,False,False,False,False,False,False,False,False,0.18963433386850959,False,False,False,False
+Gustavo A. Madero,Lindavista Norte,42,193,6.0,57.0,False,False,False,False,True,False,False,False,0.09914856663723265,False,True,False,False
+Gustavo A. Madero,Lindavista Sur,50,251,6.0,64.0,False,False,True,False,True,False,True,False,0.0739682076141645,False,True,False,False
+Gustavo A. Madero,Lindavista Vallejo 1A Seccion,2,16,0.0,6.0,False,False,False,False,False,False,False,False,0.21869651596459472,False,False,False,False
+Gustavo A. Madero,Lindavista Vallejo 2A Seccion,9,23,0.0,5.0,False,False,False,False,False,False,False,False,0.2181239341932908,False,False,False,False
+Gustavo A. Madero,Lindavista Vallejo 3A Seccion,4,18,0.0,4.0,False,False,False,False,False,False,False,False,0.2176507984493008,False,False,False,False
+Gustavo A. Madero,Loma La Palma,32,123,2.0,38.0,False,False,False,False,False,False,False,False,0.15900275924269092,False,False,False,False
+Gustavo A. Madero,Lomas De Cuautepec,12,53,4.0,16.0,False,False,False,False,False,False,False,False,0.1722374530102161,False,False,False,False
+Gustavo A. Madero,Luis Donaldo Colosio,2,13,1.0,3.0,False,False,False,False,False,False,False,False,0.19917796200473498,False,False,False,False
+Gustavo A. Madero,Magdalena De Las Salinas,31,444,2.0,99.0,False,False,True,False,False,False,True,False,0.002166565587909286,False,True,False,False
+Gustavo A. Madero,Malacates,16,47,9.0,17.0,False,False,False,False,True,False,False,False,0.09385003226476363,False,True,False,False
+Gustavo A. Madero,Martin Carrera,21,204,2.0,66.0,False,False,False,False,False,False,True,False,0.11691372442710551,False,True,False,False
+Gustavo A. Madero,Martires De Rio Blanco,19,71,4.0,25.0,False,False,False,False,False,False,False,False,0.16211431009056015,False,False,False,False
+Gustavo A. Madero,Maximino Avila Camacho,4,37,0.0,14.0,False,False,False,False,False,False,False,False,0.21417371692172754,False,False,False,False
+Gustavo A. Madero,Narciso Bassols,5,27,0.0,8.0,False,False,False,False,False,False,False,False,0.21986143706955918,False,False,False,False
+Gustavo A. Madero,Nueva Atzacoalco,62,286,3.0,83.0,True,False,True,False,False,False,True,False,0.059123043716659884,False,True,False,False
+Gustavo A. Madero,Nueva Industrial Vallejo,48,217,4.0,54.0,False,False,True,False,False,False,False,False,0.10552533124131852,False,True,False,False
+Gustavo A. Madero,Nueva Tenochtitlan,177,132,15.0,43.0,True,False,False,False,True,False,False,False,-0.04553782756957714,True,True,False,True
+Gustavo A. Madero,Nueva Vallejo,106,213,44.0,44.0,True,False,False,False,True,True,False,False,-0.13031864427261197,True,True,True,True
+Gustavo A. Madero,Palmatitla,18,57,0.0,17.0,False,False,False,False,False,False,False,False,0.2090994053735291,False,False,False,False
+Gustavo A. Madero,Panamericana,3,36,1.0,7.0,False,False,False,False,False,False,False,False,0.21399355861223607,False,False,False,False
+Gustavo A. Madero,Parque Metropolitano,1,1,1.0,0.0,False,False,False,False,False,False,False,False,0.15234829426640517,False,False,False,False
+Gustavo A. Madero,Planetario Lindavista,4,15,1.0,4.0,False,False,False,False,False,False,False,False,0.20811074462879953,False,False,False,False
+Gustavo A. Madero,Pradera 2A Seccion,14,45,0.0,14.0,False,False,False,False,False,False,False,False,0.21319605068020536,False,False,False,False
+Gustavo A. Madero,Progreso Nacional,54,117,2.0,39.0,False,False,False,False,False,False,False,False,0.1485324585578156,False,False,False,False
+Gustavo A. Madero,Providencia,44,243,6.0,74.0,False,False,True,False,True,False,True,False,0.0701378522145773,False,True,False,False
+Gustavo A. Madero,Pueblo De Santiago Atzacoalco,12,108,0.0,32.0,False,False,False,False,False,False,False,False,0.17392823093178167,False,False,False,False
+Gustavo A. Madero,Pueblo San Juan De Aragon,16,217,3.0,70.0,False,False,True,False,False,False,True,False,0.10035059525074475,False,True,False,False
+Gustavo A. Madero,Residencial Acueducto De Guadalupe,5,58,2.0,19.0,False,False,False,False,False,False,False,False,0.19682415577956508,False,False,False,False
+Gustavo A. Madero,Residencial La Escalera,6,54,0.0,12.0,False,False,False,False,False,False,False,False,0.21328672275588445,False,False,False,False
+Gustavo A. Madero,Residencial Zacatenco,34,140,8.0,29.0,False,False,False,False,True,False,False,False,0.10476411636434663,False,True,False,False
+Gustavo A. Madero,Rosas Del Tepeyac,1,15,0.0,4.0,False,False,False,False,False,False,False,False,0.21488021266712798,False,False,False,False
+Gustavo A. Madero,Salvador Diaz Miron,5,74,0.0,26.0,False,False,False,False,False,False,False,False,0.19408421308535817,False,False,False,False
+Gustavo A. Madero,San Antonio,1,8,1.0,2.0,False,False,False,False,False,False,False,False,0.18800846792932818,False,False,False,False
+Gustavo A. Madero,San Bartolo Atepehuacan,33,108,0.0,29.0,False,False,False,False,False,False,False,False,0.17118176471595425,False,False,False,False
+Gustavo A. Madero,San Felipe De Jesus,52,415,13.0,125.0,False,False,True,False,True,False,True,False,-0.053468726441774916,True,True,False,True
+Gustavo A. Madero,San Jose De La Escalera,8,55,0.0,17.0,False,False,False,False,False,False,False,False,0.21253026849543055,False,False,False,False
+Gustavo A. Madero,San Jose Ticoman,22,29,0.0,12.0,False,False,False,False,False,False,False,False,0.2036165017549405,False,False,False,False
+Gustavo A. Madero,San Juan De Aragon,14,38,0.0,9.0,False,False,False,False,False,False,False,False,0.2160548352411123,False,False,False,False
+Gustavo A. Madero,San Juan De Aragon I Seccion,40,206,8.0,61.0,False,False,False,False,True,False,False,False,0.08115052935729467,False,True,False,False
+Gustavo A. Madero,San Juan De Aragon Ii Seccion,50,131,3.0,33.0,False,False,False,False,False,False,False,False,0.14729065303443478,False,False,False,False
+Gustavo A. Madero,San Juan De Aragon Iii Seccion,19,137,2.0,39.0,False,False,False,False,False,False,False,False,0.1569587037926865,False,False,False,False
+Gustavo A. Madero,San Juan De Aragon Iv Seccion,10,63,2.0,17.0,False,False,False,False,False,False,False,False,0.1974964531829651,False,False,False,False
+Gustavo A. Madero,San Juan De Aragon V Seccion,13,92,2.0,22.0,False,False,False,False,False,False,False,False,0.1872251572998505,False,False,False,False
+Gustavo A. Madero,San Juan De Aragon Vi Seccion,45,107,7.0,27.0,False,False,False,False,True,False,False,False,0.11658121745801803,False,True,False,False
+Gustavo A. Madero,San Juan De Aragon Vii Seccion,18,172,0.0,46.0,False,False,False,False,False,False,False,False,0.1285466350726288,False,False,False,False
+Gustavo A. Madero,San Miguel,3,6,0.0,3.0,False,False,False,False,False,False,False,False,0.20343246573752183,False,False,False,False
+Gustavo A. Madero,San Pedro El Chico,18,51,1.0,14.0,False,False,False,False,False,False,False,False,0.20927451102161204,False,False,False,False
+Gustavo A. Madero,San Pedro Zacatenco,15,53,3.0,15.0,False,False,False,False,False,False,False,False,0.18899642681729756,False,False,False,False
+Gustavo A. Madero,Santa Isabel Tola,38,161,5.0,44.0,False,False,False,False,False,False,False,False,0.12426859744137786,False,False,False,False
+Gustavo A. Madero,Santa Maria Ticoman,29,52,0.0,21.0,False,False,False,False,False,False,False,False,0.1947908946257993,False,False,False,False
+Gustavo A. Madero,Santa Rosa,49,106,0.0,29.0,False,False,False,False,False,False,False,False,0.15730962751592292,False,False,False,False
+Gustavo A. Madero,Santiago Atepetlac,10,19,0.0,1.0,False,False,False,False,False,False,False,False,0.19061594416659805,False,False,False,False
+Gustavo A. Madero,Siete Maravillas,7,21,0.0,7.0,False,False,False,False,False,False,False,False,0.2186037132144975,False,False,False,False
+Gustavo A. Madero,Solidaridad Nacional,4,27,0.0,7.0,False,False,False,False,False,False,False,False,0.2200756608299949,False,False,False,False
+Gustavo A. Madero,Tablas De San Agustin,20,62,0.0,11.0,False,False,False,False,False,False,False,False,0.20150336589626716,False,False,False,False
+Gustavo A. Madero,Tepetates,3,4,0.0,1.0,False,False,False,False,False,False,False,False,0.19174826078008989,False,False,False,False
+Gustavo A. Madero,Tepeyac Insurgentes,28,173,7.0,38.0,False,False,False,False,True,False,False,False,0.10546659534982822,False,True,False,False
+Gustavo A. Madero,Tlacaelel,10,15,1.0,3.0,False,False,False,False,False,False,False,False,0.19616537539010398,False,False,False,False
+Gustavo A. Madero,Tlacamaca,13,32,2.0,7.0,False,False,False,False,False,False,False,False,0.19998086919457986,False,False,False,False
+Gustavo A. Madero,Tlalpexco,23,52,5.0,16.0,False,False,False,False,False,False,False,False,0.15600206365090807,False,False,False,False
+Gustavo A. Madero,Torres Lindavista,17,24,0.0,8.0,False,False,False,False,False,False,False,False,0.2132950953080323,False,False,False,False
+Gustavo A. Madero,Tres Estrellas,7,59,1.0,12.0,False,False,False,False,False,False,False,False,0.20777123511893547,False,False,False,False
+Gustavo A. Madero,Triunfo De La Republica,7,24,0.0,9.0,False,False,False,False,False,False,False,False,0.21809561751585227,False,False,False,False
+Gustavo A. Madero,U.Habit. Cuchilla Del Tesoro,1,3,0.0,2.0,False,False,False,False,False,False,False,False,0.18963433386850959,False,False,False,False
+Gustavo A. Madero,Valle De Madero,7,44,1.0,13.0,False,False,False,False,False,False,False,False,0.2133749534411588,False,False,False,False
+Gustavo A. Madero,Valle Del Tepeyac,15,23,2.0,5.0,False,False,False,False,False,False,False,False,0.19551141529037325,False,False,False,False
+Gustavo A. Madero,Vallejo,42,325,6.0,80.0,False,False,True,False,True,False,True,False,0.042976808034450587,False,True,False,False
+Gustavo A. Madero,Vallejo Poniente,28,44,0.0,23.0,False,False,False,False,False,False,False,False,0.18558810523762248,False,False,False,False
+Gustavo A. Madero,Vasco De Quiroga,13,158,1.0,57.0,False,False,False,False,False,False,False,False,0.13505022290639873,False,False,False,False
+Gustavo A. Madero,Villa De Aragon,32,60,7.0,14.0,False,False,False,False,True,False,False,False,0.13064834539450793,False,True,False,False
+Gustavo A. Madero,Villa Gustavo A Madero,22,203,2.0,32.0,False,False,False,False,False,False,False,False,0.13130615271278745,False,False,False,False
+Gustavo A. Madero,Villa Hermosa,2,11,0.0,5.0,False,False,False,False,False,False,False,False,0.21233751358640812,False,False,False,False
+Gustavo A. Madero,Vista Hermosa,4,14,0.0,4.0,False,False,False,False,False,False,False,False,0.21720974315414293,False,False,False,False
+Gustavo A. Madero,Zona Escolar,23,148,3.0,27.0,False,False,False,False,False,False,False,False,0.15318849797054856,False,False,False,False
+Gustavo A. Madero,Zona Escolar Oriente,54,55,5.0,14.0,False,False,False,False,False,False,False,False,0.13559646664157876,False,False,False,False
+Iztacalco,Agricola Oriental,578,1326,57.0,382.0,True,True,True,True,True,True,True,True,-0.2707139553761212,True,True,True,True
+Iztacalco,Agricola Pantitlan,293,914,21.0,262.0,True,False,True,True,True,False,True,True,-0.20416110558875356,True,True,True,True
+Iztacalco,Ampliacion Gabriel Ramos Millan,13,62,1.0,16.0,False,False,False,False,False,False,False,False,0.20739754966006946,False,False,False,False
+Iztacalco,Barrio La Asuncion,20,42,3.0,14.0,False,False,False,False,False,False,False,False,0.18696108163754765,False,False,False,False
+Iztacalco,Barrio Los Reyes,37,75,0.0,16.0,False,False,False,False,False,False,False,False,0.1912145295017197,False,False,False,False
+Iztacalco,Barrio San Francisco Xicaltongo,19,32,11.0,12.0,False,False,False,False,True,False,False,False,0.06390490667608045,False,True,False,False
+Iztacalco,Barrio San Miguel,51,59,3.0,20.0,False,False,False,False,False,False,False,False,0.16499751164085097,False,False,False,False
+Iztacalco,Barrio San Pedro,18,87,5.0,23.0,False,False,False,False,False,False,False,False,0.1539967808942338,False,False,False,False
+Iztacalco,Barrio Santa Cruz,13,18,2.0,7.0,False,False,False,False,False,False,False,False,0.19558430758770534,False,False,False,False
+Iztacalco,Barrio Santiago Norte,60,43,44.0,10.0,True,False,False,False,True,True,False,False,-0.10810254939320996,True,True,True,True
+Iztacalco,Barrio Santiago Sur,41,102,3.0,25.0,False,False,False,False,False,False,False,False,0.16441886329495053,False,False,False,False
+Iztacalco,Barrio Zapotla,28,79,8.0,33.0,False,False,False,False,True,False,False,False,0.10608507148554364,False,True,False,False
+Iztacalco,Campamento 2 De Octubre,79,282,6.0,96.0,True,False,True,False,True,False,True,False,0.023769376874537063,False,True,False,False
+Iztacalco,Carlos Zapata Vela,27,129,2.0,41.0,False,False,False,False,False,False,False,False,0.15904080462210274,False,False,False,False
+Iztacalco,Cuchilla Agricola Oriental,15,26,2.0,11.0,False,False,False,False,False,False,False,False,0.1968706375789132,False,False,False,False
+Iztacalco,El Rodeo,37,58,8.0,15.0,False,False,False,False,True,False,False,False,0.11691284290821863,False,True,False,False
+Iztacalco,Ex-Ejido La Magdalena Mixhuca,3,24,0.0,8.0,False,False,False,False,False,False,False,False,0.22095740632489602,False,False,False,False
+Iztacalco,Fraccionamiento Coyuya,3,20,0.0,9.0,False,False,False,False,False,False,False,False,0.21789325727198822,False,False,False,False
+Iztacalco,Gabriel Ramos Millan,66,159,11.0,50.0,True,False,False,False,True,False,False,False,0.036817566650091615,False,True,False,False
+Iztacalco,Gabriel Ramos Millan Secc Tlacotal,48,97,0.0,34.0,False,False,False,False,False,False,False,False,0.15414051922342475,False,False,False,False
+Iztacalco,Gabriel Ramos Millan Seccion Bramadero,69,377,8.0,103.0,True,False,True,False,True,False,True,False,0.001055489284493949,False,True,False,False
+Iztacalco,Gabriel Ramos Millan Seccion Cuchilla,17,70,1.0,20.0,False,False,False,False,False,False,False,False,0.20127012185875998,False,False,False,False
+Iztacalco,Granjas Mexico,112,647,9.0,214.0,True,False,True,True,True,False,True,True,-0.12279032538404222,True,True,True,True
+Iztacalco,Infonavit Iztacalco,68,248,15.0,76.0,True,False,True,False,True,False,True,False,-0.019905581768306813,True,True,False,True
+Iztacalco,Inpi Picos,4,38,0.0,10.0,False,False,False,False,False,False,False,False,0.22024618872558904,False,False,False,False
+Iztacalco,Jardines Tecma,20,19,1.0,3.0,False,False,False,False,False,False,False,False,0.1898470464557464,False,False,False,False
+Iztacalco,Juventino Rosas,83,204,4.0,67.0,True,False,False,False,False,False,True,False,0.082006079546737,False,True,False,False
+Iztacalco,La Cruz,11,68,0.0,22.0,False,False,False,False,False,False,False,False,0.20371838752446925,False,False,False,False
+Iztacalco,Los Picos De Iztacalco Seccion 1 A,14,45,3.0,12.0,False,False,False,False,False,False,False,False,0.19101516821625908,False,False,False,False
+Iztacalco,Los Picos De Iztacalco Seccion 1 B,6,18,2.0,7.0,False,False,False,False,False,False,False,False,0.19564321564264608,False,False,False,False
+Iztacalco,Los Picos De Iztacalco Seccion 2 A,12,12,2.0,4.0,False,False,False,False,False,False,False,False,0.18585255689414,False,False,False,False
+Iztacalco,Militar Marte,26,74,3.0,18.0,False,False,False,False,False,False,False,False,0.17874222045799326,False,False,False,False
+Iztacalco,Moderna,2,1,0.0,0.0,False,False,False,False,False,False,False,False,0.1659852634602249,False,False,False,False
+Iztacalco,Nueva Santa Anita,11,41,4.0,14.0,False,False,False,False,False,False,False,False,0.17279534771003524,False,False,False,False
+Iztacalco,Reforma Iztaccihuatl Norte,60,72,3.0,18.0,True,False,False,False,False,False,False,False,0.15630498236610707,False,True,False,False
+Iztacalco,Reforma Iztaccihuatl Sur,13,48,1.0,14.0,False,False,False,False,False,False,False,False,0.21201582219402954,False,False,False,False
+Iztacalco,Santa Anita,31,190,1.0,58.0,False,False,False,False,False,False,False,False,0.12652697613473207,False,False,False,False
+Iztacalco,Tlazintla,29,55,2.0,13.0,False,False,False,False,False,False,False,False,0.1950693773578277,False,False,False,False
+Iztacalco,Viaducto Piedad,73,195,11.0,66.0,True,False,False,False,True,False,True,False,0.03299247200674149,False,True,False,False
+Iztapalapa,12 De Diciembre,8,27,0.0,7.0,False,False,False,False,False,False,False,False,0.21863336601173256,False,False,False,False
+Iztapalapa,Agricola Oriental,2,3,0.0,2.0,False,False,False,False,False,False,False,False,0.19184677929122662,False,False,False,False
+Iztapalapa,Agricola Pantitlan,1,3,0.0,1.0,False,False,False,False,False,False,False,False,0.18498858447158884,False,False,False,False
+Iztapalapa,Albarrada,1,8,0.0,3.0,False,False,False,False,False,False,False,False,0.2027223129519753,False,False,False,False
+Iztapalapa,Alvaro Obregon,22,71,0.0,19.0,False,False,False,False,False,False,False,False,0.2005585427302095,False,False,False,False
+Iztapalapa,Ampliacion Bellavista,2,9,0.0,1.0,False,False,False,False,False,False,False,False,0.19529015423456858,False,False,False,False
+Iztapalapa,Ampliacion El Santuario,4,50,1.0,14.0,False,False,False,False,False,False,False,False,0.21041196114549227,False,False,False,False
+Iztapalapa,Ampliacion El Triunfo,131,34,0.0,14.0,True,False,False,False,False,False,False,False,0.13044121763108352,False,True,False,False
+Iztapalapa,Ampliacion Emiliano Zapata,75,68,0.0,25.0,True,False,False,False,False,False,False,False,0.15658906482432577,False,True,False,False
+Iztapalapa,Ampliacion Los Olivos,30,2,0.0,2.0,False,False,False,False,False,False,False,False,0.16269431603518603,False,False,False,False
+Iztapalapa,Ampliacion Los Reyes,12,61,0.0,19.0,False,False,False,False,False,False,False,False,0.2115235111079991,False,False,False,False
+Iztapalapa,Ampliacion Paraje San Juan,32,20,0.0,6.0,False,False,False,False,False,False,False,False,0.2019376754552602,False,False,False,False
+Iztapalapa,Ampliacion Ricardo Flores Magon,9,29,0.0,10.0,False,False,False,False,False,False,False,False,0.21638511392121806,False,False,False,False
+Iztapalapa,Ampliacion Santa Maria Aztahuacan,172,89,1.0,22.0,True,False,False,False,False,False,False,False,0.11205327744253474,False,True,False,False
+Iztapalapa,Ampliacion Sinatel,18,34,0.0,9.0,False,False,False,False,False,False,False,False,0.2138699247569153,False,False,False,False
+Iztapalapa,Ampliacion Veracruzana,18,8,0.0,3.0,False,False,False,False,False,False,False,False,0.1887276608775803,False,False,False,False
+Iztapalapa,Apatlaco,181,102,1.0,28.0,True,False,False,False,False,False,False,False,0.10875829484699867,False,True,False,False
+Iztapalapa,Año De Juarez,9,53,2.0,11.0,False,False,False,False,False,False,False,False,0.19922693561764354,False,False,False,False
+Iztapalapa,Banjidal,15,34,0.0,12.0,False,False,False,False,False,False,False,False,0.21488791994668816,False,False,False,False
+Iztapalapa,Barranca De Guadalupe,7,13,0.0,7.0,False,False,False,False,False,False,False,False,0.2108841872941798,False,False,False,False
+Iztapalapa,Barrio Guadalupe,33,45,0.0,8.0,False,False,False,False,False,False,False,False,0.20133127775131143,False,False,False,False
+Iztapalapa,Barrio La Asuncion,18,47,0.0,14.0,False,False,False,False,False,False,False,False,0.20994217312209723,False,False,False,False
+Iztapalapa,Barrio San Antonio,167,135,1.0,46.0,True,False,False,False,False,False,False,False,0.0864734775437242,False,True,False,False
+Iztapalapa,Barrio San Antonio Culhuacan,11,73,0.0,23.0,False,False,False,False,False,False,False,False,0.19986526170923274,False,False,False,False
+Iztapalapa,Barrio San Ignacio,28,93,0.0,31.0,False,False,False,False,False,False,False,False,0.1778987615183723,False,False,False,False
+Iztapalapa,Barrio San Jose,6,18,1.0,1.0,False,False,False,False,False,False,False,False,0.18810759891555873,False,False,False,False
+Iztapalapa,Barrio San Lorenzo,35,47,1.0,18.0,False,False,False,False,False,False,False,False,0.19289001252731663,False,False,False,False
+Iztapalapa,Barrio San Lucas,171,143,2.0,27.0,True,False,False,False,False,False,False,False,0.08443256153441808,False,True,False,False
+Iztapalapa,Barrio San Miguel,68,264,1.0,80.0,True,False,True,False,False,False,True,False,0.06262070840391454,False,True,False,False
+Iztapalapa,Barrio San Pablo,17,108,0.0,36.0,False,False,False,False,False,False,False,False,0.16327081097069057,False,False,False,False
+Iztapalapa,Barrio San Pedro,23,80,3.0,27.0,False,False,False,False,False,False,False,False,0.17766121190049394,False,False,False,False
+Iztapalapa,Barrio San Simon Culhuacan,10,22,0.0,5.0,False,False,False,False,False,False,False,False,0.21754575305542634,False,False,False,False
+Iztapalapa,Barrio Santa Barbara,37,155,0.0,37.0,False,False,False,False,False,False,False,False,0.13767040396103558,False,False,False,False
+Iztapalapa,Barrio Tula,13,6,2.0,3.0,False,False,False,False,False,False,False,False,0.16960667843618515,False,False,False,False
+Iztapalapa,Bellavista,37,17,0.0,6.0,False,False,False,False,False,False,False,False,0.19400933522488156,False,False,False,False
+Iztapalapa,Benito Juarez,5,6,0.0,3.0,False,False,False,False,False,False,False,False,0.20108629619723117,False,False,False,False
+Iztapalapa,Buenavista,1187,249,3.0,73.0,True,True,True,False,False,False,True,False,-0.11183411537262922,True,True,True,True
+Iztapalapa,Cacama,75,62,1.0,13.0,True,False,False,False,False,False,False,False,0.16427126972728234,False,True,False,False
+Iztapalapa,Campestre Potrero,89,111,1.0,39.0,True,False,False,False,False,False,False,False,0.12605979260948447,False,True,False,False
+Iztapalapa,Cananea,12,22,0.0,10.0,False,False,False,False,False,False,False,False,0.2154666822706634,False,False,False,False
+Iztapalapa,Carlos Hank Gonzalez,520,50,2.0,15.0,True,False,False,False,False,False,False,False,0.01358714274703543,False,True,False,False
+Iztapalapa,Carlos Jonguitud Barrios,7,19,0.0,5.0,False,False,False,False,False,False,False,False,0.21661055714132293,False,False,False,False
+Iztapalapa,Casa Blanca,47,31,0.0,8.0,False,False,False,False,False,False,False,False,0.1888800152879751,False,False,False,False
+Iztapalapa,Celoalliotli,62,95,1.0,23.0,True,False,False,False,False,False,False,False,0.1663101206028469,False,True,False,False
+Iztapalapa,Central De Abasto,23,533,0.0,120.0,False,False,True,False,False,False,True,False,-0.04749788031966207,True,True,False,True
+Iztapalapa,Cerro De La Estrella,631,203,0.0,59.0,True,True,False,False,False,False,False,False,-0.057789335274845754,True,True,True,True
+Iztapalapa,Chinampac De Juarez,134,528,0.0,117.0,True,False,True,False,False,False,True,False,-0.06583580884685669,True,True,False,True
+Iztapalapa,Citlalli,352,104,0.0,33.0,True,False,False,False,False,False,False,False,0.0310803222082644,False,True,False,False
+Iztapalapa,Colonial Iztapalapa,30,17,0.0,3.0,False,False,False,False,False,False,False,False,0.18915498485817567,False,False,False,False
+Iztapalapa,Consejo Agrarista Mexicano,645,201,0.0,62.0,True,True,False,False,False,False,True,False,-0.0632979885872893,True,True,True,True
+Iztapalapa,Constitucion De 1917,174,219,10.0,72.0,True,False,True,False,True,False,True,False,-0.028728627503808446,True,True,False,True
+Iztapalapa,Coop Allapetlalli,2,12,0.0,3.0,False,False,False,False,False,False,False,False,0.2080601168416794,False,False,False,False
+Iztapalapa,Cuchilla Del Moral,40,27,0.0,8.0,False,False,False,False,False,False,False,False,0.1963471101218724,False,False,False,False
+Iztapalapa,Degollado,59,11,0.0,1.0,False,False,False,False,False,False,False,False,0.14664687661012782,False,False,False,False
+Iztapalapa,Degollado-Mexicatlalli,42,72,0.0,24.0,False,False,False,False,False,False,False,False,0.17930062882321296,False,False,False,False
+Iztapalapa,Desarrollo Urbano Quetzalcoatl,735,458,7.0,136.0,True,True,True,False,True,False,True,False,-0.1381640028954093,True,True,True,True
+Iztapalapa,Dr Alfonso Ortiz Tirado,59,160,0.0,27.0,False,False,False,False,False,False,False,False,0.12378082028505599,False,False,False,False
+Iztapalapa,Ejercito De Agua Prieta,53,148,3.0,51.0,False,False,False,False,False,False,False,False,0.12801006613585392,False,False,False,False
+Iztapalapa,Ejercito De Oriente,107,70,1.0,19.0,True,False,False,False,False,False,False,False,0.1446501673395097,False,True,False,False
+Iztapalapa,Ejercito De Oriente Zona Peñon,29,205,1.0,67.0,False,False,False,False,False,False,True,False,0.10918944805940572,False,True,False,False
+Iztapalapa,El Eden,231,8,0.0,2.0,True,False,False,False,False,False,False,False,0.05880014126516997,False,True,False,False
+Iztapalapa,El Manto,401,89,1.0,32.0,True,False,False,False,False,False,False,False,0.0323436153350527,False,True,False,False
+Iztapalapa,El Mirador,4,28,1.0,9.0,False,False,False,False,False,False,False,False,0.21040542440460536,False,False,False,False
+Iztapalapa,El Molino,163,25,1.0,8.0,True,False,False,False,False,False,False,False,0.1056923490585982,False,True,False,False
+Iztapalapa,El Molino Tezonco,592,51,1.0,21.0,True,True,False,False,False,False,False,False,0.00395682481873727,False,True,True,True
+Iztapalapa,El Paraiso,38,124,0.0,34.0,False,False,False,False,False,False,False,False,0.15730352872975245,False,False,False,False
+Iztapalapa,El Prado,15,29,0.0,6.0,False,False,False,False,False,False,False,False,0.2120327036753944,False,False,False,False
+Iztapalapa,El Retoño,52,100,0.0,25.0,False,False,False,False,False,False,False,False,0.1615654148223975,False,False,False,False
+Iztapalapa,El Rodeo,38,34,0.0,13.0,False,False,False,False,False,False,False,False,0.19947037927718675,False,False,False,False
+Iztapalapa,El Rosario,111,63,2.0,20.0,True,False,False,False,False,False,False,False,0.13628063469821228,False,True,False,False
+Iztapalapa,El Santuario,38,44,1.0,19.0,False,False,False,False,False,False,False,False,0.1914379094547543,False,False,False,False
+Iztapalapa,El Sifon,83,105,1.0,33.0,True,False,False,False,False,False,False,False,0.14270332823603638,False,True,False,False
+Iztapalapa,El Triangulo,1559,18,0.0,6.0,True,True,False,False,False,False,False,False,-0.10451948460619287,True,True,True,True
+Iztapalapa,El Triunfo,51,40,0.0,10.0,False,False,False,False,False,False,False,False,0.18273108888515932,False,False,False,False
+Iztapalapa,El Vergel,123,135,1.0,38.0,True,False,False,False,False,False,False,False,0.11137446383296351,False,True,False,False
+Iztapalapa,Ermita Zaragoza,216,247,2.0,66.0,True,False,True,False,False,False,True,False,0.03163481451158057,False,True,False,False
+Iztapalapa,Escuadron 201,134,145,1.0,38.0,True,False,False,False,False,False,False,False,0.10263513263573337,False,True,False,False
+Iztapalapa,Estado De Veracruz,3,2,0.0,0.0,False,False,False,False,False,False,False,False,0.17029805636082013,False,False,False,False
+Iztapalapa,Estrella Culhuacan,7,19,0.0,5.0,False,False,False,False,False,False,False,False,0.21661055714132293,False,False,False,False
+Iztapalapa,Estrella Del Sur,126,57,0.0,13.0,True,False,False,False,False,False,False,False,0.1316887629085301,False,True,False,False
+Iztapalapa,Eva Samano De Lopez Mateos,5,20,0.0,9.0,False,False,False,False,False,False,False,False,0.21717947169555712,False,False,False,False
+Iztapalapa,Francisco Villa,351,88,1.0,30.0,True,False,False,False,False,False,False,False,0.054130818252217994,False,True,False,False
+Iztapalapa,Fuego Nuevo,451,86,0.0,34.0,True,False,False,False,False,False,False,False,0.007855476404170725,False,True,False,False
+Iztapalapa,Granjas De San Antonio,88,108,0.0,31.0,True,False,False,False,False,False,False,False,0.13129030475802655,False,True,False,False
+Iztapalapa,Granjas Esmeralda,21,68,1.0,19.0,False,False,False,False,False,False,False,False,0.20266771749731127,False,False,False,False
+Iztapalapa,Granjas Estrella,295,52,1.0,13.0,True,False,False,False,False,False,False,False,0.07798385668674612,False,True,False,False
+Iztapalapa,Guadalupe Del Moral,141,171,2.0,41.0,True,False,False,False,False,False,False,False,0.08876403906273317,False,True,False,False
+Iztapalapa,Heroes De Churubusco,30,51,1.0,13.0,False,False,False,False,False,False,False,False,0.20049858544473192,False,False,False,False
+Iztapalapa,Insurgentes,157,44,0.0,14.0,True,False,False,False,False,False,False,False,0.1196231829674172,False,True,False,False
+Iztapalapa,Ixtlahuacan,569,100,3.0,34.0,True,False,False,False,False,False,False,False,-0.015681693886809955,True,True,False,True
+Iztapalapa,Jacarandas,46,81,0.0,27.0,False,False,False,False,False,False,False,False,0.1715057878894125,False,False,False,False
+Iztapalapa,Jardines De Churubusco,22,16,0.0,5.0,False,False,False,False,False,False,False,False,0.2029340766322954,False,False,False,False
+Iztapalapa,Jardines De San Lorenzo Tezonco,33,47,2.0,11.0,False,False,False,False,False,False,False,False,0.18717508213758266,False,False,False,False
+Iztapalapa,Jose Lopez Portillo,307,190,1.0,60.0,True,False,False,False,False,False,False,False,0.027751134152426138,False,True,False,False
+Iztapalapa,Jose Maria Morelos Y Pavon,5,19,1.0,5.0,False,False,False,False,False,False,False,False,0.21018856776799055,False,False,False,False
+Iztapalapa,Juan Escutia,61,387,7.0,113.0,True,False,True,False,True,False,True,False,0.003457676178887925,False,True,False,False
+Iztapalapa,Justo Sierra,9,10,0.0,4.0,False,False,False,False,False,False,False,False,0.20782607736717867,False,False,False,False
+Iztapalapa,La Era,137,69,0.0,22.0,True,False,False,False,False,False,False,False,0.11935395683012445,False,True,False,False
+Iztapalapa,La Esperanza,46,197,0.0,65.0,False,False,False,False,False,False,True,False,0.09194802936420454,False,True,False,False
+Iztapalapa,La Estacion,18,9,0.0,4.0,False,False,False,False,False,False,False,False,0.19547715073086674,False,False,False,False
+Iztapalapa,La Planta,45,40,0.0,16.0,False,False,False,False,False,False,False,False,0.1851966451494697,False,False,False,False
+Iztapalapa,Las Arboledas,4,1,0.0,0.0,False,False,False,False,False,False,False,False,0.1648541655051019,False,False,False,False
+Iztapalapa,Las Peñas,200,74,0.0,25.0,True,False,False,False,False,False,False,False,0.09822886584568707,False,True,False,False
+Iztapalapa,Leyes De Reforma 1A Seccion,34,94,0.0,27.0,False,False,False,False,False,False,False,False,0.17810003457738133,False,False,False,False
+Iztapalapa,Leyes De Reforma 2A Seccion,64,30,1.0,12.0,True,False,False,False,False,False,False,False,0.17256121625285287,False,True,False,False
+Iztapalapa,Leyes De Reforma 3A Seccion,1025,297,0.0,82.0,True,True,True,False,False,False,True,False,-0.12808390550671078,True,True,True,True
+Iztapalapa,Lomas De La Estancia,124,161,1.0,60.0,True,False,False,False,False,False,False,False,0.0827030961678763,False,True,False,False
+Iztapalapa,Lomas De San Lorenzo,151,442,6.0,106.0,True,False,True,False,True,False,True,False,-0.03493700552334078,True,True,False,True
+Iztapalapa,Lomas De Sta Cruz,31,27,0.0,10.0,False,False,False,False,False,False,False,False,0.20108623048200125,False,False,False,False
+Iztapalapa,Lomas De Zaragoza,61,112,0.0,39.0,True,False,False,False,False,False,False,False,0.13560870879622317,False,True,False,False
+Iztapalapa,Lomas El Manto,24,12,0.0,4.0,False,False,False,False,False,False,False,False,0.19358012332391245,False,False,False,False
+Iztapalapa,Lomas Estrella,73,134,3.0,31.0,True,False,False,False,False,False,False,False,0.12895725528736413,False,True,False,False
+Iztapalapa,Los Angeles,200,224,3.0,68.0,True,False,True,False,False,False,True,False,0.034454525302749506,False,True,False,False
+Iztapalapa,Los Angeles Apanoaya,48,31,0.0,10.0,False,False,False,False,False,False,False,False,0.1860535553110793,False,False,False,False
+Iztapalapa,Los Cipreses,8,17,0.0,5.0,False,False,False,False,False,False,False,False,0.21537362796960446,False,False,False,False
+Iztapalapa,Los Picos,18,61,0.0,17.0,False,False,False,False,False,False,False,False,0.20704741360188994,False,False,False,False
+Iztapalapa,Miguel De La Madrid Hurtado,299,132,1.0,30.0,True,False,False,False,False,False,False,False,0.06577365224353815,False,True,False,False
+Iztapalapa,Minerva,15,24,2.0,6.0,False,False,False,False,False,False,False,False,0.19819502743630668,False,False,False,False
+Iztapalapa,Miravalles,97,62,0.0,13.0,True,False,False,False,False,False,False,False,0.1498058891893994,False,True,False,False
+Iztapalapa,Mixcoatl,1856,50,1.0,20.0,True,True,False,False,False,False,False,False,-0.10947741240735231,True,True,True,True
+Iztapalapa,Monte Alban,16,31,0.0,7.0,False,False,False,False,False,False,False,False,0.2123015147273754,False,False,False,False
+Iztapalapa,Nueva Rosita,31,37,0.0,7.0,False,False,False,False,False,False,False,False,0.20525870316354522,False,False,False,False
+Iztapalapa,Palmitas,129,73,0.0,21.0,True,False,False,False,False,False,False,False,0.12171440168231867,False,True,False,False
+Iztapalapa,Paraje San Juan,258,80,1.0,28.0,True,False,False,False,False,False,False,False,0.08147574658878626,False,True,False,False
+Iztapalapa,Paraje San Juan Cerro,29,44,4.0,11.0,False,False,False,False,False,False,False,False,0.1645572512676079,False,False,False,False
+Iztapalapa,Paraje Zacatepec,852,100,1.0,26.0,True,True,False,False,False,False,False,False,-0.03798435646293652,True,True,True,True
+Iztapalapa,Parque Nacional Cerro De La Estrella,35,13,0.0,3.0,False,False,False,False,False,False,False,False,0.18335007562063715,False,False,False,False
+Iztapalapa,Paseos De Churubusco,78,94,3.0,25.0,True,False,False,False,False,False,False,False,0.14337901502880246,False,True,False,False
+Iztapalapa,Plan De Iguala,26,11,3.0,1.0,False,False,False,False,False,False,False,False,0.1403223201999021,False,False,False,False
+Iztapalapa,Polvorilla,4602,101,1.0,33.0,True,True,False,False,False,False,False,False,-0.14815936506336091,True,True,True,True
+Iztapalapa,Prado Churubusco,2,4,0.0,1.0,False,False,False,False,False,False,False,False,0.19109680335905338,False,False,False,False
+Iztapalapa,Presidentes De Mexico,50,139,0.0,47.0,False,False,False,False,False,False,False,False,0.11968045742550376,False,False,False,False
+Iztapalapa,Progresista,124,115,3.0,44.0,True,False,False,False,False,False,False,False,0.09877417842086106,False,True,False,False
+Iztapalapa,Progreso Del Sur,42,17,0.0,7.0,False,False,False,False,False,False,False,False,0.18848987116890148,False,False,False,False
+Iztapalapa,Pueblo Aculco,171,87,0.0,19.0,True,False,False,False,False,False,False,False,0.10578539879242854,False,True,False,False
+Iztapalapa,Pueblo Culhuacan,10,87,1.0,31.0,False,False,False,False,False,False,False,False,0.19226356425370528,False,False,False,False
+Iztapalapa,Pueblo Los Reyes Culhuacan,7,90,2.0,21.0,False,False,False,False,False,False,False,False,0.18576452246360792,False,False,False,False
+Iztapalapa,Pueblo Magdalena Atlazolpa,188,50,0.0,24.0,True,False,False,False,False,False,False,False,0.09843482281071297,False,True,False,False
+Iztapalapa,Pueblo Mexicaltzingo,14,50,0.0,16.0,False,False,False,False,False,False,False,False,0.21102267957112136,False,False,False,False
+Iztapalapa,Pueblo San Andres Tomatlan,16,48,1.0,13.0,False,False,False,False,False,False,False,False,0.2106468960523178,False,False,False,False
+Iztapalapa,Pueblo San Juanico Nextipac,44,17,0.0,4.0,False,False,False,False,False,False,False,False,0.18562328508068682,False,False,False,False
+Iztapalapa,Pueblo San Lorenzo Tezonco,736,194,1.0,48.0,True,True,False,False,False,False,False,False,-0.05621815592484014,True,True,True,True
+Iztapalapa,Pueblo San Lorenzo Xicotencatl,23,64,3.0,19.0,False,False,False,False,False,False,False,False,0.18388786783023692,False,False,False,False
+Iztapalapa,Pueblo San Sebastian Tecoloxtitla,169,63,1.0,24.0,True,False,False,False,False,False,False,False,0.1111119556452908,False,True,False,False
+Iztapalapa,Pueblo Santa Maria Aztahuacan,649,134,3.0,48.0,True,True,False,False,False,False,False,False,-0.04715771387608547,True,True,True,True
+Iztapalapa,Pueblo Santa Maria Tomatlan,24,67,0.0,20.0,False,False,False,False,False,False,False,False,0.20036673485661533,False,False,False,False
+Iztapalapa,Pueblo Santa Martha Acatitla,104,365,0.0,73.0,True,False,True,False,False,False,True,False,0.006811573145297234,False,True,False,False
+Iztapalapa,Pueblo Santiago Acahualtepec,50,55,0.0,15.0,False,False,False,False,False,False,False,False,0.18485111279598482,False,False,False,False
+Iztapalapa,Pueblo Sta Cruz Meyehualco,24,146,0.0,48.0,False,False,False,False,False,False,False,False,0.1330510499078768,False,False,False,False
+Iztapalapa,Puente Blanco,27,89,0.0,34.0,False,False,False,False,False,False,False,False,0.16916800256285036,False,False,False,False
+Iztapalapa,Purisima Atlazolpa,8,30,0.0,11.0,False,False,False,False,False,False,False,False,0.21390218310979126,False,False,False,False
+Iztapalapa,Real Del Moral,47,45,4.0,11.0,False,False,False,False,False,False,False,False,0.14763163044709315,False,False,False,False
+Iztapalapa,Reforma Politica,84,166,1.0,46.0,True,False,False,False,False,False,False,False,0.11215702402383021,False,True,False,False
+Iztapalapa,Renovacion,38,167,0.0,58.0,False,False,False,False,False,False,False,False,0.10663545747629954,False,False,False,False
+Iztapalapa,Ricardo Flores Magon,27,17,0.0,7.0,False,False,False,False,False,False,False,False,0.20173791404678948,False,False,False,False
+Iztapalapa,San Andres Tetepilco,57,109,2.0,37.0,False,False,False,False,False,False,False,False,0.1486091449819278,False,False,False,False
+Iztapalapa,San Antonio Culhuacan,34,15,0.0,5.0,False,False,False,False,False,False,False,False,0.19426144032278464,False,False,False,False
+Iztapalapa,San Jose Aculco,42,74,0.0,22.0,False,False,False,False,False,False,False,False,0.1797460671308833,False,False,False,False
+Iztapalapa,San Jose Buenavista,67,22,2.0,7.0,True,False,False,False,False,False,False,False,0.15973691548368085,False,True,False,False
+Iztapalapa,San Juan Estrella,46,18,0.0,8.0,False,False,False,False,False,False,False,False,0.18343431208560446,False,False,False,False
+Iztapalapa,San Juan Joya,7,38,2.0,9.0,False,False,False,False,False,False,False,False,0.20126339076009303,False,False,False,False
+Iztapalapa,San Juan Xalpa,538,306,3.0,85.0,True,False,True,False,False,False,True,False,-0.07179830866398751,True,True,False,True
+Iztapalapa,San Miguel 8Va Ampliacion,48,55,0.0,16.0,False,False,False,False,False,False,False,False,0.18377415086075638,False,False,False,False
+Iztapalapa,San Miguel Teotongo (Secc La Cruz),72,37,1.0,8.0,True,False,False,False,False,False,False,False,0.16624187896208314,False,True,False,False
+Iztapalapa,San Miguel Teotongo (Secc Las Torres),12,13,0.0,4.0,False,False,False,False,False,False,False,False,0.20922298960558228,False,False,False,False
+Iztapalapa,San Miguel Teotongo Secc Acorralado,25,15,0.0,4.0,False,False,False,False,False,False,False,False,0.1984140383068061,False,False,False,False
+Iztapalapa,San Miguel Teotongo Secc Avisadero,4,16,0.0,5.0,False,False,False,False,False,False,False,False,0.21886299462394904,False,False,False,False
+Iztapalapa,San Miguel Teotongo Secc Capilla,14,13,0.0,5.0,False,False,False,False,False,False,False,False,0.20712411784558876,False,False,False,False
+Iztapalapa,San Miguel Teotongo Secc Corrales,10,19,0.0,5.0,False,False,False,False,False,False,False,False,0.21558929279703876,False,False,False,False
+Iztapalapa,San Miguel Teotongo Secc Guadalupe,48,44,0.0,8.0,False,False,False,False,False,False,False,False,0.18435182267282935,False,False,False,False
+Iztapalapa,San Miguel Teotongo Secc Jardines,40,19,0.0,7.0,False,False,False,False,False,False,False,False,0.1938100001697215,False,False,False,False
+Iztapalapa,San Miguel Teotongo Secc Loma Alta,15,12,1.0,3.0,False,False,False,False,False,False,False,False,0.18822097822835876,False,False,False,False
+Iztapalapa,San Miguel Teotongo Secc Mercedes,8,17,1.0,6.0,False,False,False,False,False,False,False,False,0.20915087517153674,False,False,False,False
+Iztapalapa,San Miguel Teotongo Secc Palmitas,8,11,0.0,2.0,False,False,False,False,False,False,False,False,0.1993434704212,False,False,False,False
+Iztapalapa,San Miguel Teotongo Secc Puente,65,26,0.0,8.0,True,False,False,False,False,False,False,False,0.177421212673125,False,True,False,False
+Iztapalapa,San Miguel Teotongo Secc Ranchito,226,27,0.0,9.0,True,False,False,False,False,False,False,False,0.08675764121430679,False,True,False,False
+Iztapalapa,San Miguel Teotongo Secc Rancho Bajo,3,5,0.0,1.0,False,False,False,False,False,False,False,False,0.19489559218028585,False,False,False,False
+Iztapalapa,San Miguel Teotongo Seccion Iztlahuaca,17,15,0.0,3.0,False,False,False,False,False,False,False,False,0.19962137629654292,False,False,False,False
+Iztapalapa,San Nicolas Tolentino,202,69,0.0,15.0,True,False,False,False,False,False,False,False,0.09807378964350605,False,True,False,False
+Iztapalapa,San Pablo,170,24,0.0,7.0,True,False,False,False,False,False,False,False,0.11058693704294131,False,True,False,False
+Iztapalapa,Santa Isabel Industrial,17,55,2.0,15.0,False,False,False,False,False,False,False,False,0.20146591862365398,False,False,False,False
+Iztapalapa,Santa Maria Aztahuacan,2600,240,3.0,65.0,True,True,True,False,False,False,True,False,-0.14019357928857434,True,True,True,True
+Iztapalapa,Santa Maria Del Monte,3,3,0.0,1.0,False,False,False,False,False,False,False,False,0.1866599855568385,False,False,False,False
+Iztapalapa,Santa Martha Acatitla Norte,66,311,4.0,88.0,True,False,True,False,False,False,True,False,0.048246462036707016,False,True,False,False
+Iztapalapa,Santa Martha Acatitla Sur,300,176,1.0,55.0,True,False,False,False,False,False,False,False,0.0335800690166278,False,True,False,False
+Iztapalapa,Santiago Acahualtepec 1A Ampliaciën,98,62,0.0,15.0,True,False,False,False,False,False,False,False,0.14857146324952747,False,True,False,False
+Iztapalapa,Santiago Acahualtepec 2A Ampliacion,118,197,2.0,62.0,True,False,False,False,False,False,True,False,0.08111378761225213,False,True,False,False
+Iztapalapa,Sector Popular,81,121,1.0,26.0,True,False,False,False,False,False,False,False,0.14576010104872233,False,True,False,False
+Iztapalapa,Sideral,447,14,0.0,7.0,True,False,False,False,False,False,False,False,0.008274182590862877,False,True,False,False
+Iztapalapa,Sinatel,12,28,0.0,9.0,False,False,False,False,False,False,False,False,0.21475561544703292,False,False,False,False
+Iztapalapa,Tenorios,731,89,0.0,27.0,True,True,False,False,False,False,False,False,-0.030121924668673583,True,True,True,True
+Iztapalapa,Tepalcates,41,202,4.0,59.0,False,False,False,False,False,False,False,False,0.11134820981178806,False,False,False,False
+Iztapalapa,Unidad Ejercito Constitucionalista,34,252,4.0,86.0,False,False,True,False,False,False,True,False,0.06542838930124029,False,True,False,False
+Iztapalapa,Unidad Modelo,59,55,2.0,12.0,False,False,False,False,False,False,False,False,0.16807609353411318,False,False,False,False
+Iztapalapa,Unidad Santa Cruz Meyehualco,335,316,2.0,81.0,True,False,True,False,False,False,True,False,-0.028620374901193735,True,True,False,True
+Iztapalapa,Unidad Vicente Guerrero,269,399,9.0,113.0,True,False,True,False,True,False,True,False,-0.07514352885915976,True,True,False,True
+Iztapalapa,Uscovi,12,10,1.0,4.0,False,False,False,False,False,False,False,False,0.19677771111742443,False,False,False,False
+Iztapalapa,Valle De Luces,506,72,0.0,26.0,True,False,False,False,False,False,False,False,0.018161298564222772,False,True,False,False
+Iztapalapa,Valle De San Lorenzo,40,140,2.0,45.0,False,False,False,False,False,False,False,False,0.14503254006470578,False,False,False,False
+Iztapalapa,Valle Del Sur,50,54,5.0,24.0,False,False,False,False,False,False,False,False,0.1260836170207228,False,False,False,False
+Iztapalapa,Xalpa,565,224,6.0,58.0,True,False,True,False,True,False,False,False,-0.05456165234117316,True,True,False,True
+Iztapalapa,Zacahuitzco,11,36,0.0,11.0,False,False,False,False,False,False,False,False,0.21778796512420423,False,False,False,False
+La Magdalena Contreras,Ampliacion Lomas De San Bernabe,1,51,0.0,11.0,False,False,False,False,False,False,False,False,0.21140174340532347,False,False,False,False
+La Magdalena Contreras,Ampliacion Potrerillo,1,19,0.0,3.0,False,False,False,False,False,False,False,False,0.20831690048391083,False,False,False,False
+La Magdalena Contreras,Barranca Seca,1,82,0.0,18.0,False,False,False,False,False,False,False,False,0.19309287323956326,False,False,False,False
+La Magdalena Contreras,Barrio San Francisco,2,59,0.0,16.0,False,False,False,False,False,False,False,False,0.20727559089158593,False,False,False,False
+La Magdalena Contreras,Barros Sierra,4,34,0.0,13.0,False,False,False,False,False,False,False,False,0.2152761772390171,False,False,False,False
+La Magdalena Contreras,Cuauhtemoc,8,74,1.0,26.0,False,False,False,False,False,False,False,False,0.19697493526579224,False,False,False,False
+La Magdalena Contreras,El Ermitaño,4,58,0.0,21.0,False,False,False,False,False,False,False,False,0.2060188632309113,False,False,False,False
+La Magdalena Contreras,El Maestro,2,8,0.0,2.0,False,False,False,False,False,False,False,False,0.20332988876993302,False,False,False,False
+La Magdalena Contreras,El Ocotal,8,55,0.0,18.0,False,False,False,False,False,False,False,False,0.2133283993003029,False,False,False,False
+La Magdalena Contreras,El Rosal,6,82,1.0,26.0,False,False,False,False,False,False,False,False,0.1952880398631583,False,False,False,False
+La Magdalena Contreras,El Tanque,11,74,1.0,30.0,False,False,False,False,False,False,False,False,0.19163983309279348,False,False,False,False
+La Magdalena Contreras,El Toro,2,46,0.0,15.0,False,False,False,False,False,False,False,False,0.21207156108946779,False,False,False,False
+La Magdalena Contreras,Heroes De Padierna,9,89,0.0,27.0,False,False,False,False,False,False,False,False,0.19043633149898587,False,False,False,False
+La Magdalena Contreras,Huayatla,5,57,1.0,13.0,False,False,False,False,False,False,False,False,0.21003738676493794,False,False,False,False
+La Magdalena Contreras,La Carbonera,1,53,0.0,17.0,False,False,False,False,False,False,False,False,0.2065627942480988,False,False,False,False
+La Magdalena Contreras,La Concepcion,5,41,0.0,9.0,False,False,False,False,False,False,False,False,0.2186486901761862,False,False,False,False
+La Magdalena Contreras,La Cruz,9,73,1.0,19.0,False,False,False,False,False,False,False,False,0.2056071257361457,False,False,False,False
+La Magdalena Contreras,La Guadalupe,2,28,0.0,7.0,False,False,False,False,False,False,False,False,0.21830756371464444,False,False,False,False
+La Magdalena Contreras,La Malinche,5,99,0.0,27.0,False,False,False,False,False,False,False,False,0.18370281528473686,False,False,False,False
+La Magdalena Contreras,Las Cruces,15,101,1.0,37.0,False,False,False,False,False,False,False,False,0.16970951126049888,False,False,False,False
+La Magdalena Contreras,Las Huertas,1,11,0.0,5.0,False,False,False,False,False,False,False,False,0.21087081401589786,False,False,False,False
+La Magdalena Contreras,Lomas De San Bernabe,9,77,1.0,22.0,False,False,False,False,False,False,False,False,0.1996078361729765,False,False,False,False
+La Magdalena Contreras,Lomas Quebradas,4,76,0.0,25.0,False,False,False,False,False,False,False,False,0.19417942408427002,False,False,False,False
+La Magdalena Contreras,Los Padres,1,45,0.0,19.0,False,False,False,False,False,False,False,False,0.20506421843145994,False,False,False,False
+La Magdalena Contreras,Palmas,1,15,1.0,6.0,False,False,False,False,False,False,False,False,0.20409260797770007,False,False,False,False
+La Magdalena Contreras,Potrerillo,6,22,6.0,6.0,False,False,False,False,True,False,False,False,0.1296285515434128,False,True,False,False
+La Magdalena Contreras,Progreso Tizapan,1,2,0.0,1.0,False,False,False,False,False,False,False,False,0.18230761780360222,False,False,False,False
+La Magdalena Contreras,Pueblo La Magdalena,4,51,0.0,16.0,False,False,False,False,False,False,False,False,0.21290776065944994,False,False,False,False
+La Magdalena Contreras,Pueblo Nuevo Alto,5,91,2.0,35.0,False,False,False,False,False,False,False,False,0.16099066407046747,False,False,False,False
+La Magdalena Contreras,Pueblo Nuevo Bajo,1,45,0.0,10.0,False,False,False,False,False,False,False,False,0.21576770399193135,False,False,False,False
+La Magdalena Contreras,Pueblo San Bernabe Ocotepec,11,153,2.0,42.0,False,False,False,False,False,False,False,False,0.14778715648984952,False,False,False,False
+La Magdalena Contreras,Pueblo San Nicolas Totolapan,13,253,1.0,73.0,False,False,True,False,False,False,True,False,0.07924761003645642,False,True,False,False
+La Magdalena Contreras,San Bartolo Ameyalco,4,31,0.0,16.0,False,False,False,False,False,False,False,False,0.20534514654512964,False,False,False,False
+La Magdalena Contreras,San Francisco,5,14,0.0,5.0,False,False,False,False,False,False,False,False,0.21683756301739865,False,False,False,False
+La Magdalena Contreras,San Jeronimo Aculco,6,113,0.0,27.0,False,False,False,False,False,False,False,False,0.17702153629918094,False,False,False,False
+La Magdalena Contreras,San Jeronimo Lidice,37,300,1.0,90.0,False,False,True,False,False,False,True,False,0.045978348779699196,False,True,False,False
+La Magdalena Contreras,Santa Teresa,5,52,0.0,13.0,False,False,False,False,False,False,False,False,0.21665172097491991,False,False,False,False
+La Magdalena Contreras,Tierra Unida,3,24,1.0,7.0,False,False,False,False,False,False,False,False,0.2144222333582596,False,False,False,False
+Miguel Hidalgo,10 De Abril,2,19,0.0,6.0,False,False,False,False,False,False,False,False,0.22047595014236443,False,False,False,False
+Miguel Hidalgo,16 De Septiembre,1,31,0.0,12.0,False,False,False,False,False,False,False,False,0.21212720755791387,False,False,False,False
+Miguel Hidalgo,5 De Mayo,3,31,2.0,7.0,False,False,False,False,False,False,False,False,0.19624485008235887,False,False,False,False
+Miguel Hidalgo,Agricultura,10,85,1.0,30.0,False,False,False,False,False,False,False,False,0.19348885132413512,False,False,False,False
+Miguel Hidalgo,Ahuehuetes Anahuac,2,30,0.0,10.0,False,False,False,False,False,False,False,False,0.2153865320584662,False,False,False,False
+Miguel Hidalgo,America,2,77,0.0,21.0,False,False,False,False,False,False,False,False,0.19580113543667887,False,False,False,False
+Miguel Hidalgo,Ampliacion Daniel Garza,6,107,0.0,27.0,False,False,False,False,False,False,False,False,0.17921584690949566,False,False,False,False
+Miguel Hidalgo,Ampliacion Granada,18,164,2.0,31.0,False,False,False,False,False,False,False,False,0.1493620014684699,False,False,False,False
+Miguel Hidalgo,Ampliacion Torre Blanca,3,42,0.0,11.0,False,False,False,False,False,False,False,False,0.2174500623372495,False,False,False,False
+Miguel Hidalgo,Anahuac I Seccion,16,329,0.0,78.0,False,False,True,False,False,False,True,False,0.031594574728008196,False,True,False,False
+Miguel Hidalgo,Anahuac Ii Seccion,18,302,2.0,94.0,False,False,True,False,False,False,True,False,0.040367487235625,False,True,False,False
+Miguel Hidalgo,Anzures,21,303,1.0,54.0,False,False,True,False,False,False,False,False,0.08846174186233413,False,True,False,False
+Miguel Hidalgo,Argentina Antigua,2,87,0.0,22.0,False,False,False,False,False,False,False,False,0.1918194925352068,False,False,False,False
+Miguel Hidalgo,Argentina Poniente,9,120,0.0,32.0,False,False,False,False,False,False,False,False,0.1706983022837047,False,False,False,False
+Miguel Hidalgo,Bosque De Chapultepec I Seccion,12,131,0.0,33.0,False,False,False,False,False,False,False,False,0.16076658350330392,False,False,False,False
+Miguel Hidalgo,Bosque De Chapultepec Ii Seccion,4,41,0.0,6.0,False,False,False,False,False,False,False,False,0.2165279241384067,False,False,False,False
+Miguel Hidalgo,Bosque De Las Lomas,20,113,0.0,22.0,False,False,False,False,False,False,False,False,0.17490409976260984,False,False,False,False
+Miguel Hidalgo,Bosques De Las Lomas,5,4,0.0,0.0,False,False,False,False,False,False,False,False,0.17252883526617913,False,False,False,False
+Miguel Hidalgo,Condesa,1,1,0.0,1.0,False,False,False,False,False,False,False,False,0.17754557073505328,False,False,False,False
+Miguel Hidalgo,Cuauhtemoc Pensil,4,48,0.0,11.0,False,False,False,False,False,False,False,False,0.21637806920354713,False,False,False,False
+Miguel Hidalgo,Daniel Garza,2,74,0.0,24.0,False,False,False,False,False,False,False,False,0.19131716108756014,False,False,False,False
+Miguel Hidalgo,Escandon I Seccion,19,175,3.0,51.0,False,False,False,False,False,False,False,False,0.12715782135849096,False,False,False,False
+Miguel Hidalgo,Escandon Ii Seccion,26,255,2.0,60.0,False,False,True,False,False,False,False,False,0.10607446871761822,False,True,False,False
+Miguel Hidalgo,Francisco I Madero,6,20,1.0,9.0,False,False,False,False,False,False,False,False,0.2082523247875463,False,False,False,False
+Miguel Hidalgo,Granada,25,368,0.0,86.0,False,False,True,False,False,False,True,False,0.016269468712978963,False,True,False,False
+Miguel Hidalgo,Huichapan,5,43,0.0,13.0,False,False,False,False,False,False,False,False,0.21623178373087054,False,False,False,False
+Miguel Hidalgo,Ignacio Manuel Altamirano,1,14,0.0,4.0,False,False,False,False,False,False,False,False,0.21468096886020266,False,False,False,False
+Miguel Hidalgo,Irrigacion,30,165,1.0,31.0,False,False,False,False,False,False,False,False,0.149556275755103,False,False,False,False
+Miguel Hidalgo,Lago Norte,2,15,0.0,6.0,False,False,False,False,False,False,False,False,0.217844024385687,False,False,False,False
+Miguel Hidalgo,Lago Sur,1,16,0.0,3.0,False,False,False,False,False,False,False,False,0.20939202042267185,False,False,False,False
+Miguel Hidalgo,Legaria,1,53,0.0,12.0,False,False,False,False,False,False,False,False,0.2103172523089088,False,False,False,False
+Miguel Hidalgo,Loma Hermosa,6,66,0.0,17.0,False,False,False,False,False,False,False,False,0.2088380148582486,False,False,False,False
+Miguel Hidalgo,Lomas Altas,10,38,0.0,7.0,False,False,False,False,False,False,False,False,0.21907317841649665,False,False,False,False
+Miguel Hidalgo,Lomas De Bezares,3,24,0.0,7.0,False,False,False,False,False,False,False,False,0.22162859424482634,False,False,False,False
+Miguel Hidalgo,Lomas De Chapultepec I Seccion,5,31,0.0,5.0,False,False,False,False,False,False,False,False,0.2163205281277898,False,False,False,False
+Miguel Hidalgo,Lomas De Chapultepec Ii Seccion,7,25,1.0,4.0,False,False,False,False,False,False,False,False,0.20936696521898207,False,False,False,False
+Miguel Hidalgo,Lomas De Chapultepec Iii Seccion,11,206,0.0,42.0,False,False,False,False,False,False,False,False,0.11767169277891626,False,False,False,False
+Miguel Hidalgo,Lomas De Chapultepec Iv Seccion,10,79,0.0,11.0,False,False,False,False,False,False,False,False,0.20166281733807517,False,False,False,False
+Miguel Hidalgo,Lomas De Chapultepec V Seccion,15,76,2.0,12.0,False,False,False,False,False,False,False,False,0.19035764231604158,False,False,False,False
+Miguel Hidalgo,Lomas De Chapultepec Vi Seccion,8,44,0.0,5.0,False,False,False,False,False,False,False,False,0.21231327977713338,False,False,False,False
+Miguel Hidalgo,Lomas De Chapultepec Vii Seccion,2,16,0.0,1.0,False,False,False,False,False,False,False,False,0.1975589134514214,False,False,False,False
+Miguel Hidalgo,Lomas De Chapultepec Viii Seccion,8,49,0.0,12.0,False,False,False,False,False,False,False,False,0.2161843666756983,False,False,False,False
+Miguel Hidalgo,Lomas De Sotelo,3,46,0.0,12.0,False,False,False,False,False,False,False,False,0.21561751418946973,False,False,False,False
+Miguel Hidalgo,Los Manzanos,5,82,1.0,25.0,False,False,False,False,False,False,False,False,0.19501949670753127,False,False,False,False
+Miguel Hidalgo,Manuel Avila Camacho,1,29,0.0,14.0,False,False,False,False,False,False,False,False,0.2032299942039134,False,False,False,False
+Miguel Hidalgo,Mariano Escobedo,4,31,0.0,7.0,False,False,False,False,False,False,False,False,0.2189858708058131,False,False,False,False
+Miguel Hidalgo,Mexico Nuevo,2,57,0.0,13.0,False,False,False,False,False,False,False,False,0.21221349512726057,False,False,False,False
+Miguel Hidalgo,Modelo Pensil,2,47,0.0,9.0,False,False,False,False,False,False,False,False,0.21530539645450164,False,False,False,False
+Miguel Hidalgo,Molino Del Rey,3,22,0.0,3.0,False,False,False,False,False,False,False,False,0.2114267606550556,False,False,False,False
+Miguel Hidalgo,Nextitla,4,29,0.0,7.0,False,False,False,False,False,False,False,False,0.2195886781640397,False,False,False,False
+Miguel Hidalgo,Observatorio,5,115,0.0,21.0,False,False,False,False,False,False,False,False,0.17677241080945166,False,False,False,False
+Miguel Hidalgo,Panteon Civil De Dolores,3,12,0.0,1.0,False,False,False,False,False,False,False,False,0.19625166639645775,False,False,False,False
+Miguel Hidalgo,Pensil Norte,4,93,1.0,29.0,False,False,False,False,False,False,False,False,0.18750424425684692,False,False,False,False
+Miguel Hidalgo,Pensil Sur,3,28,0.0,14.0,False,False,False,False,False,False,False,False,0.20682421244459376,False,False,False,False
+Miguel Hidalgo,Periodista,5,96,1.0,25.0,False,False,False,False,False,False,False,False,0.19210476489801492,False,False,False,False
+Miguel Hidalgo,Plutarco Elias Calles,3,22,1.0,4.0,False,False,False,False,False,False,False,False,0.21016794193814858,False,False,False,False
+Miguel Hidalgo,Polanco I Seccion,8,121,0.0,27.0,False,False,False,False,False,False,False,False,0.17449665524819913,False,False,False,False
+Miguel Hidalgo,Polanco Ii Seccion,32,134,2.0,32.0,False,False,False,False,False,False,False,False,0.16029273224730167,False,False,False,False
+Miguel Hidalgo,Polanco Iii Seccion,17,173,1.0,52.0,False,False,False,False,False,False,False,False,0.1352787423832444,False,False,False,False
+Miguel Hidalgo,Polanco Iv Seccion,20,210,2.0,41.0,False,False,False,False,False,False,False,False,0.12909322498774156,False,False,False,False
+Miguel Hidalgo,Polanco V Seccion,33,409,2.0,94.0,False,False,True,False,False,False,True,False,0.016486868273820288,False,True,False,False
+Miguel Hidalgo,Popo,5,27,0.0,13.0,False,False,False,False,False,False,False,False,0.20972696746208996,False,False,False,False
+Miguel Hidalgo,Popotla,24,239,3.0,58.0,False,False,True,False,False,False,False,False,0.1093459523020992,False,True,False,False
+Miguel Hidalgo,Real De Las Lomas,2,7,0.0,1.0,False,False,False,False,False,False,False,False,0.19447234321507084,False,False,False,False
+Miguel Hidalgo,Reforma Pensil,5,58,1.0,15.0,False,False,False,False,False,False,False,False,0.2085033658373836,False,False,False,False
+Miguel Hidalgo,Reforma Social,5,63,0.0,13.0,False,False,False,False,False,False,False,False,0.20902322528166256,False,False,False,False
+Miguel Hidalgo,Residencial Militar,3,30,0.0,6.0,False,False,False,False,False,False,False,False,0.21870395938391718,False,False,False,False
+Miguel Hidalgo,San Diego Ocoyoacac,22,81,6.0,29.0,False,False,False,False,True,False,False,False,0.13581841959258967,False,True,False,False
+Miguel Hidalgo,San Joaquin,6,55,0.0,14.0,False,False,False,False,False,False,False,False,0.21490638798326844,False,False,False,False
+Miguel Hidalgo,San Juanico,12,54,0.0,10.0,False,False,False,False,False,False,False,False,0.21293281445626316,False,False,False,False
+Miguel Hidalgo,San Lorenzo Tlatenango,9,39,0.0,18.0,False,False,False,False,False,False,False,False,0.20986973857078395,False,False,False,False
+Miguel Hidalgo,San Miguel Chapultepec I Seccion,27,229,5.0,47.0,False,False,True,False,False,False,False,False,0.09938348968621868,False,True,False,False
+Miguel Hidalgo,San Miguel Chapultepec Ii Seccion,26,111,0.0,29.0,False,False,False,False,False,False,False,False,0.17366421804318177,False,False,False,False
+Miguel Hidalgo,Tacuba,43,343,3.0,80.0,False,False,True,False,False,False,True,False,0.04484700874969405,False,True,False,False
+Miguel Hidalgo,Tacubaya,17,343,5.0,83.0,False,False,True,False,False,False,True,False,0.026960661288081722,False,True,False,False
+Miguel Hidalgo,Tlaxpana,12,149,2.0,39.0,False,False,False,False,False,False,False,False,0.15250602760388837,False,False,False,False
+Miguel Hidalgo,Torre Blanca,8,90,2.0,27.0,False,False,False,False,False,False,False,False,0.18411146071292123,False,False,False,False
+Miguel Hidalgo,Un Hogar Para Nosotros,5,38,1.0,8.0,False,False,False,False,False,False,False,False,0.21415233140471046,False,False,False,False
+Miguel Hidalgo,Ventura Perez De Alva,9,35,0.0,14.0,False,False,False,False,False,False,False,False,0.2128420087185321,False,False,False,False
+Miguel Hidalgo,Veronica Anzures,17,146,0.0,33.0,False,False,False,False,False,False,False,False,0.15304409891813042,False,False,False,False
+Milpa Alta,Barrio Centro,10,26,1.0,5.0,False,False,False,False,False,False,False,False,0.20995159905432753,False,False,False,False
+Milpa Alta,Barrio Chalmita,32,26,2.0,10.0,False,False,False,False,False,False,False,False,0.18589912879334786,False,False,False,False
+Milpa Alta,Barrio Cruztitla,11,77,3.0,26.0,False,False,False,False,False,False,False,False,0.18015076785163664,False,False,False,False
+Milpa Alta,Barrio La Concepcion,1,39,0.0,10.0,False,False,False,False,False,False,False,False,0.21496309841791894,False,False,False,False
+Milpa Alta,Barrio La Lupita Teticpac,5,20,1.0,4.0,False,False,False,False,False,False,False,False,0.20862349908270134,False,False,False,False
+Milpa Alta,Barrio La Lupita Xolco,3,4,0.0,0.0,False,False,False,False,False,False,False,False,0.176143003244414,False,False,False,False
+Milpa Alta,Barrio La Luz,4,16,2.0,5.0,False,False,False,False,False,False,False,False,0.1947834192980979,False,False,False,False
+Milpa Alta,Barrio Los Angeles,1,19,0.0,5.0,False,False,False,False,False,False,False,False,0.21729842088572687,False,False,False,False
+Milpa Alta,Barrio Nochtla,6,18,3.0,6.0,False,False,False,False,False,False,False,False,0.18089689031131823,False,False,False,False
+Milpa Alta,Barrio Ocotitla,21,23,2.0,4.0,False,False,False,False,False,False,False,False,0.18763784076648976,False,False,False,False
+Milpa Alta,Barrio Panchimalco,9,27,1.0,8.0,False,False,False,False,False,False,False,False,0.2116959780529048,False,False,False,False
+Milpa Alta,Barrio San Jose,5,27,0.0,5.0,False,False,False,False,False,False,False,False,0.2179834753913038,False,False,False,False
+Milpa Alta,Barrio San Juan,1,21,0.0,7.0,False,False,False,False,False,False,False,False,0.21875481819500053,False,False,False,False
+Milpa Alta,Barrio San Marcos,1,22,0.0,8.0,False,False,False,False,False,False,False,False,0.2177871435610363,False,False,False,False
+Milpa Alta,Barrio San Mateo,8,41,1.0,14.0,False,False,False,False,False,False,False,False,0.21010750685824064,False,False,False,False
+Milpa Alta,Barrio San Miguel,5,44,1.0,8.0,False,False,False,False,False,False,False,False,0.21157068378091876,False,False,False,False
+Milpa Alta,Barrio San Miguel Pueblo Santa Ana Tlacotenco,3,6,0.0,1.0,False,False,False,False,False,False,False,False,0.1944448011475231,False,False,False,False
+Milpa Alta,Barrio Santa Cruz,22,57,3.0,13.0,False,False,False,False,False,False,False,False,0.18517342396236464,False,False,False,False
+Milpa Alta,Barrio Santa Martha,42,54,1.0,17.0,False,False,False,False,False,False,False,False,0.18584164222290595,False,False,False,False
+Milpa Alta,Barrio Tecaxtitla,5,25,0.0,8.0,False,False,False,False,False,False,False,False,0.22103186180095802,False,False,False,False
+Milpa Alta,Barrio Tenantitla,38,28,1.0,5.0,False,False,False,False,False,False,False,False,0.18584443072548623,False,False,False,False
+Milpa Alta,Barrio Tula,5,17,1.0,8.0,False,False,False,False,False,False,False,False,0.20822482154281335,False,False,False,False
+Milpa Alta,Barrio Xaltipac,4,23,1.0,8.0,False,False,False,False,False,False,False,False,0.2142243478127147,False,False,False,False
+Milpa Alta,Barrio Xochitepetl,23,86,4.0,26.0,False,False,False,False,False,False,False,False,0.16434053087600675,False,False,False,False
+Milpa Alta,La Conchita,23,23,19.0,10.0,False,False,False,False,True,False,False,False,-0.0135649979116238,True,True,False,True
+Milpa Alta,Pueblo San Agustin Ohtenco,13,19,0.0,5.0,False,False,False,False,False,False,False,False,0.21395248498935232,False,False,False,False
+Milpa Alta,Pueblo San Bartolome Xicomulco,93,49,11.0,13.0,True,False,False,False,True,False,False,False,0.023608553401041177,False,True,False,False
+Milpa Alta,Pueblo San Francisco Tecoxpa,28,42,1.0,11.0,False,False,False,False,False,False,False,False,0.19959641036544956,False,False,False,False
+Milpa Alta,Pueblo San Jeronimo Miacatlan,12,30,0.0,11.0,False,False,False,False,False,False,False,False,0.21239277191568362,False,False,False,False
+Milpa Alta,Pueblo San Juan Tepenahuac,4,30,0.0,9.0,False,False,False,False,False,False,False,False,0.217972837062811,False,False,False,False
+Milpa Alta,Pueblo San Lorenzo Tlacoyucan,18,46,3.0,9.0,False,False,False,False,False,False,False,False,0.17974948839113575,False,False,False,False
+Milpa Alta,Pueblo San Salvador Cuauhtenco,105,106,3.0,25.0,True,False,False,False,False,False,False,False,0.12276338769291134,False,True,False,False
+Milpa Alta,Villa Milpa Alta Centro,1,49,0.0,13.0,False,False,False,False,False,False,False,False,0.21200337912015016,False,False,False,False
+Tlalpan,2 De Octubre,6,30,1.0,12.0,False,False,False,False,False,False,False,False,0.2084439555290465,False,False,False,False
+Tlalpan,A M S A,5,65,1.0,18.0,False,False,False,False,False,False,False,False,0.2040620953557717,False,False,False,False
+Tlalpan,Ampliacion Fuentes Del Pedregal,7,89,0.0,28.0,False,False,False,False,False,False,False,False,0.18833964019629207,False,False,False,False
+Tlalpan,Ampliacion Isidro Fabela,8,21,1.0,7.0,False,False,False,False,False,False,False,False,0.2129531938910239,False,False,False,False
+Tlalpan,Arenal De Guadalupe,7,46,2.0,9.0,False,False,False,False,False,False,False,False,0.195894521766451,False,False,False,False
+Tlalpan,Arenal Tepepan,4,50,2.0,20.0,False,False,False,False,False,False,False,False,0.19190307413959035,False,False,False,False
+Tlalpan,Barrio De Caramaguey,2,15,0.0,3.0,False,False,False,False,False,False,False,False,0.21075407154932713,False,False,False,False
+Tlalpan,Barrio Del Niño Jesus,6,51,0.0,10.0,False,False,False,False,False,False,False,False,0.21504373567377516,False,False,False,False
+Tlalpan,Barrio El Capulin,4,20,0.0,7.0,False,False,False,False,False,False,False,False,0.22157048686301006,False,False,False,False
+Tlalpan,Barrio La Fama,2,34,0.0,7.0,False,False,False,False,False,False,False,False,0.2211329414171601,False,False,False,False
+Tlalpan,Barrio La Lonja,3,26,1.0,5.0,False,False,False,False,False,False,False,False,0.2098564157646951,False,False,False,False
+Tlalpan,Barrio San Fernando,3,11,1.0,5.0,False,False,False,False,False,False,False,False,0.2032545530872118,False,False,False,False
+Tlalpan,Belisario Dominguez,15,14,2.0,3.0,False,False,False,False,False,False,False,False,0.1798983651503201,False,False,False,False
+Tlalpan,Belisario Dominguez Seccion Xvi,19,147,3.0,37.0,False,False,False,False,False,False,False,False,0.14668603414336628,False,False,False,False
+Tlalpan,Belvedere Ajusco,9,42,2.0,13.0,False,False,False,False,False,False,False,False,0.2038820369467278,False,False,False,False
+Tlalpan,Bosques Del Pedregal,7,59,1.0,18.0,False,False,False,False,False,False,False,False,0.20700402729205708,False,False,False,False
+Tlalpan,Cantera Puente De Piedra,8,30,1.0,8.0,False,False,False,False,False,False,False,False,0.21153423391110887,False,False,False,False
+Tlalpan,Chimilli,1,34,0.0,10.0,False,False,False,False,False,False,False,False,0.2175468997390918,False,False,False,False
+Tlalpan,Club De Golf Mexico,4,15,0.0,4.0,False,False,False,False,False,False,False,False,0.21753707637731345,False,False,False,False
+Tlalpan,Colinas Del Ajusco,6,51,0.0,16.0,False,False,False,False,False,False,False,False,0.21325592697138818,False,False,False,False
+Tlalpan,Comuneros De Santa Ursula,7,22,0.0,13.0,False,False,False,False,False,False,False,False,0.21021389087245634,False,False,False,False
+Tlalpan,Cruz Del Farol,9,36,0.0,11.0,False,False,False,False,False,False,False,False,0.21920685943107449,False,False,False,False
+Tlalpan,Cuchilla De Padierna,4,27,0.0,9.0,False,False,False,False,False,False,False,False,0.21870034157134632,False,False,False,False
+Tlalpan,Cultura Maya,2,34,0.0,8.0,False,False,False,False,False,False,False,False,0.2213119392028836,False,False,False,False
+Tlalpan,Cumbres De Tepetongo,3,21,0.0,6.0,False,False,False,False,False,False,False,False,0.222368757791307,False,False,False,False
+Tlalpan,Diamante,3,5,2.0,2.0,False,False,False,False,False,False,False,False,0.17083838551219754,False,False,False,False
+Tlalpan,Divisadero,3,9,0.0,2.0,False,False,False,False,False,False,False,False,0.2052539088123635,False,False,False,False
+Tlalpan,Dolores Tlali,3,14,0.0,5.0,False,False,False,False,False,False,False,False,0.2183511234690197,False,False,False,False
+Tlalpan,Ejidos De San Pedro Martir,32,108,4.0,29.0,False,False,False,False,False,False,False,False,0.15484096592085433,False,False,False,False
+Tlalpan,El Cantil,7,10,1.0,3.0,False,False,False,False,False,False,False,False,0.19503712508739507,False,False,False,False
+Tlalpan,El Charco,9,34,2.0,11.0,False,False,False,False,False,False,False,False,0.20391461705959046,False,False,False,False
+Tlalpan,El Mirador 1A Seccion,5,25,0.0,9.0,False,False,False,False,False,False,False,False,0.2198319783390429,False,False,False,False
+Tlalpan,El Mirador 2A Seccion,5,5,0.0,1.0,False,False,False,False,False,False,False,False,0.1910684591804,False,False,False,False
+Tlalpan,El Mirador 3A Seccion,4,6,1.0,3.0,False,False,False,False,False,False,False,False,0.19343494967425673,False,False,False,False
+Tlalpan,Ex Hacienda Coapa,4,12,2.0,2.0,False,False,False,False,False,False,False,False,0.17860467944131192,False,False,False,False
+Tlalpan,Ex Hacienda San Juan De Dios,9,56,1.0,14.0,False,False,False,False,False,False,False,False,0.21211102751429933,False,False,False,False
+Tlalpan,Floresta Coyoacan,18,20,1.0,7.0,False,False,False,False,False,False,False,False,0.2051114717945332,False,False,False,False
+Tlalpan,Fuentes Brotantes,26,82,1.0,15.0,False,False,False,False,False,False,False,False,0.19448595637171567,False,False,False,False
+Tlalpan,Fuentes De Tepepan,10,30,1.0,8.0,False,False,False,False,False,False,False,False,0.21019653957477907,False,False,False,False
+Tlalpan,Fuentes Del Pedregal,13,39,2.0,16.0,False,False,False,False,False,False,False,False,0.1990824290449693,False,False,False,False
+Tlalpan,Granjas Coapa,41,134,8.0,32.0,False,False,False,False,True,False,False,False,0.1017869913354979,False,True,False,False
+Tlalpan,Guadalupe,5,28,0.0,10.0,False,False,False,False,False,False,False,False,0.21581604426805362,False,False,False,False
+Tlalpan,Hacienda San Juan,3,17,1.0,6.0,False,False,False,False,False,False,False,False,0.2099396493136234,False,False,False,False
+Tlalpan,Haciendas De Coyoacan,2,1,0.0,0.0,False,False,False,False,False,False,False,False,0.1659852634602249,False,False,False,False
+Tlalpan,Heroes De 1910,6,24,3.0,8.0,False,False,False,False,False,False,False,False,0.18483953703268152,False,False,False,False
+Tlalpan,Heroes De Padierna,43,178,4.0,56.0,False,False,False,False,False,False,False,False,0.11642552280345525,False,False,False,False
+Tlalpan,Heroico Colegio Militar,5,10,0.0,3.0,False,False,False,False,False,False,False,False,0.2058531702807756,False,False,False,False
+Tlalpan,Isidro Fabela,27,179,2.0,67.0,False,False,False,False,False,False,True,False,0.11935566443070245,False,True,False,False
+Tlalpan,Jardines Del Ajusco,23,65,1.0,19.0,False,False,False,False,False,False,False,False,0.2007428443735652,False,False,False,False
+Tlalpan,Jardines En La Montaña,4,86,0.0,9.0,False,False,False,False,False,False,False,False,0.19441217097974967,False,False,False,False
+Tlalpan,La Joya,9,91,0.0,21.0,False,False,False,False,False,False,False,False,0.19501125723690005,False,False,False,False
+Tlalpan,La Palma,37,89,9.0,27.0,False,False,False,False,True,False,False,False,0.09133907865529872,False,True,False,False
+Tlalpan,Lomas De Cuilotepec,7,9,1.0,3.0,False,False,False,False,False,False,False,False,0.19366262882095464,False,False,False,False
+Tlalpan,Lomas De Padierna,27,222,2.0,72.0,False,False,True,False,False,False,True,False,0.10211091009890627,False,True,False,False
+Tlalpan,Lomas De Padierna Sur,3,48,1.0,9.0,False,False,False,False,False,False,False,False,0.21000649092284102,False,False,False,False
+Tlalpan,Lomas Del Pedregal,1,8,0.0,1.0,False,False,False,False,False,False,False,False,0.19344688493048934,False,False,False,False
+Tlalpan,Lomas Del Pedregal Framboyanes,2,23,0.0,3.0,False,False,False,False,False,False,False,False,0.21043486351010204,False,False,False,False
+Tlalpan,Lomas Hidalgo,2,21,0.0,4.0,False,False,False,False,False,False,False,False,0.21688044995312455,False,False,False,False
+Tlalpan,Los Encinos,2,30,0.0,14.0,False,False,False,False,False,False,False,False,0.2053898857026114,False,False,False,False
+Tlalpan,Los Volcanes,4,55,1.0,23.0,False,False,False,False,False,False,False,False,0.19839229683451032,False,False,False,False
+Tlalpan,Magisterial,17,22,5.0,4.0,False,False,False,False,False,False,False,False,0.14624298129692553,False,False,False,False
+Tlalpan,Magisterial Coapa,6,72,1.0,24.0,False,False,False,False,False,False,False,False,0.19658182073081648,False,False,False,False
+Tlalpan,Maria Esther Zuno De Echeverria,16,21,1.0,4.0,False,False,False,False,False,False,False,False,0.20210150905012897,False,False,False,False
+Tlalpan,Mesa De Los Hornos,13,92,1.0,30.0,False,False,False,False,False,False,False,False,0.19134360401522615,False,False,False,False
+Tlalpan,Miguel Hidalgo,16,108,0.0,29.0,False,False,False,False,False,False,False,False,0.1802245009908533,False,False,False,False
+Tlalpan,Miguel Hidalgo 1A Seccion,7,45,2.0,13.0,False,False,False,False,False,False,False,False,0.20347185941617169,False,False,False,False
+Tlalpan,Miguel Hidalgo 2A Seccion,29,125,2.0,29.0,False,False,False,False,False,False,False,False,0.17115304132122333,False,False,False,False
+Tlalpan,Miguel Hidalgo 3A Seccion,38,122,7.0,30.0,False,False,False,False,True,False,False,False,0.12419090223212831,False,True,False,False
+Tlalpan,Miguel Hidalgo 4A Seccion,34,132,2.0,36.0,False,False,False,False,False,False,False,False,0.15706185527688443,False,False,False,False
+Tlalpan,Mirador Del Valle,2,18,0.0,6.0,False,False,False,False,False,False,False,False,0.21964740844721586,False,False,False,False
+Tlalpan,Mirador I,6,19,0.0,5.0,False,False,False,False,False,False,False,False,0.21616268874648137,False,False,False,False
+Tlalpan,Mirador Ii,8,39,4.0,17.0,False,False,False,False,False,False,False,False,0.16888545425919949,False,False,False,False
+Tlalpan,Narciso Mendoza,75,228,7.0,56.0,True,False,True,False,True,False,False,False,0.07389979348900844,False,True,False,False
+Tlalpan,Nueva Oriental Coapa,14,35,0.0,6.0,False,False,False,False,False,False,False,False,0.21331564212906456,False,False,False,False
+Tlalpan,Nuevo Renacimiento De Axalco,13,22,1.0,5.0,False,False,False,False,False,False,False,False,0.210560829864064,False,False,False,False
+Tlalpan,Paraje 38,4,30,0.0,4.0,False,False,False,False,False,False,False,False,0.21473666252660928,False,False,False,False
+Tlalpan,Parque Del Pedregal,4,39,1.0,10.0,False,False,False,False,False,False,False,False,0.2119806858769125,False,False,False,False
+Tlalpan,Parque Nacional Bosque Del Pedregal,10,14,0.0,6.0,False,False,False,False,False,False,False,False,0.2110682719172587,False,False,False,False
+Tlalpan,Pedregal De Las Aguilas,4,33,0.0,16.0,False,False,False,False,False,False,False,False,0.20945701303576708,False,False,False,False
+Tlalpan,Pedregal De San Nicolas 1A Seccion,17,149,1.0,52.0,False,False,False,False,False,False,False,False,0.1423288130882533,False,False,False,False
+Tlalpan,Pedregal De San Nicolas 2A Seccion,9,77,0.0,21.0,False,False,False,False,False,False,False,False,0.20352290339990298,False,False,False,False
+Tlalpan,Pedregal De San Nicolas 3A Seccion,21,97,1.0,30.0,False,False,False,False,False,False,False,False,0.18762069993063551,False,False,False,False
+Tlalpan,Pedregal De San Nicolas 4A Seccion,20,134,0.0,40.0,False,False,False,False,False,False,False,False,0.14856993597407925,False,False,False,False
+Tlalpan,Pedregal De San Nicolas 5A Seccion,2,19,2.0,5.0,False,False,False,False,False,False,False,False,0.19155590667132416,False,False,False,False
+Tlalpan,Pedregal De Santa Ursula Xitla,1,39,0.0,10.0,False,False,False,False,False,False,False,False,0.21496309841791894,False,False,False,False
+Tlalpan,Peña Pobre,2,37,0.0,11.0,False,False,False,False,False,False,False,False,0.21798129856329596,False,False,False,False
+Tlalpan,Plan De Ayala,3,10,1.0,2.0,False,False,False,False,False,False,False,False,0.19521277738577708,False,False,False,False
+Tlalpan,Popular Santa Teresa,13,57,0.0,20.0,False,False,False,False,False,False,False,False,0.2095321315266251,False,False,False,False
+Tlalpan,Prado Coapa 1A Seccion,7,6,0.0,2.0,False,False,False,False,False,False,False,False,0.19574212890659076,False,False,False,False
+Tlalpan,Prado Coapa 2A Seccion,13,55,1.0,25.0,False,False,False,False,False,False,False,False,0.19915695505009767,False,False,False,False
+Tlalpan,Prado Coapa 3A Seccion,12,33,0.0,9.0,False,False,False,False,False,False,False,False,0.21854099524925596,False,False,False,False
+Tlalpan,Primavera,2,11,0.0,2.0,False,False,False,False,False,False,False,False,0.2055172266675659,False,False,False,False
+Tlalpan,Pueblo Chimalcoyotl,14,85,4.0,31.0,False,False,False,False,False,False,False,False,0.16182333703738222,False,False,False,False
+Tlalpan,Pueblo Jardines De San Juan,5,40,1.0,13.0,False,False,False,False,False,False,False,False,0.21095072024073674,False,False,False,False
+Tlalpan,Pueblo La Magdalena Petlacalco,13,74,0.0,29.0,False,False,False,False,False,False,False,False,0.18915964669704655,False,False,False,False
+Tlalpan,Pueblo Ocotla,12,119,2.0,33.0,False,False,False,False,False,False,False,False,0.17026966714238895,False,False,False,False
+Tlalpan,Pueblo Parres El Guarda,3,36,0.0,5.0,False,False,False,False,False,False,False,False,0.21755531409079715,False,False,False,False
+Tlalpan,Pueblo San Andres Totoltepec,47,233,8.0,77.0,False,False,True,False,True,False,True,False,0.057475859671289764,False,True,False,False
+Tlalpan,Pueblo San Francisco Tlalnepantla,2,6,0.0,2.0,False,False,False,False,False,False,False,False,0.2013019858410709,False,False,False,False
+Tlalpan,Pueblo San Lorenzo Huipulco,24,155,1.0,47.0,False,False,False,False,False,False,False,False,0.14477377963390414,False,False,False,False
+Tlalpan,Pueblo San Miguel Ajusco,19,106,7.0,41.0,False,False,False,False,True,False,False,False,0.10793605468525613,False,True,False,False
+Tlalpan,Pueblo San Miguel Topilejo,33,439,5.0,126.0,False,False,True,False,False,False,True,False,-0.019351422563789855,True,True,False,True
+Tlalpan,Pueblo San Miguel Xicalco,10,74,0.0,20.0,False,False,False,False,False,False,False,False,0.20529365333350413,False,False,False,False
+Tlalpan,Pueblo San Pedro Martir,53,279,4.0,91.0,False,False,True,False,False,False,True,False,0.05263584285195322,False,True,False,False
+Tlalpan,Pueblo Santa Maria Tepepan,2,2,0.0,0.0,False,False,False,False,False,False,False,False,0.1700471906464432,False,False,False,False
+Tlalpan,Pueblo Santa Ursula Xitla,31,191,5.0,39.0,False,False,False,False,False,False,False,False,0.1173011132364114,False,False,False,False
+Tlalpan,Pueblo Santo Tomas Ajusco,13,119,7.0,33.0,False,False,False,False,True,False,False,False,0.11798269493925806,False,True,False,False
+Tlalpan,Rancho Los Colorines,2,17,0.0,3.0,False,False,False,False,False,False,False,False,0.2102340931554929,False,False,False,False
+Tlalpan,Residencial Acoxpa,7,19,3.0,5.0,False,False,False,False,False,False,False,False,0.17909777117776965,False,False,False,False
+Tlalpan,Residencial Miramontes,1,44,0.0,10.0,False,False,False,False,False,False,False,False,0.2158744689186214,False,False,False,False
+Tlalpan,Residencial Villa Coapa,12,84,2.0,13.0,False,False,False,False,False,False,False,False,0.1925887289003662,False,False,False,False
+Tlalpan,Rincon Del Pedregal,4,13,0.0,4.0,False,False,False,False,False,False,False,False,0.21603326770729725,False,False,False,False
+Tlalpan,Rinconada Coapa 1A Seccion,6,15,1.0,4.0,False,False,False,False,False,False,False,False,0.20614299162486088,False,False,False,False
+Tlalpan,Rinconada Coapa 2A Seccion,9,39,0.0,12.0,False,False,False,False,False,False,False,False,0.21748107423336976,False,False,False,False
+Tlalpan,Rinconada Las Hadas,4,26,0.0,11.0,False,False,False,False,False,False,False,False,0.21351260764039692,False,False,False,False
+Tlalpan,Roca De Cristal,3,3,1.0,2.0,False,False,False,False,False,False,False,False,0.1811246138600146,False,False,False,False
+Tlalpan,San Bartolo El Chico,10,60,1.0,15.0,False,False,False,False,False,False,False,False,0.20894616338008515,False,False,False,False
+Tlalpan,San Buenaventura,2,11,1.0,2.0,False,False,False,False,False,False,False,False,0.1950005579249977,False,False,False,False
+Tlalpan,San Juan Tepeximilpa,7,34,3.0,10.0,False,False,False,False,False,False,False,False,0.1881486897869305,False,False,False,False
+Tlalpan,San Pedro Apostol,10,16,0.0,9.0,False,False,False,False,False,False,False,False,0.2101114573568061,False,False,False,False
+Tlalpan,Santisima Trinidad,3,13,0.0,4.0,False,False,False,False,False,False,False,False,0.21679777063575206,False,False,False,False
+Tlalpan,Tenorios,13,37,1.0,10.0,False,False,False,False,False,False,False,False,0.2132777184561892,False,False,False,False
+Tlalpan,Tlalcoligia,9,49,0.0,12.0,False,False,False,False,False,False,False,False,0.21683761101857996,False,False,False,False
+Tlalpan,Tlalmille,2,22,0.0,10.0,False,False,False,False,False,False,False,False,0.21766515638338385,False,False,False,False
+Tlalpan,Tlalpan,20,206,3.0,50.0,False,False,False,False,False,False,False,False,0.12472839203977087,False,False,False,False
+Tlalpan,Tlalpan Centro,7,155,0.0,36.0,False,False,False,False,False,False,False,False,0.13971873818440855,False,False,False,False
+Tlalpan,Tlalpuente,5,18,1.0,6.0,False,False,False,False,False,False,False,False,0.21015610144147234,False,False,False,False
+Tlalpan,Tlaxcaltenco La Mesa,3,5,0.0,0.0,False,False,False,False,False,False,False,False,0.17879911855142638,False,False,False,False
+Tlalpan,Toriello Guerra,37,229,1.0,58.0,False,False,True,False,False,False,False,False,0.11315002530872781,False,True,False,False
+Tlalpan,Torres De Padierna,7,17,0.0,5.0,False,False,False,False,False,False,False,False,0.21529745123528893,False,False,False,False
+Tlalpan,U.Habit. Zapote 1,2,3,0.0,1.0,False,False,False,False,False,False,False,False,0.18599951467644715,False,False,False,False
+Tlalpan,Valle De Tepepan,4,21,0.0,10.0,False,False,False,False,False,False,False,False,0.2166240414196513,False,False,False,False
+Tlalpan,Valle Escondido,6,60,1.0,9.0,False,False,False,False,False,False,False,False,0.20146946296978985,False,False,False,False
+Tlalpan,Vergel Coapa,3,15,0.0,0.0,False,False,False,False,False,False,False,False,0.1865891175721487,False,False,False,False
+Tlalpan,Vergel De Coyoacan,24,29,8.0,9.0,False,False,False,False,True,False,False,False,0.11687816610735624,False,True,False,False
+Tlalpan,Vergel Del Sur,14,60,1.0,23.0,False,False,False,False,False,False,False,False,0.20217738473862168,False,False,False,False
+Tlalpan,Villa Coapa,12,141,2.0,40.0,False,False,False,False,False,False,False,False,0.15339680313819637,False,False,False,False
+Tlalpan,Villa Lazaro Cardenas,16,54,0.0,15.0,False,False,False,False,False,False,False,False,0.21262263298281203,False,False,False,False
+Tlalpan,Villa Olimpica,1,40,0.0,4.0,False,False,False,False,False,False,False,False,0.208344696690905,False,False,False,False
+Tlalpan,Villa Quietud,1,2,0.0,1.0,False,False,False,False,False,False,False,False,0.18230761780360222,False,False,False,False
+Tlalpan,Villa Tlalpan,7,34,2.0,7.0,False,False,False,False,False,False,False,False,0.20273442412364423,False,False,False,False
+Tlalpan,Viveros Coatectlan,1,22,0.0,7.0,False,False,False,False,False,False,False,False,0.2188721483890883,False,False,False,False
+Tláhuac,Agricola Metropolitana,11,89,1.0,26.0,False,False,False,False,False,False,False,False,0.19577841194384554,False,False,False,False
+Tláhuac,Ampliacion Jose Lopez Portillo,5,22,3.0,4.0,False,False,False,False,False,False,False,False,0.17945912237742856,False,False,False,False
+Tláhuac,Ampliacion La Conchita,1,12,0.0,4.0,False,False,False,False,False,False,False,False,0.21143280824414828,False,False,False,False
+Tláhuac,Ampliacion Los Olivos,39,84,0.0,17.0,False,False,False,False,False,False,False,False,0.18551975646429458,False,False,False,False
+Tláhuac,Ampliacion Santa Catarina,1,15,1.0,4.0,False,False,False,False,False,False,False,False,0.2030691217954717,False,False,False,False
+Tláhuac,Ampliacion Selene,6,56,0.0,20.0,False,False,False,False,False,False,False,False,0.20824911622610448,False,False,False,False
+Tláhuac,Barrio La Asuncion,12,72,6.0,12.0,False,False,False,False,True,False,False,False,0.13412887785372118,False,True,False,False
+Tláhuac,Barrio La Guadalupe,1,2,0.0,1.0,False,False,False,False,False,False,False,False,0.18230761780360222,False,False,False,False
+Tláhuac,Barrio La Magdalena,2,37,0.0,7.0,False,False,False,False,False,False,False,False,0.22052463027133345,False,False,False,False
+Tláhuac,Barrio Los Reyes,5,99,0.0,28.0,False,False,False,False,False,False,False,False,0.18377312088829384,False,False,False,False
+Tláhuac,Barrio San Agustin,7,22,0.0,6.0,False,False,False,False,False,False,False,False,0.21973847725016132,False,False,False,False
+Tláhuac,Barrio San Agustin Pueblo San Juan Ixtayopan,5,17,1.0,3.0,False,False,False,False,False,False,False,False,0.20083215877434885,False,False,False,False
+Tláhuac,Barrio San Andres,5,18,0.0,1.0,False,False,False,False,False,False,False,False,0.19619636253970418,False,False,False,False
+Tláhuac,Barrio San Bartolome,1,21,0.0,8.0,False,False,False,False,False,False,False,False,0.2164602853914389,False,False,False,False
+Tláhuac,Barrio San Juan,1,9,0.0,2.0,False,False,False,False,False,False,False,False,0.20219337108551794,False,False,False,False
+Tláhuac,Barrio San Mateo,11,54,2.0,14.0,False,False,False,False,False,False,False,False,0.2028866780179197,False,False,False,False
+Tláhuac,Barrio San Miguel,4,82,2.0,30.0,False,False,False,False,False,False,False,False,0.1764447423069671,False,False,False,False
+Tláhuac,Barrio Santa Ana,1,34,1.0,9.0,False,False,False,False,False,False,False,False,0.20911839755153566,False,False,False,False
+Tláhuac,Barrio Santa Ana Centro,5,30,1.0,12.0,False,False,False,False,False,False,False,False,0.2081813798829546,False,False,False,False
+Tláhuac,Barrio Santa Ana Norte,12,97,3.0,34.0,False,False,False,False,False,False,False,False,0.16099520404046896,False,False,False,False
+Tláhuac,Barrio Santa Ana Poniente,29,192,3.0,64.0,False,False,False,False,False,False,True,False,0.11967215092073963,False,True,False,False
+Tláhuac,Barrio Santa Ana Sur,4,19,0.0,5.0,False,False,False,False,False,False,False,False,0.21989293592305093,False,False,False,False
+Tláhuac,Barrio Santa Cruz,2,14,0.0,2.0,False,False,False,False,False,False,False,False,0.20776536340242957,False,False,False,False
+Tláhuac,Barrio Santiago,2,28,0.0,8.0,False,False,False,False,False,False,False,False,0.21825069713429252,False,False,False,False
+Tláhuac,Barrio Santiago Centro Del Pueblo Santiago Zapotitlan,4,31,1.0,9.0,False,False,False,False,False,False,False,False,0.20990330856718353,False,False,False,False
+Tláhuac,Barrio Santiago Norte Del Pueblo Santiago Zapotitlan,5,22,2.0,5.0,False,False,False,False,False,False,False,False,0.19742899755392046,False,False,False,False
+Tláhuac,Barrio Santiago Sur,10,39,1.0,12.0,False,False,False,False,False,False,False,False,0.21296688261979507,False,False,False,False
+Tláhuac,Barrio Tecaxtitla,1,1,0.0,0.0,False,False,False,False,False,False,False,False,0.16508938421146796,False,False,False,False
+Tláhuac,Del Mar,17,272,4.0,81.0,False,False,True,False,False,False,True,False,0.061157403357825546,False,True,False,False
+Tláhuac,El Rosario,1,22,0.0,4.0,False,False,False,False,False,False,False,False,0.21513135694490493,False,False,False,False
+Tláhuac,El Triangulo,14,1,0.0,0.0,False,False,False,False,False,False,False,False,0.1492071377660979,False,False,False,False
+Tláhuac,El Triangulo Del Pblo. De Sn. Fco. Tlaltenco,4,29,1.0,11.0,False,False,False,False,False,False,False,False,0.2078686660986821,False,False,False,False
+Tláhuac,Francisco Villa,3,16,0.0,5.0,False,False,False,False,False,False,False,False,0.21952777751567776,False,False,False,False
+Tláhuac,Granjas Cabrera,10,30,1.0,7.0,False,False,False,False,False,False,False,False,0.21072328772879106,False,False,False,False
+Tláhuac,Guadalupe Tlaltenco,6,57,3.0,17.0,False,False,False,False,False,False,False,False,0.18417239941262425,False,False,False,False
+Tláhuac,Jaime Torres Bodet,13,61,4.0,14.0,False,False,False,False,False,False,False,False,0.1721197904870878,False,False,False,False
+Tláhuac,Jardines Del Llano,2,10,0.0,2.0,False,False,False,False,False,False,False,False,0.2050302496248007,False,False,False,False
+Tláhuac,La Asuncion,10,36,1.0,9.0,False,False,False,False,False,False,False,False,0.213027495873849,False,False,False,False
+Tláhuac,La Concepcion,1,25,0.0,5.0,False,False,False,False,False,False,False,False,0.21679348339562088,False,False,False,False
+Tláhuac,La Conchita Zapotitlan,35,249,6.0,78.0,False,False,True,False,True,False,True,False,0.06520532733646384,False,True,False,False
+Tláhuac,La Draga,9,54,0.0,19.0,False,False,False,False,False,False,False,False,0.21290946287309287,False,False,False,False
+Tláhuac,La Estacion,12,122,2.0,39.0,False,False,False,False,False,False,False,False,0.16278313937649913,False,False,False,False
+Tláhuac,La Habana,7,72,1.0,18.0,False,False,False,False,False,False,False,False,0.20276575471753533,False,False,False,False
+Tláhuac,La Lupita,3,18,0.0,7.0,False,False,False,False,False,False,False,False,0.22014723946909315,False,False,False,False
+Tláhuac,La Nopalera,19,81,3.0,21.0,False,False,False,False,False,False,False,False,0.18082658417126912,False,False,False,False
+Tláhuac,La Turba,2,34,0.0,7.0,False,False,False,False,False,False,False,False,0.2211329414171601,False,False,False,False
+Tláhuac,Las Arboledas,142,127,2.0,46.0,True,False,False,False,False,False,False,False,0.09591670820880743,False,True,False,False
+Tláhuac,Los Olivos,5,117,2.0,35.0,False,False,False,False,False,False,False,False,0.15944294568920642,False,False,False,False
+Tláhuac,Miguel Hidalgo,23,257,2.0,69.0,False,False,True,False,False,False,True,False,0.09449459690687434,False,True,False,False
+Tláhuac,Ojo De Agua,3,42,1.0,9.0,False,False,False,False,False,False,False,False,0.21092815406793503,False,False,False,False
+Tláhuac,Peña Alta,2,12,2.0,3.0,False,False,False,False,False,False,False,False,0.17727935352306,False,False,False,False
+Tláhuac,Potrero Del Llano,4,7,0.0,1.0,False,False,False,False,False,False,False,False,0.19390718898092424,False,False,False,False
+Tláhuac,Pueblo San Francisco Tlaltenco,48,145,3.0,40.0,False,False,False,False,False,False,False,False,0.14249913452988883,False,False,False,False
+Tláhuac,Pueblo San Lorenzo Tezonco,1,2,0.0,1.0,False,False,False,False,False,False,False,False,0.18230761780360222,False,False,False,False
+Tláhuac,Pueblo San Nicolas Tetelco,7,36,4.0,13.0,False,False,False,False,False,False,False,False,0.1721051504977842,False,False,False,False
+Tláhuac,Pueblo Santa Catarina Yecahuizotl,1,9,0.0,5.0,False,False,False,False,False,False,False,False,0.2073718238433172,False,False,False,False
+Tláhuac,Pueblo Tulyehualco,3,45,0.0,6.0,False,False,False,False,False,False,False,False,0.21558635771111906,False,False,False,False
+Tláhuac,Quiahuatla,2,46,0.0,14.0,False,False,False,False,False,False,False,False,0.2118677133868378,False,False,False,False
+Tláhuac,San Isidro,4,23,1.0,4.0,False,False,False,False,False,False,False,False,0.21067771240463556,False,False,False,False
+Tláhuac,San Jose Tlahuac Del Pueblo San Pedro Tlahuac,15,87,1.0,18.0,False,False,False,False,False,False,False,False,0.1974878014924717,False,False,False,False
+Tláhuac,San Sebastian Del Pueblo San Pedro Tlahuac,7,49,4.0,15.0,False,False,False,False,False,False,False,False,0.1700598926126587,False,False,False,False
+Tláhuac,Santa Cecilia,15,83,6.0,24.0,False,False,False,False,True,False,False,False,0.14028399780797252,False,True,False,False
+Tláhuac,Selene,10,69,0.0,27.0,False,False,False,False,False,False,False,False,0.19496451085029404,False,False,False,False
+Tláhuac,Selene Del Pueblo San Francisco Tlaltenco,14,116,1.0,34.0,False,False,False,False,False,False,False,False,0.17410074496487654,False,False,False,False
+Tláhuac,Tepantitlamilco,2,1,2.0,0.0,False,False,False,False,False,False,False,False,0.13490491750775524,False,False,False,False
+Tláhuac,Tierra Blanca,2,15,0.0,9.0,False,False,False,False,False,False,False,False,0.21210687969670428,False,False,False,False
+Tláhuac,Villa Centroamericana,9,126,1.0,33.0,False,False,False,False,False,False,False,False,0.1747011775555916,False,False,False,False
+Tláhuac,Zacatenco,4,25,0.0,7.0,False,False,False,False,False,False,False,False,0.22124534734636214,False,False,False,False
+Tláhuac,Zapotitla,3,74,0.0,26.0,False,False,False,False,False,False,False,False,0.1910744842342803,False,False,False,False
+Venustiano Carranza,10 De Mayo,2,42,0.0,13.0,False,False,False,False,False,False,False,False,0.2147260884584613,False,False,False,False
+Venustiano Carranza,20 De Noviembre,12,159,1.0,54.0,False,False,False,False,False,False,False,False,0.13428819188520486,False,False,False,False
+Venustiano Carranza,4 Arboles,4,56,0.0,14.0,False,False,False,False,False,False,False,False,0.21429489686616243,False,False,False,False
+Venustiano Carranza,5To Tramo 20 De Noviembre,7,107,0.0,21.0,False,False,False,False,False,False,False,False,0.18120096628484206,False,False,False,False
+Venustiano Carranza,7 De Julio,14,55,1.0,15.0,False,False,False,False,False,False,False,False,0.21135216241106763,False,False,False,False
+Venustiano Carranza,Aaron Saenz,1,8,0.0,1.0,False,False,False,False,False,False,False,False,0.19344688493048934,False,False,False,False
+Venustiano Carranza,Adolfo Lopez Mateos,7,184,1.0,52.0,False,False,False,False,False,False,False,False,0.12614976925347177,False,False,False,False
+Venustiano Carranza,Aeronautica Militar,3,55,0.0,10.0,False,False,False,False,False,False,False,False,0.21286446693219607,False,False,False,False
+Venustiano Carranza,Alvaro Obregon,1,54,1.0,14.0,False,False,False,False,False,False,False,False,0.2031260393749859,False,False,False,False
+Venustiano Carranza,Ampliacion 20 De Noviembre,5,20,0.0,4.0,False,False,False,False,False,False,False,False,0.21696316277207722,False,False,False,False
+Venustiano Carranza,Ampliacion Aviacion Civil,9,43,0.0,19.0,False,False,False,False,False,False,False,False,0.21187934273497067,False,False,False,False
+Venustiano Carranza,Ampliacion Caracol,4,34,0.0,6.0,False,False,False,False,False,False,False,False,0.21955799850820262,False,False,False,False
+Venustiano Carranza,Ampliacion Michoacana,23,35,0.0,9.0,False,False,False,False,False,False,False,False,0.2086952790965509,False,False,False,False
+Venustiano Carranza,Ampliacion Penitenciaria,4,76,0.0,19.0,False,False,False,False,False,False,False,False,0.202592956026664,False,False,False,False
+Venustiano Carranza,Ampliacion Simon Bolivar,3,26,1.0,11.0,False,False,False,False,False,False,False,False,0.20757207657347404,False,False,False,False
+Venustiano Carranza,Ampliacion Venustiano Carranza,2,16,0.0,7.0,False,False,False,False,False,False,False,False,0.2180970945862047,False,False,False,False
+Venustiano Carranza,Aquiles Serdan,5,94,1.0,21.0,False,False,False,False,False,False,False,False,0.19236935321083964,False,False,False,False
+Venustiano Carranza,Arenal 1A. Seccion,6,92,0.0,27.0,False,False,False,False,False,False,False,False,0.18886648338110662,False,False,False,False
+Venustiano Carranza,Arenal 2A. Seccion,1,38,0.0,13.0,False,False,False,False,False,False,False,False,0.21253055052668346,False,False,False,False
+Venustiano Carranza,Arenal 3A. Seccion,2,73,0.0,27.0,False,False,False,False,False,False,False,False,0.1847302546976387,False,False,False,False
+Venustiano Carranza,Arenal 4A. Seccion,5,33,0.0,13.0,False,False,False,False,False,False,False,False,0.21502403841950185,False,False,False,False
+Venustiano Carranza,Arenal Puerto Aereo,3,31,1.0,7.0,False,False,False,False,False,False,False,False,0.21093985776118807,False,False,False,False
+Venustiano Carranza,Arpto Int De La Cd De Mex-Equipamiento,9,136,2.0,40.0,False,False,False,False,False,False,False,False,0.15195905705150986,False,False,False,False
+Venustiano Carranza,Artes Graficas,4,55,1.0,15.0,False,False,False,False,False,False,False,False,0.20954202671231525,False,False,False,False
+Venustiano Carranza,Aviacion Civil,9,119,0.0,38.0,False,False,False,False,False,False,False,False,0.15952394141961268,False,False,False,False
+Venustiano Carranza,Azteca,1,13,0.0,4.0,False,False,False,False,False,False,False,False,0.21375408934139262,False,False,False,False
+Venustiano Carranza,Caracol,8,43,0.0,13.0,False,False,False,False,False,False,False,False,0.216099990333124,False,False,False,False
+Venustiano Carranza,Cuchilla Agricola Oriental,1,1,1.0,1.0,False,False,False,False,False,False,False,False,0.1613086870754969,False,False,False,False
+Venustiano Carranza,Cuchilla Pantitlan,10,94,4.0,34.0,False,False,False,False,False,False,False,False,0.15068361301831357,False,False,False,False
+Venustiano Carranza,Del Parque,22,200,3.0,37.0,False,False,False,False,False,False,False,False,0.12709325235429902,False,False,False,False
+Venustiano Carranza,Emilio Carranza,7,70,0.0,24.0,False,False,False,False,False,False,False,False,0.19872231903342563,False,False,False,False
+Venustiano Carranza,Federal,28,201,1.0,44.0,False,False,False,False,False,False,False,False,0.12906339125780503,False,False,False,False
+Venustiano Carranza,Felipe Angeles,12,61,1.0,13.0,False,False,False,False,False,False,False,False,0.208663563309688,False,False,False,False
+Venustiano Carranza,General Ignacio Zaragoza,20,306,1.0,96.0,False,False,True,False,False,False,True,False,0.0333365058554248,False,True,False,False
+Venustiano Carranza,Granjas Mexico,1,6,0.0,3.0,False,False,False,False,False,False,False,False,0.20031207295443554,False,False,False,False
+Venustiano Carranza,Industrial Puerto Aereo,6,105,0.0,28.0,False,False,False,False,False,False,False,False,0.18150777356836612,False,False,False,False
+Venustiano Carranza,Jamaica,3,95,0.0,18.0,False,False,False,False,False,False,False,False,0.19024929464494095,False,False,False,False
+Venustiano Carranza,Janitzio,3,36,0.0,7.0,False,False,False,False,False,False,False,False,0.2217640976216549,False,False,False,False
+Venustiano Carranza,Jardin Balbuena,97,857,6.0,183.0,True,False,True,True,True,False,True,True,-0.12956379010473262,True,True,True,True
+Venustiano Carranza,Lorenzo Boturini,9,147,2.0,44.0,False,False,False,False,False,False,False,False,0.14666100160395473,False,False,False,False
+Venustiano Carranza,Magdalena Mixiuhca,9,128,1.0,39.0,False,False,False,False,False,False,False,False,0.1623304212542071,False,False,False,False
+Venustiano Carranza,Merced Balbuena,7,125,0.0,29.0,False,False,False,False,False,False,False,False,0.17387075684506964,False,False,False,False
+Venustiano Carranza,Michoacana,7,31,0.0,10.0,False,False,False,False,False,False,False,False,0.21656981415976,False,False,False,False
+Venustiano Carranza,Miguel Hidalgo,1,8,0.0,0.0,False,False,False,False,False,False,False,False,0.17813114726528295,False,False,False,False
+Venustiano Carranza,Moctezuma 1A Seccion,21,174,0.0,53.0,False,False,False,False,False,False,False,False,0.11644149663244668,False,False,False,False
+Venustiano Carranza,Moctezuma 2A. Seccion,78,673,0.0,180.0,True,False,True,True,False,False,True,True,-0.11586295981103678,True,True,True,True
+Venustiano Carranza,Morelos,19,421,0.0,142.0,False,False,True,False,False,False,True,False,-0.029822763438646316,True,True,False,True
+Venustiano Carranza,Nicolas Bravo,20,35,0.0,8.0,False,False,False,False,False,False,False,False,0.2105601144432881,False,False,False,False
+Venustiano Carranza,Pensador Mexicano,20,196,2.0,67.0,False,False,False,False,False,False,True,False,0.11867698392395382,False,True,False,False
+Venustiano Carranza,Peñon De Los Baños,12,320,1.0,88.0,False,False,True,False,False,False,True,False,0.039866834355451575,False,True,False,False
+Venustiano Carranza,Popular Rastro,19,89,5.0,28.0,False,False,False,False,False,False,False,False,0.1518624437229833,False,False,False,False
+Venustiano Carranza,Puebla,7,126,0.0,37.0,False,False,False,False,False,False,False,False,0.15687090341195553,False,False,False,False
+Venustiano Carranza,Pueblo De La Magdalena Mixiuhca,1,68,1.0,17.0,False,False,False,False,False,False,False,False,0.1966859503857532,False,False,False,False
+Venustiano Carranza,Revolucion,3,56,0.0,22.0,False,False,False,False,False,False,False,False,0.2009708778918134,False,False,False,False
+Venustiano Carranza,Romero Rubio,17,167,1.0,44.0,False,False,False,False,False,False,False,False,0.14383390578073824,False,False,False,False
+Venustiano Carranza,Santa Cruz Aviacion,4,59,1.0,19.0,False,False,False,False,False,False,False,False,0.20448846443055085,False,False,False,False
+Venustiano Carranza,Sevilla,1,48,0.0,12.0,False,False,False,False,False,False,False,False,0.2133708787575725,False,False,False,False
+Venustiano Carranza,Simon Bolivar,2,87,0.0,29.0,False,False,False,False,False,False,False,False,0.18349859130613516,False,False,False,False
+Venustiano Carranza,Valentin Gomez Farias,3,98,0.0,33.0,False,False,False,False,False,False,False,False,0.16944356845112235,False,False,False,False
+Venustiano Carranza,Valle Gomez,22,92,0.0,24.0,False,False,False,False,False,False,False,False,0.18858583926016137,False,False,False,False
+Venustiano Carranza,Venustiano Carranza,7,31,1.0,11.0,False,False,False,False,False,False,False,False,0.20985423510679008,False,False,False,False
+Venustiano Carranza,Zona Centro,44,500,5.0,110.0,False,False,True,False,False,False,True,False,-0.02471422434694659,True,True,False,True
+Xochimilco,Ampliacion Nativitas,12,36,2.0,12.0,False,False,False,False,False,False,False,False,0.20480162392668516,False,False,False,False
+Xochimilco,Ampliacion San Marcos Norte,29,164,2.0,41.0,False,False,False,False,False,False,False,False,0.1458035475961404,False,False,False,False
+Xochimilco,Ampliacion Tepepan,5,63,1.0,17.0,False,False,False,False,False,False,False,False,0.20324031039687035,False,False,False,False
+Xochimilco,Año De Juarez,617,15,0.0,4.0,True,True,False,False,False,False,False,False,-0.017888561067094244,True,True,True,True
+Xochimilco,Barrio 18,17,69,5.0,10.0,False,False,False,False,False,False,False,False,0.1472119773437794,False,False,False,False
+Xochimilco,Barrio 3 De Mayo,1,2,0.0,0.0,False,False,False,False,False,False,False,False,0.1688963649698283,False,False,False,False
+Xochimilco,Barrio Apatlaco,3,19,0.0,4.0,False,False,False,False,False,False,False,False,0.21836464296152824,False,False,False,False
+Xochimilco,Barrio Belen,3,37,0.0,6.0,False,False,False,False,False,False,False,False,0.21934657558057608,False,False,False,False
+Xochimilco,Barrio Calpulco,1,7,0.0,4.0,False,False,False,False,False,False,False,False,0.2061853003991384,False,False,False,False
+Xochimilco,Barrio Caltongo,24,154,1.0,48.0,False,False,False,False,False,False,False,False,0.14297835204688053,False,False,False,False
+Xochimilco,Barrio Calyequita,4,53,2.0,18.0,False,False,False,False,False,False,False,False,0.19508436158155062,False,False,False,False
+Xochimilco,Barrio El Calvario,1,1,0.0,0.0,False,False,False,False,False,False,False,False,0.16508938421146796,False,False,False,False
+Xochimilco,Barrio El Rosario,4,57,0.0,12.0,False,False,False,False,False,False,False,False,0.21317748666910724,False,False,False,False
+Xochimilco,Barrio La Asuncion,3,56,0.0,18.0,False,False,False,False,False,False,False,False,0.20994316591068624,False,False,False,False
+Xochimilco,Barrio La Concepcion Tlacoapa,6,51,1.0,13.0,False,False,False,False,False,False,False,False,0.21149378858883672,False,False,False,False
+Xochimilco,Barrio La Gallera,2,9,1.0,4.0,False,False,False,False,False,False,False,False,0.19866812271369083,False,False,False,False
+Xochimilco,Barrio La Guadalupana,3,23,1.0,6.0,False,False,False,False,False,False,False,False,0.21371129043813547,False,False,False,False
+Xochimilco,Barrio La Guadalupita,1,20,0.0,8.0,False,False,False,False,False,False,False,False,0.21671582565942826,False,False,False,False
+Xochimilco,Barrio La Planta,2,23,1.0,7.0,False,False,False,False,False,False,False,False,0.21308447068155867,False,False,False,False
+Xochimilco,Barrio Los Reyes,1,13,0.0,6.0,False,False,False,False,False,False,False,False,0.2128159654553991,False,False,False,False
+Xochimilco,Barrio Pocitos,11,13,1.0,2.0,False,False,False,False,False,False,False,False,0.1925643851266095,False,False,False,False
+Xochimilco,Barrio San Antonio,3,29,0.0,10.0,False,False,False,False,False,False,False,False,0.21697776490067106,False,False,False,False
+Xochimilco,Barrio San Cristobal,4,32,0.0,2.0,False,False,False,False,False,False,False,False,0.20422909917891197,False,False,False,False
+Xochimilco,Barrio San Esteban,2,24,1.0,7.0,False,False,False,False,False,False,False,False,0.2128325051202561,False,False,False,False
+Xochimilco,Barrio San Juan,2,18,0.0,6.0,False,False,False,False,False,False,False,False,0.21964740844721586,False,False,False,False
+Xochimilco,Barrio San Juan Minas,8,6,1.0,0.0,False,False,False,False,False,False,False,False,0.16627870249187732,False,False,False,False
+Xochimilco,Barrio San Juan Moyotepec,5,17,0.0,6.0,False,False,False,False,False,False,False,False,0.218196891505831,False,False,False,False
+Xochimilco,Barrio San Juan Pueblo San Luis Tlaxialtemalco,1,20,0.0,8.0,False,False,False,False,False,False,False,False,0.21671582565942826,False,False,False,False
+Xochimilco,Barrio San Lorenzo,2,15,1.0,5.0,False,False,False,False,False,False,False,False,0.2066557287764914,False,False,False,False
+Xochimilco,Barrio San Marcos,12,57,1.0,14.0,False,False,False,False,False,False,False,False,0.21120954755981702,False,False,False,False
+Xochimilco,Barrio San Pedro,4,136,0.0,35.0,False,False,False,False,False,False,False,False,0.1449011150830145,False,False,False,False
+Xochimilco,Barrio Santa Crucita,1,26,0.0,11.0,False,False,False,False,False,False,False,False,0.21082105793962774,False,False,False,False
+Xochimilco,Barrio Tetitla,1,10,1.0,3.0,False,False,False,False,False,False,False,False,0.19270576456449307,False,False,False,False
+Xochimilco,Barrio Xaltocan,10,184,2.0,56.0,False,False,False,False,False,False,False,False,0.12721964782355688,False,False,False,False
+Xochimilco,Bosque Residencial Del Sur,24,26,9.0,9.0,False,False,False,False,True,False,False,False,0.09127029469998815,False,True,False,False
+Xochimilco,Cerrillos Primera Seccion,1,18,0.0,7.0,False,False,False,False,False,False,False,False,0.2169261970795437,False,False,False,False
+Xochimilco,Cerrillos Segunda Seccion,3,13,3.0,5.0,False,False,False,False,False,False,False,False,0.17412525989120753,False,False,False,False
+Xochimilco,Cristo Rey,4,14,0.0,1.0,False,False,False,False,False,False,False,False,0.19789677996979854,False,False,False,False
+Xochimilco,Del Carmen,4,25,2.0,6.0,False,False,False,False,False,False,False,False,0.1990000773840841,False,False,False,False
+Xochimilco,El Jazmin,9,16,3.0,9.0,False,False,False,False,False,False,False,False,0.17806595676407866,False,False,False,False
+Xochimilco,El Mirador,7,30,1.0,8.0,False,False,False,False,False,False,False,False,0.21137837293080086,False,False,False,False
+Xochimilco,Guadalupita,6,34,0.0,9.0,False,False,False,False,False,False,False,False,0.2195344353852321,False,False,False,False
+Xochimilco,Huichapan,6,49,1.0,16.0,False,False,False,False,False,False,False,False,0.2098340311994909,False,False,False,False
+Xochimilco,Jardines Del Sur,16,40,5.0,6.0,False,False,False,False,False,False,False,False,0.14811177611275328,False,False,False,False
+Xochimilco,La Cañada,2,12,1.0,5.0,False,False,False,False,False,False,False,False,0.20192155073173612,False,False,False,False
+Xochimilco,La Concha,2,21,0.0,12.0,False,False,False,False,False,False,False,False,0.21224475627942657,False,False,False,False
+Xochimilco,La Noria,18,60,0.0,18.0,False,False,False,False,False,False,False,False,0.20757211994686098,False,False,False,False
+Xochimilco,Las Animas,3,11,1.0,5.0,False,False,False,False,False,False,False,False,0.2032545530872118,False,False,False,False
+Xochimilco,Las Peritas,2,13,0.0,3.0,False,False,False,False,False,False,False,False,0.20970463036137849,False,False,False,False
+Xochimilco,Lomas De Nativitas,2,5,1.0,2.0,False,False,False,False,False,False,False,False,0.18988622894793888,False,False,False,False
+Xochimilco,Nativitas,3,44,2.0,18.0,False,False,False,False,False,False,False,False,0.19219948717313068,False,False,False,False
+Xochimilco,Paseos Del Sur,3,34,0.0,10.0,False,False,False,False,False,False,False,False,0.22066663705734735,False,False,False,False
+Xochimilco,Potrero San Bernardino,2,54,0.0,16.0,False,False,False,False,False,False,False,False,0.20933494418898058,False,False,False,False
+Xochimilco,Pueblo San Francisco Tlalnepantla,45,59,3.0,16.0,False,False,False,False,False,False,False,False,0.1686779427714834,False,False,False,False
+Xochimilco,Pueblo San Gregorio Atlapulco,40,188,4.0,65.0,False,False,False,False,False,False,True,False,0.10763446282892675,False,True,False,False
+Xochimilco,Pueblo San Jose Zacatepec,4,27,0.0,7.0,False,False,False,False,False,False,False,False,0.2200756608299949,False,False,False,False
+Xochimilco,Pueblo San Lorenzo Atemoaya,12,56,1.0,12.0,False,False,False,False,False,False,False,False,0.21054870136187137,False,False,False,False
+Xochimilco,Pueblo San Lucas Xochimanca,10,124,2.0,36.0,False,False,False,False,False,False,False,False,0.16397563107378854,False,False,False,False
+Xochimilco,Pueblo San Luis Tlaxialtemalco,10,102,2.0,27.0,False,False,False,False,False,False,False,False,0.18281579590963093,False,False,False,False
+Xochimilco,Pueblo San Mateo Xalpa,21,255,3.0,57.0,False,False,True,False,False,False,False,False,0.10113095369783937,False,True,False,False
+Xochimilco,Pueblo Santa Cecilia Tepetlapa,34,60,4.0,14.0,False,False,False,False,False,False,False,False,0.16439997327890882,False,False,False,False
+Xochimilco,Pueblo Santa Cruz Acalpixca,22,62,3.0,16.0,False,False,False,False,False,False,False,False,0.18311124457345063,False,False,False,False
+Xochimilco,Pueblo Santa Cruz Xochitepec,15,92,3.0,29.0,False,False,False,False,False,False,False,False,0.17582668411203067,False,False,False,False
+Xochimilco,Pueblo Santa Maria Nativitas,23,68,13.0,18.0,False,False,False,False,True,False,False,False,0.031582629048455546,False,True,False,False
+Xochimilco,Pueblo Santa Maria Tepepan,39,191,9.0,50.0,False,False,False,False,True,False,False,False,0.0663522148371416,False,True,False,False
+Xochimilco,Pueblo Santiago Tepalcatlalpan,44,143,3.0,48.0,False,False,False,False,False,False,False,False,0.13433453057757366,False,False,False,False
+Xochimilco,Pueblo Santiago Tepalcatlalpan U H Rcda Del Sur,1,7,1.0,1.0,False,False,False,False,False,False,False,False,0.17972637313107642,False,False,False,False
+Xochimilco,Quirino Mendoza,9,22,0.0,5.0,False,False,False,False,False,False,False,False,0.21869304335297918,False,False,False,False
+Xochimilco,Rancho Tejomulco,1,13,0.0,4.0,False,False,False,False,False,False,False,False,0.21375408934139262,False,False,False,False
+Xochimilco,Rinconada Coapa,2,16,0.0,4.0,False,False,False,False,False,False,False,False,0.21686307984109743,False,False,False,False
+Xochimilco,San Bartolo El Chico,2,8,0.0,2.0,False,False,False,False,False,False,False,False,0.20332988876993302,False,False,False,False
+Xochimilco,San Felipe,13,19,1.0,7.0,False,False,False,False,False,False,False,False,0.20936110215033032,False,False,False,False
+Xochimilco,San Isidro,1,21,1.0,12.0,False,False,False,False,False,False,False,False,0.20253093794827204,False,False,False,False
+Xochimilco,San Jeronimo,7,47,1.0,20.0,False,False,False,False,False,False,False,False,0.20261454917372196,False,False,False,False
+Xochimilco,San Juan Tepepan,7,56,1.0,19.0,False,False,False,False,False,False,False,False,0.20770290727325885,False,False,False,False
+Xochimilco,San Lorenzo La Cebada,31,195,13.0,61.0,False,False,False,False,True,False,False,False,0.010005934147368833,False,True,False,False
+Xochimilco,San Lucas Oriente,3,4,2.0,2.0,False,False,False,False,False,False,False,False,0.16805256072028757,False,False,False,False
+Xochimilco,Santa Cruz Chavarrieta,2,15,1.0,4.0,False,False,False,False,False,False,False,False,0.20624233301956219,False,False,False,False
+Xochimilco,Santa Cruz De Guadalupe,2,20,0.0,7.0,False,False,False,False,False,False,False,False,0.22074912671705238,False,False,False,False
+Xochimilco,Santa Ines,3,6,0.0,1.0,False,False,False,False,False,False,False,False,0.1944448011475231,False,False,False,False
+Xochimilco,Santiaguito,2,11,1.0,3.0,False,False,False,False,False,False,False,False,0.19753735905161962,False,False,False,False
+Xochimilco,Tablas De San Lorenzo,5,21,0.0,5.0,False,False,False,False,False,False,False,False,0.21975510741062504,False,False,False,False
+Xochimilco,Texmic,6,3,1.0,1.0,False,False,False,False,False,False,False,False,0.1706181823718586,False,False,False,False
+Xochimilco,Tierra Nueva,4,30,0.0,9.0,False,False,False,False,False,False,False,False,0.217972837062811,False,False,False,False
+Xochimilco,Valle De Santa Maria,4,8,1.0,6.0,False,False,False,False,False,False,False,False,0.19556028973014672,False,False,False,False
+Xochimilco,Xochipilli,5,9,3.0,2.0,False,False,False,False,False,False,False,False,0.15886319415715644,False,False,False,False
+Álvaro Obregón,1Ra Ampliacion Presidentes,1,17,0.0,5.0,False,False,False,False,False,False,False,False,0.2165688953579037,False,False,False,False
+Álvaro Obregón,1Ra Seccion Cañada,4,12,1.0,4.0,False,False,False,False,False,False,False,False,0.2040541533961694,False,False,False,False
+Álvaro Obregón,1Ra Victoria,10,54,0.0,23.0,False,False,False,False,False,False,False,False,0.2012094468037544,False,False,False,False
+Álvaro Obregón,2Da Ampliacion Presidentes,5,45,0.0,11.0,False,False,False,False,False,False,False,False,0.21713340881864202,False,False,False,False
+Álvaro Obregón,2Da Seccion Cañada,1,3,0.0,0.0,False,False,False,False,False,False,False,False,0.17069257663056148,False,False,False,False
+Álvaro Obregón,2Do Reacomodo Tlacuitlapa,3,35,0.0,9.0,False,False,False,False,False,False,False,False,0.2214039795717067,False,False,False,False
+Álvaro Obregón,Abraham M Gonzalez,2,3,0.0,0.0,False,False,False,False,False,False,False,False,0.17210031426332617,False,False,False,False
+Álvaro Obregón,Acueducto,3,24,0.0,3.0,False,False,False,False,False,False,False,False,0.2112157484220999,False,False,False,False
+Álvaro Obregón,Alcantarilla,1,14,0.0,6.0,False,False,False,False,False,False,False,False,0.2140686767193813,False,False,False,False
+Álvaro Obregón,Alfonso Xiii,17,85,2.0,22.0,False,False,False,False,False,False,False,False,0.18899764442870637,False,False,False,False
+Álvaro Obregón,Altavista,3,7,1.0,1.0,False,False,False,False,False,False,False,False,0.18456671763634164,False,False,False,False
+Álvaro Obregón,Ampliacion Alpes,16,20,0.0,3.0,False,False,False,False,False,False,False,False,0.2023608702523374,False,False,False,False
+Álvaro Obregón,Ampliacion Estado De Hidalgo,1,2,0.0,0.0,False,False,False,False,False,False,False,False,0.1688963649698283,False,False,False,False
+Álvaro Obregón,Ampliacion Jalalpa,2,14,0.0,5.0,False,False,False,False,False,False,False,False,0.21714739934591382,False,False,False,False
+Álvaro Obregón,Ampliacion La Cebada,1,8,0.0,2.0,False,False,False,False,False,False,False,False,0.20120878800489228,False,False,False,False
+Álvaro Obregón,Ampliacion La Mexicana,5,47,1.0,13.0,False,False,False,False,False,False,False,False,0.2107905652454639,False,False,False,False
+Álvaro Obregón,Ampliacion Las Aguilas,4,79,0.0,29.0,False,False,False,False,False,False,False,False,0.18824643395048285,False,False,False,False
+Álvaro Obregón,Ampliacion Lomas De San Bernabe,1,3,0.0,2.0,False,False,False,False,False,False,False,False,0.18963433386850959,False,False,False,False
+Álvaro Obregón,Ampliacion Piloto Adolfo Lopez Mateos,11,47,0.0,15.0,False,False,False,False,False,False,False,False,0.2143656804517839,False,False,False,False
+Álvaro Obregón,Ampliacion Tepeaca,1,12,0.0,0.0,False,False,False,False,False,False,False,False,0.18096565018073824,False,False,False,False
+Álvaro Obregón,Arturo Martinez,2,49,0.0,13.0,False,False,False,False,False,False,False,False,0.21435238463707024,False,False,False,False
+Álvaro Obregón,Arvide,3,76,1.0,20.0,False,False,False,False,False,False,False,False,0.19541741054933065,False,False,False,False
+Álvaro Obregón,Atlamaya,2,19,0.0,5.0,False,False,False,False,False,False,False,False,0.21935976327478612,False,False,False,False
+Álvaro Obregón,Ave Real,2,21,0.0,8.0,False,False,False,False,False,False,False,False,0.21870194784634261,False,False,False,False
+Álvaro Obregón,Balcones De Cehuayo,2,39,0.0,17.0,False,False,False,False,False,False,False,False,0.20690230289378503,False,False,False,False
+Álvaro Obregón,Barrio Alfalfar,9,25,1.0,5.0,False,False,False,False,False,False,False,False,0.2114560832548748,False,False,False,False
+Álvaro Obregón,Barrio La Otra Banda,11,79,1.0,25.0,False,False,False,False,False,False,False,False,0.20022748853939898,False,False,False,False
+Álvaro Obregón,Barrio Loreto,12,63,6.0,15.0,False,False,False,False,True,False,False,False,0.13878951066844897,False,True,False,False
+Álvaro Obregón,Barrio Norte,14,148,4.0,52.0,False,False,False,False,False,False,False,False,0.1242494153645804,False,False,False,False
+Álvaro Obregón,Barrio Santa Maria Nonoalco,6,25,0.0,9.0,False,False,False,False,False,False,False,False,0.21701171205219083,False,False,False,False
+Álvaro Obregón,Bejero Del Pueblo Santa Fe,2,6,0.0,2.0,False,False,False,False,False,False,False,False,0.2013019858410709,False,False,False,False
+Álvaro Obregón,Belem De Las Flores,6,51,2.0,17.0,False,False,False,False,False,False,False,False,0.19820657069159192,False,False,False,False
+Álvaro Obregón,Bellavista,8,121,0.0,33.0,False,False,False,False,False,False,False,False,0.16815162511557735,False,False,False,False
+Álvaro Obregón,Bonanza,3,6,1.0,1.0,False,False,False,False,False,False,False,False,0.1836531496319359,False,False,False,False
+Álvaro Obregón,Calzada Jalalpa,2,17,0.0,4.0,False,False,False,False,False,False,False,False,0.21647493750697427,False,False,False,False
+Álvaro Obregón,Campestre,15,51,0.0,7.0,False,False,False,False,False,False,False,False,0.20976659277570037,False,False,False,False
+Álvaro Obregón,Canutillo,1,8,0.0,2.0,False,False,False,False,False,False,False,False,0.20120878800489228,False,False,False,False
+Álvaro Obregón,Canutillo 2Da Seccion,3,19,1.0,7.0,False,False,False,False,False,False,False,False,0.21228935773871443,False,False,False,False
+Álvaro Obregón,Carlos A Madrazo,10,25,0.0,8.0,False,False,False,False,False,False,False,False,0.21820422385443466,False,False,False,False
+Álvaro Obregón,Carola,28,88,0.0,22.0,False,False,False,False,False,False,False,False,0.18502121760056145,False,False,False,False
+Álvaro Obregón,Cehuaya,1,5,0.0,0.0,False,False,False,False,False,False,False,False,0.17750039290616154,False,False,False,False
+Álvaro Obregón,Chimalistac,8,110,1.0,22.0,False,False,False,False,False,False,False,False,0.18321547606363014,False,False,False,False
+Álvaro Obregón,Colina Del Sur,24,78,4.0,13.0,False,False,False,False,False,False,False,False,0.1635182261987737,False,False,False,False
+Álvaro Obregón,Colinas De Tarango,7,33,1.0,9.0,False,False,False,False,False,False,False,False,0.2136098156452273,False,False,False,False
+Álvaro Obregón,Corpus Christy,8,82,1.0,22.0,False,False,False,False,False,False,False,False,0.19754254310910468,False,False,False,False
+Álvaro Obregón,Cove,12,48,0.0,10.0,False,False,False,False,False,False,False,False,0.21562602993020924,False,False,False,False
+Álvaro Obregón,Cristo Rey,11,113,1.0,34.0,False,False,False,False,False,False,False,False,0.17453537831456772,False,False,False,False
+Álvaro Obregón,Cuevitas,1,33,0.0,6.0,False,False,False,False,False,False,False,False,0.21744122524024728,False,False,False,False
+Álvaro Obregón,Desarrollo Urbano,3,33,0.0,8.0,False,False,False,False,False,False,False,False,0.22226634358607733,False,False,False,False
+Álvaro Obregón,Dos Rios Del Pueblo De Santa Lucia,7,7,0.0,0.0,False,False,False,False,False,False,False,False,0.17202284631447617,False,False,False,False
+Álvaro Obregón,Ejido San Mateo,1,2,0.0,0.0,False,False,False,False,False,False,False,False,0.1688963649698283,False,False,False,False
+Álvaro Obregón,El Capulin,4,28,0.0,13.0,False,False,False,False,False,False,False,False,0.20917283514634494,False,False,False,False
+Álvaro Obregón,El Encino Del Pueblo Tetelpan,2,11,0.0,4.0,False,False,False,False,False,False,False,False,0.2126669157783277,False,False,False,False
+Álvaro Obregón,El Piru 2Da Ampliacion,3,3,0.0,2.0,False,False,False,False,False,False,False,False,0.19219697414839781,False,False,False,False
+Álvaro Obregón,El Piru Santa Fe,1,9,0.0,1.0,False,False,False,False,False,False,False,False,0.1941055176735223,False,False,False,False
+Álvaro Obregón,El Pirul,1,15,0.0,6.0,False,False,False,False,False,False,False,False,0.21557258940873547,False,False,False,False
+Álvaro Obregón,El Pocito,1,6,1.0,3.0,False,False,False,False,False,False,False,False,0.18836322444551912,False,False,False,False
+Álvaro Obregón,El Politoco,1,7,0.0,2.0,False,False,False,False,False,False,False,False,0.20099273214195812,False,False,False,False
+Álvaro Obregón,El Rincon,1,4,0.0,0.0,False,False,False,False,False,False,False,False,0.17470506226387145,False,False,False,False
+Álvaro Obregón,El Tejocote,2,15,0.0,9.0,False,False,False,False,False,False,False,False,0.21210687969670428,False,False,False,False
+Álvaro Obregón,Ermita Tizapan,10,17,1.0,4.0,False,False,False,False,False,False,False,False,0.20549262403147478,False,False,False,False
+Álvaro Obregón,Estado De Hidalgo,4,11,2.0,4.0,False,False,False,False,False,False,False,False,0.18828781812239404,False,False,False,False
+Álvaro Obregón,Ex-Hacienda De Guadalupe Chimalistac,15,49,2.0,8.0,False,False,False,False,False,False,False,False,0.19579002529223155,False,False,False,False
+Álvaro Obregón,Flor De Maria,9,45,1.0,10.0,False,False,False,False,False,False,False,False,0.213978610693566,False,False,False,False
+Álvaro Obregón,Florida,38,115,1.0,28.0,False,False,False,False,False,False,False,False,0.1732850939858635,False,False,False,False
+Álvaro Obregón,Francisco Villa,6,55,0.0,13.0,False,False,False,False,False,False,False,False,0.21571028671714393,False,False,False,False
+Álvaro Obregón,Garcimarrero,8,72,0.0,19.0,False,False,False,False,False,False,False,False,0.2066551010891849,False,False,False,False
+Álvaro Obregón,Golondrinas,2,14,0.0,7.0,False,False,False,False,False,False,False,False,0.21561626663616956,False,False,False,False
+Álvaro Obregón,Golondrinas 2Da Seccion,3,28,0.0,6.0,False,False,False,False,False,False,False,False,0.21935053286895345,False,False,False,False
+Álvaro Obregón,Guadalupe Inn,46,216,3.0,47.0,False,False,True,False,False,False,False,False,0.1141470297119585,False,True,False,False
+Álvaro Obregón,Heron Proal,8,37,1.0,11.0,False,False,False,False,False,False,False,False,0.21471270113957847,False,False,False,False
+Álvaro Obregón,Hidalgo,6,33,0.0,4.0,False,False,False,False,False,False,False,False,0.21446353419780634,False,False,False,False
+Álvaro Obregón,Hogar Y Redencion,10,40,1.0,9.0,False,False,False,False,False,False,False,False,0.21210162680452105,False,False,False,False
+Álvaro Obregón,Hueytlale,1,5,0.0,2.0,False,False,False,False,False,False,False,False,0.19890374316352027,False,False,False,False
+Álvaro Obregón,Isidro Fabela,2,9,0.0,4.0,False,False,False,False,False,False,False,False,0.20942653900395974,False,False,False,False
+Álvaro Obregón,Jalalpa El Grande,2,95,0.0,32.0,False,False,False,False,False,False,False,False,0.16937281951252736,False,False,False,False
+Álvaro Obregón,Jalalpa Tepito,3,23,0.0,12.0,False,False,False,False,False,False,False,False,0.21391812845682134,False,False,False,False
+Álvaro Obregón,Jalalpa Tepito 2Da Ampliacion,4,85,0.0,31.0,False,False,False,False,False,False,False,False,0.18289446566306117,False,False,False,False
+Álvaro Obregón,Jardines Del Pedregal,61,358,4.0,76.0,True,False,True,False,False,False,True,False,0.039315042470712935,False,True,False,False
+Álvaro Obregón,Jose Maria Pino Suarez,13,72,0.0,20.0,False,False,False,False,False,False,False,False,0.20485285660294156,False,False,False,False
+Álvaro Obregón,La Angostura,2,32,0.0,9.0,False,False,False,False,False,False,False,False,0.21823894876685218,False,False,False,False
+Álvaro Obregón,La Cascada,9,16,5.0,1.0,False,False,False,False,False,False,False,False,0.12129348402283768,False,False,False,False
+Álvaro Obregón,La Conchita,2,27,0.0,12.0,False,False,False,False,False,False,False,False,0.21304092680646886,False,False,False,False
+Álvaro Obregón,La Herradura Del Pueblo Tetelpan,5,7,0.0,3.0,False,False,False,False,False,False,False,False,0.2032193704502514,False,False,False,False
+Álvaro Obregón,La Huerta,2,6,1.0,4.0,False,False,False,False,False,False,False,False,0.19582342792582258,False,False,False,False
+Álvaro Obregón,La Joya,6,15,0.0,5.0,False,False,False,False,False,False,False,False,0.21425054575181685,False,False,False,False
+Álvaro Obregón,La Joyita Del Pueblo Tetelpan,1,12,0.0,3.0,False,False,False,False,False,False,False,False,0.2061818058975734,False,False,False,False
+Álvaro Obregón,La Martinica,2,22,1.0,7.0,False,False,False,False,False,False,False,False,0.21313166932008965,False,False,False,False
+Álvaro Obregón,La Milagrosa,1,9,1.0,3.0,False,False,False,False,False,False,False,False,0.19171562658336933,False,False,False,False
+Álvaro Obregón,La Peñita Del Pueblo Tetelpan,1,16,0.0,6.0,False,False,False,False,False,False,False,False,0.21657085096785073,False,False,False,False
+Álvaro Obregón,La Presa,1,11,0.0,3.0,False,False,False,False,False,False,False,False,0.2061510748190853,False,False,False,False
+Álvaro Obregón,Las Aguilas,12,87,2.0,19.0,False,False,False,False,False,False,False,False,0.1921100239648642,False,False,False,False
+Álvaro Obregón,Las Aguilas 1Ra Seccion,3,37,0.0,12.0,False,False,False,False,False,False,False,False,0.21868633856862207,False,False,False,False
+Álvaro Obregón,Las Aguilas 2Do Parque,1,5,0.0,1.0,False,False,False,False,False,False,False,False,0.19295132404785265,False,False,False,False
+Álvaro Obregón,Las Aguilas 3Er Parque,3,20,0.0,4.0,False,False,False,False,False,False,False,False,0.21877657094710484,False,False,False,False
+Álvaro Obregón,Las Americas,2,17,0.0,4.0,False,False,False,False,False,False,False,False,0.21647493750697427,False,False,False,False
+Álvaro Obregón,Liberales De 1857,9,37,1.0,19.0,False,False,False,False,False,False,False,False,0.20740381067081143,False,False,False,False
+Álvaro Obregón,Llano Redondo,1,10,0.0,3.0,False,False,False,False,False,False,False,False,0.205442852940794,False,False,False,False
+Álvaro Obregón,Lomas Axomiatla,2,18,0.0,5.0,False,False,False,False,False,False,False,False,0.21900380218843513,False,False,False,False
+Álvaro Obregón,Lomas De Becerra,26,98,0.0,41.0,False,False,False,False,False,False,False,False,0.1545384826883473,False,False,False,False
+Álvaro Obregón,Lomas De Capula,11,32,6.0,11.0,False,False,False,False,True,False,False,False,0.14362045842142518,False,True,False,False
+Álvaro Obregón,Lomas De Chamontoya,7,50,0.0,23.0,False,False,False,False,False,False,False,False,0.20030376302351288,False,False,False,False
+Álvaro Obregón,Lomas De La Era,20,160,3.0,54.0,False,False,False,False,False,False,False,False,0.1302388949344751,False,False,False,False
+Álvaro Obregón,Lomas De Las Aguilas,21,18,3.0,4.0,False,False,False,False,False,False,False,False,0.17008322304621815,False,False,False,False
+Álvaro Obregón,Lomas De Los Angeles Pueblo Tetelpan,29,32,2.0,13.0,False,False,False,False,False,False,False,False,0.18986208400152738,False,False,False,False
+Álvaro Obregón,Lomas De Los Cedros,16,36,2.0,12.0,False,False,False,False,False,False,False,False,0.2031354414021057,False,False,False,False
+Álvaro Obregón,Lomas De Nuevo Mexico,1,17,0.0,6.0,False,False,False,False,False,False,False,False,0.21654507401581846,False,False,False,False
+Álvaro Obregón,Lomas De Plateros,34,138,10.0,37.0,False,False,False,False,True,False,False,False,0.05693297402697739,False,True,False,False
+Álvaro Obregón,Lomas De Puerta Grande,1,18,0.0,4.0,False,False,False,False,False,False,False,False,0.21551549447517576,False,False,False,False
+Álvaro Obregón,Lomas De San Angel Inn,11,65,1.0,11.0,False,False,False,False,False,False,False,False,0.2044150529837488,False,False,False,False
+Álvaro Obregón,Lomas De Santa Fe,1,7,0.0,1.0,False,False,False,False,False,False,False,False,0.193448204933433,False,False,False,False
+Álvaro Obregón,Lomas De Tarango,6,48,0.0,11.0,False,False,False,False,False,False,False,False,0.21525441026433478,False,False,False,False
+Álvaro Obregón,Los Alpes,23,136,3.0,32.0,False,False,False,False,False,False,False,False,0.1536935332402487,False,False,False,False
+Álvaro Obregón,Maria G De Garcia Ruiz,3,35,1.0,12.0,False,False,False,False,False,False,False,False,0.211750940630555,False,False,False,False
+Álvaro Obregón,Martires De Tacubaya,2,13,0.0,4.0,False,False,False,False,False,False,False,False,0.21538025888849804,False,False,False,False
+Álvaro Obregón,Merced Gomez,31,196,5.0,55.0,False,False,False,False,False,False,False,False,0.10842338592470241,False,False,False,False
+Álvaro Obregón,Miguel Hidalgo,1,10,0.0,1.0,False,False,False,False,False,False,False,False,0.19366589881362767,False,False,False,False
+Álvaro Obregón,Minas Cristo Rey,10,73,0.0,18.0,False,False,False,False,False,False,False,False,0.20745696510554096,False,False,False,False
+Álvaro Obregón,Molino De Rosas,18,79,9.0,22.0,False,False,False,False,True,False,False,False,0.0977187181011836,False,True,False,False
+Álvaro Obregón,Molino De Santo Domingo,12,80,1.0,32.0,False,False,False,False,False,False,False,False,0.18550858630287093,False,False,False,False
+Álvaro Obregón,Olivar De Los Padres,34,131,5.0,36.0,False,False,False,False,False,False,False,False,0.13441588595552117,False,False,False,False
+Álvaro Obregón,Olivar Del Conde 1Ra Seccion,19,185,3.0,45.0,False,False,False,False,False,False,False,False,0.12713995753826884,False,False,False,False
+Álvaro Obregón,Olivar Del Conde 2Da Seccion,19,139,1.0,45.0,False,False,False,False,False,False,False,False,0.14862871656118531,False,False,False,False
+Álvaro Obregón,Palmas,12,36,4.0,12.0,False,False,False,False,False,False,False,False,0.17572781651627978,False,False,False,False
+Álvaro Obregón,Paraiso,5,54,0.0,25.0,False,False,False,False,False,False,False,False,0.19806703730705116,False,False,False,False
+Álvaro Obregón,Paseo De Las Lomas,14,14,0.0,1.0,False,False,False,False,False,False,False,False,0.18799522901811716,False,False,False,False
+Álvaro Obregón,Piloto Adolfo Lopez Mateos,9,56,2.0,12.0,False,False,False,False,False,False,False,False,0.2010003464549156,False,False,False,False
+Álvaro Obregón,Polvora,1,10,0.0,4.0,False,False,False,False,False,False,False,False,0.2102361613555468,False,False,False,False
+Álvaro Obregón,Ponciano Arriaga,2,12,0.0,2.0,False,False,False,False,False,False,False,False,0.20541212944380782,False,False,False,False
+Álvaro Obregón,Preconcreto,2,12,0.0,2.0,False,False,False,False,False,False,False,False,0.20541212944380782,False,False,False,False
+Álvaro Obregón,Presidentes,7,48,0.0,16.0,False,False,False,False,False,False,False,False,0.21323249211790518,False,False,False,False
+Álvaro Obregón,Progreso Tizapan,33,184,3.0,44.0,False,False,False,False,False,False,False,False,0.13223441708136385,False,False,False,False
+Álvaro Obregón,Pueblo Axotla,23,69,0.0,12.0,False,False,False,False,False,False,False,False,0.19898857622545063,False,False,False,False
+Álvaro Obregón,Pueblo Nuevo,1,15,0.0,6.0,False,False,False,False,False,False,False,False,0.21557258940873547,False,False,False,False
+Álvaro Obregón,Pueblo San Bartolo Ameyalco,31,208,6.0,57.0,False,False,False,False,True,False,False,False,0.09499859465454408,False,True,False,False
+Álvaro Obregón,Pueblo Santa Fe,17,101,0.0,22.0,False,False,False,False,False,False,False,False,0.18469643958309057,False,False,False,False
+Álvaro Obregón,Pueblo Santa Lucia,19,120,2.0,43.0,False,False,False,False,False,False,False,False,0.15760648943669187,False,False,False,False
+Álvaro Obregón,Pueblo Santa Lucia Chantepec,1,14,0.0,3.0,False,False,False,False,False,False,False,False,0.20850862768940953,False,False,False,False
+Álvaro Obregón,Pueblo Santa Rosa Xochiac,17,85,2.0,29.0,False,False,False,False,False,False,False,False,0.1858508470450575,False,False,False,False
+Álvaro Obregón,Pueblo Tetelpan,14,54,5.0,16.0,False,False,False,False,False,False,False,False,0.15511810016954264,False,False,False,False
+Álvaro Obregón,Pueblo Tizapan,31,146,2.0,38.0,False,False,False,False,False,False,False,False,0.1539503260403668,False,False,False,False
+Álvaro Obregón,Pueblo Tlacopac,13,27,0.0,7.0,False,False,False,False,False,False,False,False,0.2168612240224424,False,False,False,False
+Álvaro Obregón,Puente Colorado,7,55,0.0,22.0,False,False,False,False,False,False,False,False,0.20316346858419687,False,False,False,False
+Álvaro Obregón,Puerta Grande,1,32,1.0,10.0,False,False,False,False,False,False,False,False,0.20590360455316103,False,False,False,False
+Álvaro Obregón,Punta De Ceguaya,7,20,0.0,5.0,False,False,False,False,False,False,False,False,0.2176481952111899,False,False,False,False
+Álvaro Obregón,Rancho Del Carmen Del Pueblo San Bartolo Ameyalco,1,1,0.0,1.0,False,False,False,False,False,False,False,False,0.17754557073505328,False,False,False,False
+Álvaro Obregón,Rancho San Francisco Del Pblo San Bartolo Ameyalco,1,3,0.0,1.0,False,False,False,False,False,False,False,False,0.18498858447158884,False,False,False,False
+Álvaro Obregón,Reacomodo El Cuernito,1,23,0.0,8.0,False,False,False,False,False,False,False,False,0.2172165216899714,False,False,False,False
+Álvaro Obregón,Reacomodo Pino Suarez,1,6,0.0,5.0,False,False,False,False,False,False,False,False,0.203824749176169,False,False,False,False
+Álvaro Obregón,Reacomodo Valentin Gomez Farias,13,13,11.0,8.0,False,False,False,False,True,False,False,False,0.051275829162034325,False,True,False,False
+Álvaro Obregón,Real Del Monte,7,45,1.0,17.0,False,False,False,False,False,False,False,False,0.20979616997914913,False,False,False,False
+Álvaro Obregón,Rincon De La Bolsa,3,8,1.0,3.0,False,False,False,False,False,False,False,False,0.19522918639682824,False,False,False,False
+Álvaro Obregón,Rinconada Las Cuevitas,6,18,1.0,9.0,False,False,False,False,False,False,False,False,0.20501700611151474,False,False,False,False
+Álvaro Obregón,Sacramento,2,24,0.0,10.0,False,False,False,False,False,False,False,False,0.2175028137076611,False,False,False,False
+Álvaro Obregón,San Agustin Del Pueblo Tetelpan,10,31,1.0,7.0,False,False,False,False,False,False,False,False,0.21055382353597868,False,False,False,False
+Álvaro Obregón,San Angel,26,161,0.0,45.0,False,False,False,False,False,False,False,False,0.13356622253069533,False,False,False,False
+Álvaro Obregón,San Angel Inn,4,24,2.0,6.0,False,False,False,False,False,False,False,False,0.19964320650705547,False,False,False,False
+Álvaro Obregón,San Gabriel,5,32,0.0,7.0,False,False,False,False,False,False,False,False,0.21935191202119142,False,False,False,False
+Álvaro Obregón,San Jeronimo Aculco,1,11,0.0,3.0,False,False,False,False,False,False,False,False,0.2061510748190853,False,False,False,False
+Álvaro Obregón,San Jeronimo Lidice,1,4,1.0,2.0,False,False,False,False,False,False,False,False,0.18315666351467041,False,False,False,False
+Álvaro Obregón,San Jose Del Olivar,1,7,0.0,3.0,False,False,False,False,False,False,False,False,0.20238637811022164,False,False,False,False
+Álvaro Obregón,San Pedro De Los Pinos,4,106,0.0,22.0,False,False,False,False,False,False,False,False,0.1807232842941039,False,False,False,False
+Álvaro Obregón,Santa Fe,3,71,0.0,18.0,False,False,False,False,False,False,False,False,0.20327992450716703,False,False,False,False
+Álvaro Obregón,Santa Fe Centro Ciudad,10,101,7.0,28.0,False,False,False,False,True,False,False,False,0.12701715960000476,False,True,False,False
+Álvaro Obregón,Santa Fe La Loma,3,25,0.0,3.0,False,False,False,False,False,False,False,False,0.21043948074234992,False,False,False,False
+Álvaro Obregón,Santa Fe Peña Blanca,10,80,1.0,18.0,False,False,False,False,False,False,False,False,0.20386345821527496,False,False,False,False
+Álvaro Obregón,Santa Fe Tlayapaca,1,1,0.0,0.0,False,False,False,False,False,False,False,False,0.16508938421146796,False,False,False,False
+Álvaro Obregón,Tarango,8,23,0.0,4.0,False,False,False,False,False,False,False,False,0.21515687886620077,False,False,False,False
+Álvaro Obregón,Tecalcapa Del Pueblo Tetelpan,3,2,0.0,0.0,False,False,False,False,False,False,False,False,0.17029805636082013,False,False,False,False
+Álvaro Obregón,Tepeaca,2,5,1.0,3.0,False,False,False,False,False,False,False,False,0.19142986438840454,False,False,False,False
+Álvaro Obregón,Tizampampano Del Pueblo Tetelpan,6,6,0.0,1.0,False,False,False,False,False,False,False,False,0.18695567110344047,False,False,False,False
+Álvaro Obregón,Tlacoyaque,9,37,1.0,11.0,False,False,False,False,False,False,False,False,0.21494822779240708,False,False,False,False
+Álvaro Obregón,Tlacuitlapa,4,26,2.0,9.0,False,False,False,False,False,False,False,False,0.19767118726633964,False,False,False,False
+Álvaro Obregón,Tlapechico,1,26,0.0,8.0,False,False,False,False,False,False,False,False,0.2167536005394471,False,False,False,False
+Álvaro Obregón,Tolteca,1,46,0.0,8.0,False,False,False,False,False,False,False,False,0.2127446341858038,False,False,False,False
+Álvaro Obregón,Torres De Potrero,15,145,4.0,44.0,False,False,False,False,False,False,False,False,0.1345191159044692,False,False,False,False
+Álvaro Obregón,Villa Progresista,4,20,1.0,4.0,False,False,False,False,False,False,False,False,0.2095073920329969,False,False,False,False
+Álvaro Obregón,Villa Verdun,3,9,0.0,1.0,False,False,False,False,False,False,False,False,0.19618749884041836,False,False,False,False
+Álvaro Obregón,Zenon Delgado,5,35,1.0,14.0,False,False,False,False,False,False,False,False,0.20808020829371432,False,False,False,False
+Álvaro Obregón,Zona Federal,4,5,1.0,1.0,False,False,False,False,False,False,False,False,0.18302708273739687,False,False,False,False

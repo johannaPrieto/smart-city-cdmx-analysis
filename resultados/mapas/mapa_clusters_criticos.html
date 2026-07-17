@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4223567ad068ca3cef539f83cd1aa68e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+body { font-family: 'Inter', sans-serif !important; background-color: #0f1117; }
+.modern-title {
+    position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;
+    background: rgba(20, 22, 30, 0.8); backdrop-filter: blur(12px);
+    padding: 15px 35px; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff; text-align: center; box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+.modern-title h1 { margin: 0; font-size: 20px; font-weight: 700; }
+.modern-title p { margin: 4px 0 0 0; font-size: 12px; color: #FF4B4B; font-weight: 600; }
+.stat-cards-container { position: fixed; top: 20px; left: 20px; z-index: 9999; display: flex; flex-direction: column; gap: 12px; }
+.stat-card {
+    background: rgba(20, 22, 30, 0.8); backdrop-filter: blur(12px);
+    padding: 12px 18px; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); display: flex; align-items: center; gap: 15px; min-width: 180px;
+}
+.stat-icon { font-size: 22px; }
+.stat-info h4 { margin: 0; font-size: 10px; color: #A0AABF; text-transform: uppercase; }
+.stat-info p { margin: 2px 0 0 0; font-size: 18px; font-weight: 700; }
+</style>
+    
+    <div class="modern-title">
+        <h1>Top 5 Macro-Zonas Críticas</h1>
+        <p>Identificadas por Inteligencia Artificial (K-Means)</p>
+    </div>
+    
+    
+    <div class="stat-cards-container">
+        <div class="stat-card">
+            <div class="stat-icon">⚠️</div>
+            <div class="stat-info"><h4>Delitos en Zonas Críticas</h4><p>9,706</p></div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">💡</div>
+            <div class="stat-info"><h4>Fallas de Alumbrado (Top 5)</h4><p>1,046</p></div>
+        </div>
+    </div>
+    
+    
+            <div class="folium-map" id="map_4223567ad068ca3cef539f83cd1aa68e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4223567ad068ca3cef539f83cd1aa68e = L.map(
+                "map_4223567ad068ca3cef539f83cd1aa68e",
+                {
+                    center: [19.38, -99.14],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11.5,
+  "zoomControl": true,
+  "preferCanvas": true,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_4223567ad068ca3cef539f83cd1aa68e);
+
+            
+
+        
+    
+            var tile_layer_b154acab711700a12f6787728def91ec = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b154acab711700a12f6787728def91ec.addTo(map_4223567ad068ca3cef539f83cd1aa68e);
+        
+    
+            var circle_3270437852f868f581f483bc68becf5a = L.circle(
+                [19.429871088708204, -99.150127820117],
+                {"bubblingMouseEvents": true, "color": "#FF1744", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF1744", "fillOpacity": 0.15, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 1}
+            ).addTo(map_4223567ad068ca3cef539f83cd1aa68e);
+        
+    
+            var circle_marker_5872fed7cc92bf90a639d05703266a92 = L.circleMarker(
+                [19.429871088708204, -99.150127820117],
+                {"bubblingMouseEvents": true, "color": "#FF1744", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF1744", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_4223567ad068ca3cef539f83cd1aa68e);
+        
+    
+        var popup_775cb0413ce9eb8f44d1623c50654f62 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6cdd331f2bc914a1418f73667372acf0 = $(`<div id="html_6cdd331f2bc914a1418f73667372acf0" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Inter', sans-serif; padding: 10px; min-width: 200px;">             <h4 style="margin: 0 0 10px 0; color: #333;">🔥 Hotspot #1</h4>             <div style="font-size: 13px; color: #555;">                 <b>Delitos Nocturnos:</b> 2,843<br>                 <b>Fallas Alumbrado:</b> 312             </div>         </div>         </div>`)[0];
+                popup_775cb0413ce9eb8f44d1623c50654f62.setContent(html_6cdd331f2bc914a1418f73667372acf0);
+            
+        
+
+        circle_marker_5872fed7cc92bf90a639d05703266a92.bindPopup(popup_775cb0413ce9eb8f44d1623c50654f62)
+        ;
+
+        
+    
+    
+            var circle_0b702d095bbc23727a7d7eb00af62d9e = L.circle(
+                [19.400143631003537, -99.13154802216671],
+                {"bubblingMouseEvents": true, "color": "#FF5252", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF5252", "fillOpacity": 0.15, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 1}
+            ).addTo(map_4223567ad068ca3cef539f83cd1aa68e);
+        
+    
+            var circle_marker_d7b447556a8933e46692661fd4cff265 = L.circleMarker(
+                [19.400143631003537, -99.13154802216671],
+                {"bubblingMouseEvents": true, "color": "#FF5252", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF5252", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_4223567ad068ca3cef539f83cd1aa68e);
+        
+    
+        var popup_ee7cfa7e23a195b2a3f679dadfa02807 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c157c5ae428eca0543a029a8d26c2fa1 = $(`<div id="html_c157c5ae428eca0543a029a8d26c2fa1" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Inter', sans-serif; padding: 10px; min-width: 200px;">             <h4 style="margin: 0 0 10px 0; color: #333;">🔥 Hotspot #2</h4>             <div style="font-size: 13px; color: #555;">                 <b>Delitos Nocturnos:</b> 1,670<br>                 <b>Fallas Alumbrado:</b> 245             </div>         </div>         </div>`)[0];
+                popup_ee7cfa7e23a195b2a3f679dadfa02807.setContent(html_c157c5ae428eca0543a029a8d26c2fa1);
+            
+        
+
+        circle_marker_d7b447556a8933e46692661fd4cff265.bindPopup(popup_ee7cfa7e23a195b2a3f679dadfa02807)
+        ;
+
+        
+    
+    
+            var circle_9b5c9908cc3dd6911601488c05177567 = L.circle(
+                [19.465824213769906, -99.13840527430347],
+                {"bubblingMouseEvents": true, "color": "#FF8A80", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF8A80", "fillOpacity": 0.15, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 1}
+            ).addTo(map_4223567ad068ca3cef539f83cd1aa68e);
+        
+    
+            var circle_marker_370b90db442ed6d1082ffbac53f4919a = L.circleMarker(
+                [19.465824213769906, -99.13840527430347],
+                {"bubblingMouseEvents": true, "color": "#FF8A80", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF8A80", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_4223567ad068ca3cef539f83cd1aa68e);
+        
+    
+        var popup_dba15e301c54b237c3c5d894bdfc4439 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f5889b196e68bb5d841908d70dc7276f = $(`<div id="html_f5889b196e68bb5d841908d70dc7276f" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Inter', sans-serif; padding: 10px; min-width: 200px;">             <h4 style="margin: 0 0 10px 0; color: #333;">🔥 Hotspot #3</h4>             <div style="font-size: 13px; color: #555;">                 <b>Delitos Nocturnos:</b> 1,883<br>                 <b>Fallas Alumbrado:</b> 216             </div>         </div>         </div>`)[0];
+                popup_dba15e301c54b237c3c5d894bdfc4439.setContent(html_f5889b196e68bb5d841908d70dc7276f);
+            
+        
+
+        circle_marker_370b90db442ed6d1082ffbac53f4919a.bindPopup(popup_dba15e301c54b237c3c5d894bdfc4439)
+        ;
+
+        
+    
+    
+            var circle_52fa098fcc163577ac1ca2940e900be4 = L.circle(
+                [19.317346704906246, -99.16345065744898],
+                {"bubblingMouseEvents": true, "color": "#FFB74D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFB74D", "fillOpacity": 0.15, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 1}
+            ).addTo(map_4223567ad068ca3cef539f83cd1aa68e);
+        
+    
+            var circle_marker_e7cc57672d4a8634cc6da1cead0f5d81 = L.circleMarker(
+                [19.317346704906246, -99.16345065744898],
+                {"bubblingMouseEvents": true, "color": "#FFB74D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFB74D", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_4223567ad068ca3cef539f83cd1aa68e);
+        
+    
+        var popup_cf6018eb94dd2c84607bb8278ecd1fa2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0ecda051777bcf23fdd6e77fc0b73f4e = $(`<div id="html_0ecda051777bcf23fdd6e77fc0b73f4e" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Inter', sans-serif; padding: 10px; min-width: 200px;">             <h4 style="margin: 0 0 10px 0; color: #333;">🔥 Hotspot #4</h4>             <div style="font-size: 13px; color: #555;">                 <b>Delitos Nocturnos:</b> 1,454<br>                 <b>Fallas Alumbrado:</b> 168             </div>         </div>         </div>`)[0];
+                popup_cf6018eb94dd2c84607bb8278ecd1fa2.setContent(html_0ecda051777bcf23fdd6e77fc0b73f4e);
+            
+        
+
+        circle_marker_e7cc57672d4a8634cc6da1cead0f5d81.bindPopup(popup_cf6018eb94dd2c84607bb8278ecd1fa2)
+        ;
+
+        
+    
+    
+            var circle_73fa0e2978cb6249360bc0b8aa5a8ea0 = L.circle(
+                [19.403849517494344, -99.17306015261087],
+                {"bubblingMouseEvents": true, "color": "#FFD54F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFD54F", "fillOpacity": 0.15, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 1}
+            ).addTo(map_4223567ad068ca3cef539f83cd1aa68e);
+        
+    
+            var circle_marker_14d8e70d574426c716669e3b76aab492 = L.circleMarker(
+                [19.403849517494344, -99.17306015261087],
+                {"bubblingMouseEvents": true, "color": "#FFD54F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFD54F", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_4223567ad068ca3cef539f83cd1aa68e);
+        
+    
+        var popup_c8bffc5d893ac09b6df7e8839c6e3710 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7ab546736d0aaeea22b98d01b37e4f3e = $(`<div id="html_7ab546736d0aaeea22b98d01b37e4f3e" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Inter', sans-serif; padding: 10px; min-width: 200px;">             <h4 style="margin: 0 0 10px 0; color: #333;">🔥 Hotspot #5</h4>             <div style="font-size: 13px; color: #555;">                 <b>Delitos Nocturnos:</b> 1,856<br>                 <b>Fallas Alumbrado:</b> 105             </div>         </div>         </div>`)[0];
+                popup_c8bffc5d893ac09b6df7e8839c6e3710.setContent(html_7ab546736d0aaeea22b98d01b37e4f3e);
+            
+        
+
+        circle_marker_14d8e70d574426c716669e3b76aab492.bindPopup(popup_c8bffc5d893ac09b6df7e8839c6e3710)
+        ;
+
+        
+    
+</script>
+</html>

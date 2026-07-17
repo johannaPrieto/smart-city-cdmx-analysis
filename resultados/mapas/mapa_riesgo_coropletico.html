@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a381ebed37eb85696af906c8a5b9d305 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+body { font-family: 'Inter', sans-serif !important; }
+.modern-title {
+    position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;
+    background: rgba(20,22,30,0.85); backdrop-filter: blur(12px);
+    padding: 14px 32px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);
+    color: #fff; text-align: center; box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+}
+.modern-title h1 { margin: 0; font-size: 19px; font-weight: 700; }
+.modern-title p  { margin: 3px 0 0 0; font-size: 11px; color: #FF6B6B; font-weight: 600; }
+.risk-legend {
+    position: fixed; bottom: 40px; right: 20px; z-index: 9999;
+    background: rgba(20,22,30,0.85); backdrop-filter: blur(12px);
+    padding: 14px 18px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);
+    color: #fff; min-width: 180px;
+}
+.risk-legend h4 { margin: 0 0 10px 0; font-size: 12px; color: #A0AABF; text-transform: uppercase; }
+.risk-row { display:flex; align-items:center; gap:8px; margin-bottom:6px; font-size:12px; }
+.rdot { width:14px; height:14px; border-radius:50%; flex-shrink:0; border: 1px solid rgba(255,255,255,0.2); }
+.stat-cards {
+    position: fixed; top: 20px; left: 20px; z-index: 9999;
+    display: flex; flex-direction: column; gap: 10px;
+}
+.stat-card {
+    background: rgba(20,22,30,0.85); backdrop-filter: blur(12px);
+    padding: 10px 16px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1);
+    color: white; box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    display: flex; align-items: center; gap: 12px; min-width: 170px;
+}
+.stat-card .icon { font-size: 20px; }
+.stat-card h4 { margin: 0; font-size: 9px; color: #A0AABF; text-transform: uppercase; }
+.stat-card p { margin: 2px 0 0 0; font-size: 16px; font-weight: 700; }
+</style>
+    
+    <div class="modern-title">
+        <h1>Índice de Riesgo Urbano — CDMX</h1>
+        <p>IRU Compuesto · Escala 0–100 · Ponderado por Infraestructura y Criminalidad</p>
+    </div>
+    
+    <div class="risk-legend">
+        <h4>Nivel de Riesgo</h4>
+        <div class="risk-row"><div class="rdot" style="background:#D32F2F"></div>Muy Alto</div><div class="risk-row"><div class="rdot" style="background:#FF6B6B"></div>Alto</div><div class="risk-row"><div class="rdot" style="background:#FFB347"></div>Medio</div><div class="risk-row"><div class="rdot" style="background:#4CAF50"></div>Bajo</div>
+    </div>
+    
+    <div class="stat-cards">
+        <div class="stat-card">
+            <div class="icon">🔴</div>
+            <div><h4>Mayor Riesgo</h4><p>Cuauhtemoc</p></div>
+        </div>
+        <div class="stat-card">
+            <div class="icon">⚠️</div>
+            <div><h4>Alcaldías Alto/Muy Alto</h4><p>1 de 16</p></div>
+        </div>
+        <div class="stat-card">
+            <div class="icon">📊</div>
+            <div><h4>IRU Máximo</h4><p>100.0</p></div>
+        </div>
+    </div>
+    
+            <div class="folium-map" id="map_a381ebed37eb85696af906c8a5b9d305" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a381ebed37eb85696af906c8a5b9d305 = L.map(
+                "map_a381ebed37eb85696af906c8a5b9d305",
+                {
+                    center: [19.38, -99.14],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_a381ebed37eb85696af906c8a5b9d305);
+
+            
+
+        
+    
+            var tile_layer_577ffd9b1113feaf66d68a1ce43a1b86 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_577ffd9b1113feaf66d68a1ce43a1b86.addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            var circle_858e6e695b49b5bac085e8d842a34005 = L.circle(
+                [19.358, -99.228],
+                {"bubblingMouseEvents": true, "color": "#4CAF50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1040.0, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_8d5e2f60490356af213c7335d267f914 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4c4db7531354a8a6959bbd4ca7ab2ae0 = $(`<div id="html_4c4db7531354a8a6959bbd4ca7ab2ae0" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Alvaro Obregon</h4>         <div style='font-size:28px;font-weight:800;color:#4CAF50;margin-bottom:8px;'>             IRU: 9.6         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#4CAF50;font-weight:700;'>Bajo</span><br>             <b>Tasa Delitos:</b> 11.3 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.23 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 28.2% del total<br>             <b>Población:</b> 759,137         </div></div></div>`)[0];
+                popup_8d5e2f60490356af213c7335d267f914.setContent(html_4c4db7531354a8a6959bbd4ca7ab2ae0);
+            
+        
+
+        circle_858e6e695b49b5bac085e8d842a34005.bindPopup(popup_8d5e2f60490356af213c7335d267f914)
+        ;
+
+        
+    
+    
+            var circle_marker_1788eb4c3ae5c836d5dc573851dbf1bf = L.circleMarker(
+                [19.358, -99.228],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_1788eb4c3ae5c836d5dc573851dbf1bf.bindTooltip(
+                `<div>
+                     Alvaro Obregon: IRU 10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_424912d9ec0aa301fc7692e3d7d04c06 = L.circle(
+                [19.487, -99.184],
+                {"bubblingMouseEvents": true, "color": "#4CAF50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1205.0, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_7238464bc1ccb6ff34ceb3200ee581af = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_98c0da6f78e0ca4549f30314e2ea6469 = $(`<div id="html_98c0da6f78e0ca4549f30314e2ea6469" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Azcapotzalco</h4>         <div style='font-size:28px;font-weight:800;color:#4CAF50;margin-bottom:8px;'>             IRU: 16.2         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#4CAF50;font-weight:700;'>Bajo</span><br>             <b>Tasa Delitos:</b> 13.3 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.33 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 26.7% del total<br>             <b>Población:</b> 432,205         </div></div></div>`)[0];
+                popup_7238464bc1ccb6ff34ceb3200ee581af.setContent(html_98c0da6f78e0ca4549f30314e2ea6469);
+            
+        
+
+        circle_424912d9ec0aa301fc7692e3d7d04c06.bindPopup(popup_7238464bc1ccb6ff34ceb3200ee581af)
+        ;
+
+        
+    
+    
+            var circle_marker_36b76cac35a8c4545b0b87e41ca6bc05 = L.circleMarker(
+                [19.487, -99.184],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_36b76cac35a8c4545b0b87e41ca6bc05.bindTooltip(
+                `<div>
+                     Azcapotzalco: IRU 16
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_63460ecf97140a1af34e87132dbc0ddf = L.circle(
+                [19.372, -99.163],
+                {"bubblingMouseEvents": true, "color": "#FFB347", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFB347", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1850.0, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_fceecf07085d947f614a5afcb15ae2ee = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_196f00f59e9b4bb39fc3c6be4d4820d0 = $(`<div id="html_196f00f59e9b4bb39fc3c6be4d4820d0" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Benito Juarez</h4>         <div style='font-size:28px;font-weight:800;color:#FFB347;margin-bottom:8px;'>             IRU: 42.0         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#FFB347;font-weight:700;'>Medio</span><br>             <b>Tasa Delitos:</b> 23.1 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.43 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 25.1% del total<br>             <b>Población:</b> 434,153         </div></div></div>`)[0];
+                popup_fceecf07085d947f614a5afcb15ae2ee.setContent(html_196f00f59e9b4bb39fc3c6be4d4820d0);
+            
+        
+
+        circle_63460ecf97140a1af34e87132dbc0ddf.bindPopup(popup_fceecf07085d947f614a5afcb15ae2ee)
+        ;
+
+        
+    
+    
+            var circle_marker_ab72eec88fc2ddc10f1de968c12a4d48 = L.circleMarker(
+                [19.372, -99.163],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFB347", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_ab72eec88fc2ddc10f1de968c12a4d48.bindTooltip(
+                `<div>
+                     Benito Juarez: IRU 42
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_821da8329837a0beaa1cccaac28bceaf = L.circle(
+                [19.335, -99.162],
+                {"bubblingMouseEvents": true, "color": "#FFB347", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFB347", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1837.5, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_0441f6e77a3702e397e86b89b4b518e4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3791c89e399ad9f2fc2d1cf63f5cd8f2 = $(`<div id="html_3791c89e399ad9f2fc2d1cf63f5cd8f2" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Coyoacan</h4>         <div style='font-size:28px;font-weight:800;color:#FFB347;margin-bottom:8px;'>             IRU: 41.5         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#FFB347;font-weight:700;'>Medio</span><br>             <b>Tasa Delitos:</b> 15.1 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.61 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 29.7% del total<br>             <b>Población:</b> 614,447         </div></div></div>`)[0];
+                popup_0441f6e77a3702e397e86b89b4b518e4.setContent(html_3791c89e399ad9f2fc2d1cf63f5cd8f2);
+            
+        
+
+        circle_821da8329837a0beaa1cccaac28bceaf.bindPopup(popup_0441f6e77a3702e397e86b89b4b518e4)
+        ;
+
+        
+    
+    
+            var circle_marker_60793d7a5606de14555ca97386f8e202 = L.circleMarker(
+                [19.335, -99.162],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFB347", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_60793d7a5606de14555ca97386f8e202.bindTooltip(
+                `<div>
+                     Coyoacan: IRU 42
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_c8833054565145202ca19ff837a00c7b = L.circle(
+                [19.359, -99.291],
+                {"bubblingMouseEvents": true, "color": "#4CAF50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800.0, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_555fc974b4891f46ecf73acccf37e171 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_10cd2b35231a6f916f8eff343dae76ad = $(`<div id="html_10cd2b35231a6f916f8eff343dae76ad" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Cuajimalpa De Morelos</h4>         <div style='font-size:28px;font-weight:800;color:#4CAF50;margin-bottom:8px;'>             IRU: 0.0         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#4CAF50;font-weight:700;'>Bajo</span><br>             <b>Tasa Delitos:</b> 10.8 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.32 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 25.1% del total<br>             <b>Población:</b> 217,686         </div></div></div>`)[0];
+                popup_555fc974b4891f46ecf73acccf37e171.setContent(html_10cd2b35231a6f916f8eff343dae76ad);
+            
+        
+
+        circle_c8833054565145202ca19ff837a00c7b.bindPopup(popup_555fc974b4891f46ecf73acccf37e171)
+        ;
+
+        
+    
+    
+            var circle_marker_5fe7643698780a1a33fe7d669fca11b1 = L.circleMarker(
+                [19.359, -99.291],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_5fe7643698780a1a33fe7d669fca11b1.bindTooltip(
+                `<div>
+                     Cuajimalpa De Morelos: IRU 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_a32e7f684860f4df75517f2b50feb239 = L.circle(
+                [19.428, -99.153],
+                {"bubblingMouseEvents": true, "color": "#D32F2F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#D32F2F", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3300.0, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_caac149fffc9ee1f75be61fcb63762c9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5009acbebc6700bb737c21a59cc56da0 = $(`<div id="html_5009acbebc6700bb737c21a59cc56da0" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Cuauhtemoc</h4>         <div style='font-size:28px;font-weight:800;color:#D32F2F;margin-bottom:8px;'>             IRU: 100.0         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#D32F2F;font-weight:700;'>Muy Alto</span><br>             <b>Tasa Delitos:</b> 36.0 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.96 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 25.0% del total<br>             <b>Población:</b> 531,831         </div></div></div>`)[0];
+                popup_caac149fffc9ee1f75be61fcb63762c9.setContent(html_5009acbebc6700bb737c21a59cc56da0);
+            
+        
+
+        circle_a32e7f684860f4df75517f2b50feb239.bindPopup(popup_caac149fffc9ee1f75be61fcb63762c9)
+        ;
+
+        
+    
+    
+            var circle_marker_5bbf7e5e67720e744bcac151ba82f25e = L.circleMarker(
+                [19.428, -99.153],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#D32F2F", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_5bbf7e5e67720e744bcac151ba82f25e.bindTooltip(
+                `<div>
+                     Cuauhtemoc: IRU 100
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_be1ec52ce39de8f1f9109f6fb14b5ae9 = L.circle(
+                [19.483, -99.113],
+                {"bubblingMouseEvents": true, "color": "#4CAF50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1102.5, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_7f09f42848668e1a5dd2e86898880d1d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c2ee8c27e734e46fec459fd073c612d6 = $(`<div id="html_c2ee8c27e734e46fec459fd073c612d6" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Gustavo A. Madero</h4>         <div style='font-size:28px;font-weight:800;color:#4CAF50;margin-bottom:8px;'>             IRU: 12.1         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#4CAF50;font-weight:700;'>Bajo</span><br>             <b>Tasa Delitos:</b> 11.3 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.33 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 27.8% del total<br>             <b>Población:</b> 1,173,351         </div></div></div>`)[0];
+                popup_7f09f42848668e1a5dd2e86898880d1d.setContent(html_c2ee8c27e734e46fec459fd073c612d6);
+            
+        
+
+        circle_be1ec52ce39de8f1f9109f6fb14b5ae9.bindPopup(popup_7f09f42848668e1a5dd2e86898880d1d)
+        ;
+
+        
+    
+    
+            var circle_marker_3cc92b3f05a062cb3c5fa2a9d5ad4dc5 = L.circleMarker(
+                [19.483, -99.113],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_3cc92b3f05a062cb3c5fa2a9d5ad4dc5.bindTooltip(
+                `<div>
+                     Gustavo A. Madero: IRU 12
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_ae864635232d1a36b168599421f4a934 = L.circle(
+                [19.396, -99.097],
+                {"bubblingMouseEvents": true, "color": "#FFB347", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFB347", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1842.5, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_2b6449941257d2a5ddc9ebc0538fb891 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_312a774d319385b3a1d38f4be3ddaa22 = $(`<div id="html_312a774d319385b3a1d38f4be3ddaa22" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Iztacalco</h4>         <div style='font-size:28px;font-weight:800;color:#FFB347;margin-bottom:8px;'>             IRU: 41.7         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#FFB347;font-weight:700;'>Medio</span><br>             <b>Tasa Delitos:</b> 14.3 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.61 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 30.1% del total<br>             <b>Población:</b> 424,657         </div></div></div>`)[0];
+                popup_2b6449941257d2a5ddc9ebc0538fb891.setContent(html_312a774d319385b3a1d38f4be3ddaa22);
+            
+        
+
+        circle_ae864635232d1a36b168599421f4a934.bindPopup(popup_2b6449941257d2a5ddc9ebc0538fb891)
+        ;
+
+        
+    
+    
+            var circle_marker_7b1419be3c1ebedaca11e04ec5d4a939 = L.circleMarker(
+                [19.396, -99.097],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFB347", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_7b1419be3c1ebedaca11e04ec5d4a939.bindTooltip(
+                `<div>
+                     Iztacalco: IRU 42
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_8e0fd2fe3c8b6e4fa38186267b542772 = L.circle(
+                [19.355, -99.053],
+                {"bubblingMouseEvents": true, "color": "#FFB347", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFB347", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1465.0, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_08b8039a620414b663e14da39a4b05b2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7a4f4f24e3f26502e251d032e89c1604 = $(`<div id="html_7a4f4f24e3f26502e251d032e89c1604" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Iztapalapa</h4>         <div style='font-size:28px;font-weight:800;color:#FFB347;margin-bottom:8px;'>             IRU: 26.6         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#FFB347;font-weight:700;'>Medio</span><br>             <b>Tasa Delitos:</b> 9.7 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.10 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 29.0% del total<br>             <b>Población:</b> 1,835,486         </div></div></div>`)[0];
+                popup_08b8039a620414b663e14da39a4b05b2.setContent(html_7a4f4f24e3f26502e251d032e89c1604);
+            
+        
+
+        circle_8e0fd2fe3c8b6e4fa38186267b542772.bindPopup(popup_08b8039a620414b663e14da39a4b05b2)
+        ;
+
+        
+    
+    
+            var circle_marker_099fc2097f317869b912cbc64f8e7de4 = L.circleMarker(
+                [19.355, -99.053],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFB347", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_099fc2097f317869b912cbc64f8e7de4.bindTooltip(
+                `<div>
+                     Iztapalapa: IRU 27
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_2b23b3375a3dcbfeb3b47df4120c6caa = L.circle(
+                [19.315, -99.253],
+                {"bubblingMouseEvents": true, "color": "#4CAF50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1060.0, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_6b469344d4771cf9f758e4035052d9cd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c20f998ee79f8e2ec53463ec2cc71220 = $(`<div id="html_c20f998ee79f8e2ec53463ec2cc71220" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>La Magdalena Contreras</h4>         <div style='font-size:28px;font-weight:800;color:#4CAF50;margin-bottom:8px;'>             IRU: 10.4         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#4CAF50;font-weight:700;'>Bajo</span><br>             <b>Tasa Delitos:</b> 11.1 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.09 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 30.3% del total<br>             <b>Población:</b> 247,622         </div></div></div>`)[0];
+                popup_6b469344d4771cf9f758e4035052d9cd.setContent(html_c20f998ee79f8e2ec53463ec2cc71220);
+            
+        
+
+        circle_2b23b3375a3dcbfeb3b47df4120c6caa.bindPopup(popup_6b469344d4771cf9f758e4035052d9cd)
+        ;
+
+        
+    
+    
+            var circle_marker_bf016013aaf1db191a69f26ac489a505 = L.circleMarker(
+                [19.315, -99.253],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_bf016013aaf1db191a69f26ac489a505.bindTooltip(
+                `<div>
+                     La Magdalena Contreras: IRU 10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_721b071eb8cb4e317e2d877771325892 = L.circle(
+                [19.415, -99.2],
+                {"bubblingMouseEvents": true, "color": "#4CAF50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1185.0, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_2c225cb47f21d5c3b7226cd119554954 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_438a4d760492580c70ea7b9ac07b2691 = $(`<div id="html_438a4d760492580c70ea7b9ac07b2691" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Miguel Hidalgo</h4>         <div style='font-size:28px;font-weight:800;color:#4CAF50;margin-bottom:8px;'>             IRU: 15.4         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#4CAF50;font-weight:700;'>Bajo</span><br>             <b>Tasa Delitos:</b> 19.2 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.14 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 24.2% del total<br>             <b>Población:</b> 414,470         </div></div></div>`)[0];
+                popup_2c225cb47f21d5c3b7226cd119554954.setContent(html_438a4d760492580c70ea7b9ac07b2691);
+            
+        
+
+        circle_721b071eb8cb4e317e2d877771325892.bindPopup(popup_2c225cb47f21d5c3b7226cd119554954)
+        ;
+
+        
+    
+    
+            var circle_marker_dce6d5e55a6a43e5c39bbb40b86784fd = L.circleMarker(
+                [19.415, -99.2],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_dce6d5e55a6a43e5c39bbb40b86784fd.bindTooltip(
+                `<div>
+                     Miguel Hidalgo: IRU 15
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_a0645c7946db1fff831fe4f73cae5e1b = L.circle(
+                [19.192, -99.023],
+                {"bubblingMouseEvents": true, "color": "#4CAF50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1310.0, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_0f5a33d184d828703f11144e862c2bb0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9aad7fa0bc05aa23f7b1eb62ff4a3a66 = $(`<div id="html_9aad7fa0bc05aa23f7b1eb62ff4a3a66" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Milpa Alta</h4>         <div style='font-size:28px;font-weight:800;color:#4CAF50;margin-bottom:8px;'>             IRU: 20.4         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#4CAF50;font-weight:700;'>Bajo</span><br>             <b>Tasa Delitos:</b> 9.5 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.49 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 29.1% del total<br>             <b>Población:</b> 152,685         </div></div></div>`)[0];
+                popup_0f5a33d184d828703f11144e862c2bb0.setContent(html_9aad7fa0bc05aa23f7b1eb62ff4a3a66);
+            
+        
+
+        circle_a0645c7946db1fff831fe4f73cae5e1b.bindPopup(popup_0f5a33d184d828703f11144e862c2bb0)
+        ;
+
+        
+    
+    
+            var circle_marker_145a681c5d8ff7b82d282aa47aa7910c = L.circleMarker(
+                [19.192, -99.023],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_145a681c5d8ff7b82d282aa47aa7910c.bindTooltip(
+                `<div>
+                     Milpa Alta: IRU 20
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_f22bbf4b14dcd3b8ba0c5e254d969a1c = L.circle(
+                [19.271, -99.004],
+                {"bubblingMouseEvents": true, "color": "#4CAF50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1157.5, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_0fa0fe6ef7f653cd3d7f351c077f8284 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_86e2ff07a01dca80474113f56fbfe2b3 = $(`<div id="html_86e2ff07a01dca80474113f56fbfe2b3" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Tlahuac</h4>         <div style='font-size:28px;font-weight:800;color:#4CAF50;margin-bottom:8px;'>             IRU: 14.3         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#4CAF50;font-weight:700;'>Bajo</span><br>             <b>Tasa Delitos:</b> 11.9 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.25 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 28.8% del total<br>             <b>Población:</b> 361,593         </div></div></div>`)[0];
+                popup_0fa0fe6ef7f653cd3d7f351c077f8284.setContent(html_86e2ff07a01dca80474113f56fbfe2b3);
+            
+        
+
+        circle_f22bbf4b14dcd3b8ba0c5e254d969a1c.bindPopup(popup_0fa0fe6ef7f653cd3d7f351c077f8284)
+        ;
+
+        
+    
+    
+            var circle_marker_a03f05de29fc8f9e2275a91cb09d5b9d = L.circleMarker(
+                [19.271, -99.004],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_a03f05de29fc8f9e2275a91cb09d5b9d.bindTooltip(
+                `<div>
+                     Tlahuac: IRU 14
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_efc6ebf1b6b22b88cd7b42417bb3ef2f = L.circle(
+                [19.271, -99.169],
+                {"bubblingMouseEvents": true, "color": "#4CAF50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1227.5, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_d8383452a19feca018ec2814fea3cdbb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8b4b5f774d687cc33e01ee1756b94e7a = $(`<div id="html_8b4b5f774d687cc33e01ee1756b94e7a" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Tlalpan</h4>         <div style='font-size:28px;font-weight:800;color:#4CAF50;margin-bottom:8px;'>             IRU: 17.1         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#4CAF50;font-weight:700;'>Bajo</span><br>             <b>Tasa Delitos:</b> 12.6 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.28 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 28.6% del total<br>             <b>Población:</b> 699,928         </div></div></div>`)[0];
+                popup_d8383452a19feca018ec2814fea3cdbb.setContent(html_8b4b5f774d687cc33e01ee1756b94e7a);
+            
+        
+
+        circle_efc6ebf1b6b22b88cd7b42417bb3ef2f.bindPopup(popup_d8383452a19feca018ec2814fea3cdbb)
+        ;
+
+        
+    
+    
+            var circle_marker_8b64a6f50e1712a1fded49a336c43b58 = L.circleMarker(
+                [19.271, -99.169],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_8b64a6f50e1712a1fded49a336c43b58.bindTooltip(
+                `<div>
+                     Tlalpan: IRU 17
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_d301641dbfd7805c3302edfa25fd7160 = L.circle(
+                [19.438, -99.105],
+                {"bubblingMouseEvents": true, "color": "#4CAF50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1330.0, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_725d61bf0f3c42469824039b2000bc1e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_32248b55c8a416c49bb2de431d721097 = $(`<div id="html_32248b55c8a416c49bb2de431d721097" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Venustiano Carranza</h4>         <div style='font-size:28px;font-weight:800;color:#4CAF50;margin-bottom:8px;'>             IRU: 21.2         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#4CAF50;font-weight:700;'>Bajo</span><br>             <b>Tasa Delitos:</b> 17.7 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.11 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 27.2% del total<br>             <b>Población:</b> 427,263         </div></div></div>`)[0];
+                popup_725d61bf0f3c42469824039b2000bc1e.setContent(html_32248b55c8a416c49bb2de431d721097);
+            
+        
+
+        circle_d301641dbfd7805c3302edfa25fd7160.bindPopup(popup_725d61bf0f3c42469824039b2000bc1e)
+        ;
+
+        
+    
+    
+            var circle_marker_8cbfeef87285f9732c48f311f2201eae = L.circleMarker(
+                [19.438, -99.105],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_8cbfeef87285f9732c48f311f2201eae.bindTooltip(
+                `<div>
+                     Venustiano Carranza: IRU 21
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_4d0378631e4e006cea75febfb260006d = L.circle(
+                [19.258, -99.104],
+                {"bubblingMouseEvents": true, "color": "#4CAF50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1137.5, "stroke": true, "weight": 2}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+        var popup_a64ff2b2e6bf819b6449060e1174c363 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1e3fbe86a4d6dd1f15f66b1adf65b379 = $(`<div id="html_1e3fbe86a4d6dd1f15f66b1adf65b379" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:12px;min-width:220px;'>         <h4 style='margin:0 0 10px 0;color:#333;'>Xochimilco</h4>         <div style='font-size:28px;font-weight:800;color:#4CAF50;margin-bottom:8px;'>             IRU: 13.5         </div>         <div style='font-size:11px;color:#555;line-height:1.7;'>             <b>Nivel:</b> <span style='color:#4CAF50;font-weight:700;'>Bajo</span><br>             <b>Tasa Delitos:</b> 10.1 / 1,000 hab<br>             <b>Tasa Alumbrado:</b> 0.32 / 1,000 hab<br>             <b>Delitos Nocturnos:</b> 29.1% del total<br>             <b>Población:</b> 442,178         </div></div></div>`)[0];
+                popup_a64ff2b2e6bf819b6449060e1174c363.setContent(html_1e3fbe86a4d6dd1f15f66b1adf65b379);
+            
+        
+
+        circle_4d0378631e4e006cea75febfb260006d.bindPopup(popup_a64ff2b2e6bf819b6449060e1174c363)
+        ;
+
+        
+    
+    
+            var circle_marker_1f8046be3de1e5e896d9c124be02dd2f = L.circleMarker(
+                [19.258, -99.104],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4CAF50", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1.5}
+            ).addTo(map_a381ebed37eb85696af906c8a5b9d305);
+        
+    
+            circle_marker_1f8046be3de1e5e896d9c124be02dd2f.bindTooltip(
+                `<div>
+                     Xochimilco: IRU 14
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

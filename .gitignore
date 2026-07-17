@@ -1,5 +1,7 @@
-datasets/raw/*.csv
-datasets/raw/*.xlsx
+
+echo datasets/raw/*.csv>>.gitignore
+echo datasets/raw/*.xlsx>>.gitignore
+echo datasets/raw/*.json>>.gitignore
 # Virtual environment
 urban_env/
 venv/

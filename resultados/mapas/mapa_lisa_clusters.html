@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d131949f0c75a10716181d46a9de4bfd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+body { font-family: 'Inter', sans-serif !important; }
+.modern-title {
+    position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;
+    background: rgba(20,22,30,0.85); backdrop-filter: blur(12px);
+    padding: 14px 32px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);
+    color: #fff; text-align: center; box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+}
+.modern-title h1 { margin: 0; font-size: 19px; font-weight: 700; }
+.modern-title p  { margin: 3px 0 0 0; font-size: 11px; color: #7C5CFC; }
+.lisa-legend {
+    position: fixed; bottom: 40px; right: 20px; z-index: 9999;
+    background: rgba(20,22,30,0.85); backdrop-filter: blur(12px);
+    padding: 14px 18px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);
+    color: #fff; min-width: 180px;
+}
+.lisa-legend h4 { margin: 0 0 8px 0; font-size: 12px; color: #A0AABF; text-transform: uppercase; }
+.lisa-row { display:flex; align-items:center; gap:8px; margin-bottom:5px; font-size:12px; }
+.dot { width:12px; height:12px; border-radius:50%; flex-shrink:0; }
+</style>
+    
+    <div class="modern-title">
+        <h1>Autocorrelación Espacial — LISA (Local Moran's I)</h1>
+        <p>Análisis de Delitos · Hot Spots y Cold Spots estadísticamente significativos</p>
+    </div>
+    
+    <div class="lisa-legend">
+        <h4>Clasificación LISA (Delitos)</h4>
+        <div class="lisa-row"><div class="dot" style="background:#D7191C"></div>HH</div><div class="lisa-row"><div class="dot" style="background:#2C7BB6"></div>LL</div><div class="lisa-row"><div class="dot" style="background:#FDAE61"></div>HL</div><div class="lisa-row"><div class="dot" style="background:#ABD9E9"></div>LH</div>
+        <div class="lisa-row"><div class="dot" style="background:#555566"></div>No Significativo</div>
+    </div>
+    
+            <div class="folium-map" id="map_d131949f0c75a10716181d46a9de4bfd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d131949f0c75a10716181d46a9de4bfd = L.map(
+                "map_d131949f0c75a10716181d46a9de4bfd",
+                {
+                    center: [19.38, -99.14],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_d131949f0c75a10716181d46a9de4bfd);
+
+            
+
+        
+    
+            var tile_layer_71150878b8cf69d3ab265326e3484bbe = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_71150878b8cf69d3ab265326e3484bbe.addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_945934a8dfddb625e74f6be37edb627e = L.circle(
+                [19.482520201235, -99.187163145145],
+                {"bubblingMouseEvents": true, "color": "#ABD9E9", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ABD9E9", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_25c01143bb5dfe8c1cd6fc34741d02f7 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_c6076b6767ce26514a02459c6dfd9d07 = $(`<div id="html_c6076b6767ce26514a02459c6dfd9d07" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Azcapotzalco</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#ABD9E9;font-weight:700;'>LH</span><br>             <b>LISA Alumbrado:</b> NS<br>             <b>Total Delitos:</b> 5,761<br>             <b>Fallas Alumbrado:</b> 143         </div></div></div>`)[0];
+                popup_25c01143bb5dfe8c1cd6fc34741d02f7.setContent(html_c6076b6767ce26514a02459c6dfd9d07);
+            
+        
+
+        circle_945934a8dfddb625e74f6be37edb627e.bindPopup(popup_25c01143bb5dfe8c1cd6fc34741d02f7)
+        ;
+
+        
+    
+    
+            var circle_marker_e9cc3b39ddd1ec69a5eea4fa87be3b89 = L.circleMarker(
+                [19.482520201235, -99.187163145145],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ABD9E9", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_8cc06889d4ad709b465a139d0a6a6128 = L.circle(
+                [19.382313955838, -99.158358621913],
+                {"bubblingMouseEvents": true, "color": "#555566", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_77b51b8c8cdf813bef8c5fdc225762e0 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_fc6449046d4d8895864edb12ece759df = $(`<div id="html_fc6449046d4d8895864edb12ece759df" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Benito Juárez</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#555566;font-weight:700;'>NS</span><br>             <b>LISA Alumbrado:</b> HH<br>             <b>Total Delitos:</b> 10,020<br>             <b>Fallas Alumbrado:</b> 187         </div></div></div>`)[0];
+                popup_77b51b8c8cdf813bef8c5fdc225762e0.setContent(html_fc6449046d4d8895864edb12ece759df);
+            
+        
+
+        circle_8cc06889d4ad709b465a139d0a6a6128.bindPopup(popup_77b51b8c8cdf813bef8c5fdc225762e0)
+        ;
+
+        
+    
+    
+            var circle_marker_9f323905410b7e74c56a38c85ce87c27 = L.circleMarker(
+                [19.382313955838, -99.158358621913],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_4b00de3e343a5a00fd83c12bdec20233 = L.circle(
+                [19.3257209780245, -99.14380114382499],
+                {"bubblingMouseEvents": true, "color": "#555566", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_e221f5cd9e4daa01ba3423d3c24f9a86 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_64e601866dee3921cd77a1fa1f5e882f = $(`<div id="html_64e601866dee3921cd77a1fa1f5e882f" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Coyoacán</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#555566;font-weight:700;'>NS</span><br>             <b>LISA Alumbrado:</b> NS<br>             <b>Total Delitos:</b> 9,281<br>             <b>Fallas Alumbrado:</b> 372         </div></div></div>`)[0];
+                popup_e221f5cd9e4daa01ba3423d3c24f9a86.setContent(html_64e601866dee3921cd77a1fa1f5e882f);
+            
+        
+
+        circle_4b00de3e343a5a00fd83c12bdec20233.bindPopup(popup_e221f5cd9e4daa01ba3423d3c24f9a86)
+        ;
+
+        
+    
+    
+            var circle_marker_331f65e5d23f030fbfaee3120bbfb0b4 = L.circleMarker(
+                [19.3257209780245, -99.14380114382499],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_26d507911792a571b9c347af1c41d39c = L.circle(
+                [19.362253748883, -99.288692665469],
+                {"bubblingMouseEvents": true, "color": "#555566", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_bd668573427540820f9cd020b8aa3f3e = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_1dd6c460a124f94c383b3f3e17cf30bf = $(`<div id="html_1dd6c460a124f94c383b3f3e17cf30bf" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Cuajimalpa De Morelos</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#555566;font-weight:700;'>NS</span><br>             <b>LISA Alumbrado:</b> NS<br>             <b>Total Delitos:</b> 2,354<br>             <b>Fallas Alumbrado:</b> 69         </div></div></div>`)[0];
+                popup_bd668573427540820f9cd020b8aa3f3e.setContent(html_1dd6c460a124f94c383b3f3e17cf30bf);
+            
+        
+
+        circle_26d507911792a571b9c347af1c41d39c.bindPopup(popup_bd668573427540820f9cd020b8aa3f3e)
+        ;
+
+        
+    
+    
+            var circle_marker_89101891ed0f1ed136f853e67377daee = L.circleMarker(
+                [19.362253748883, -99.288692665469],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_3ced1e2fa992f2f253cb5360d096c71b = L.circle(
+                [19.426655723681, -99.148434285215],
+                {"bubblingMouseEvents": true, "color": "#555566", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_d3521b76efc5fb6266bde66192c83247 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_a2f00c6d937c04b24a67a52d3a8c0687 = $(`<div id="html_a2f00c6d937c04b24a67a52d3a8c0687" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Cuauhtémoc</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#555566;font-weight:700;'>NS</span><br>             <b>LISA Alumbrado:</b> NS<br>             <b>Total Delitos:</b> 19,141<br>             <b>Fallas Alumbrado:</b> 509         </div></div></div>`)[0];
+                popup_d3521b76efc5fb6266bde66192c83247.setContent(html_a2f00c6d937c04b24a67a52d3a8c0687);
+            
+        
+
+        circle_3ced1e2fa992f2f253cb5360d096c71b.bindPopup(popup_d3521b76efc5fb6266bde66192c83247)
+        ;
+
+        
+    
+    
+            var circle_marker_af8227c7b02fae30d6c89e459095b57c = L.circleMarker(
+                [19.426655723681, -99.148434285215],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_237d5511ed17121eb4850758f820ba23 = L.circle(
+                [19.488879034982, -99.12291289669],
+                {"bubblingMouseEvents": true, "color": "#555566", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_035aada11070f2620eeaab2e6d67f4fa = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_3d0f934a55b830f76a45427904562ac4 = $(`<div id="html_3d0f934a55b830f76a45427904562ac4" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Gustavo A. Madero</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#555566;font-weight:700;'>NS</span><br>             <b>LISA Alumbrado:</b> NS<br>             <b>Total Delitos:</b> 13,255<br>             <b>Fallas Alumbrado:</b> 388         </div></div></div>`)[0];
+                popup_035aada11070f2620eeaab2e6d67f4fa.setContent(html_3d0f934a55b830f76a45427904562ac4);
+            
+        
+
+        circle_237d5511ed17121eb4850758f820ba23.bindPopup(popup_035aada11070f2620eeaab2e6d67f4fa)
+        ;
+
+        
+    
+    
+            var circle_marker_6a64d287f3b2dec89ce92cdbc0d9c5d7 = L.circleMarker(
+                [19.488879034982, -99.12291289669],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_a1bc730a4ec7f962d2e30ff82cf59636 = L.circle(
+                [19.393652497312, -99.097144771167],
+                {"bubblingMouseEvents": true, "color": "#ABD9E9", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ABD9E9", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_0210f58ed61be06b352d3c23b488d17e = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_87791ef7cba0ed9991314886e0f1f192 = $(`<div id="html_87791ef7cba0ed9991314886e0f1f192" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Iztacalco</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#ABD9E9;font-weight:700;'>LH</span><br>             <b>LISA Alumbrado:</b> NS<br>             <b>Total Delitos:</b> 6,075<br>             <b>Fallas Alumbrado:</b> 257         </div></div></div>`)[0];
+                popup_0210f58ed61be06b352d3c23b488d17e.setContent(html_87791ef7cba0ed9991314886e0f1f192);
+            
+        
+
+        circle_a1bc730a4ec7f962d2e30ff82cf59636.bindPopup(popup_0210f58ed61be06b352d3c23b488d17e)
+        ;
+
+        
+    
+    
+            var circle_marker_1de4f4c23316afdd133f8cc4a3764f06 = L.circleMarker(
+                [19.393652497312, -99.097144771167],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ABD9E9", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_804f80b08ac21b4db619071f9cc5b026 = L.circle(
+                [19.3380727, -99.049892],
+                {"bubblingMouseEvents": true, "color": "#555566", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_c6dca952120e9c57a8beb1afeee20dc7 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_a7e4f94d4cb8d3f9a773736f825ec3b1 = $(`<div id="html_a7e4f94d4cb8d3f9a773736f825ec3b1" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Iztapalapa</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#555566;font-weight:700;'>NS</span><br>             <b>LISA Alumbrado:</b> NS<br>             <b>Total Delitos:</b> 17,846<br>             <b>Fallas Alumbrado:</b> 192         </div></div></div>`)[0];
+                popup_c6dca952120e9c57a8beb1afeee20dc7.setContent(html_a7e4f94d4cb8d3f9a773736f825ec3b1);
+            
+        
+
+        circle_804f80b08ac21b4db619071f9cc5b026.bindPopup(popup_c6dca952120e9c57a8beb1afeee20dc7)
+        ;
+
+        
+    
+    
+            var circle_marker_c868873c01f09707715ffc23cccd6c9d = L.circleMarker(
+                [19.3380727, -99.049892],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_f32d22fa28ff4277138929d1b11fe553 = L.circle(
+                [19.314624822913, -99.244107452579],
+                {"bubblingMouseEvents": true, "color": "#555566", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_8a3e90c102bb277ad911b64670ddb7bc = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_76446d69ea24a77c5293b66575dcecc8 = $(`<div id="html_76446d69ea24a77c5293b66575dcecc8" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>La Magdalena Contreras</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#555566;font-weight:700;'>NS</span><br>             <b>LISA Alumbrado:</b> NS<br>             <b>Total Delitos:</b> 2,747<br>             <b>Fallas Alumbrado:</b> 22         </div></div></div>`)[0];
+                popup_8a3e90c102bb277ad911b64670ddb7bc.setContent(html_76446d69ea24a77c5293b66575dcecc8);
+            
+        
+
+        circle_f32d22fa28ff4277138929d1b11fe553.bindPopup(popup_8a3e90c102bb277ad911b64670ddb7bc)
+        ;
+
+        
+    
+    
+            var circle_marker_ea926a7a70818a3e56fabe838b0fc3dd = L.circleMarker(
+                [19.314624822913, -99.244107452579],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_951ddcaf8b2944a812fbc5b436bcc7ea = L.circle(
+                [19.4361884879305, -99.191399274524],
+                {"bubblingMouseEvents": true, "color": "#555566", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_8916745d05462c156b8c1e40ff67121d = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_c6080f040392ecce083120800982b807 = $(`<div id="html_c6080f040392ecce083120800982b807" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Miguel Hidalgo</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#555566;font-weight:700;'>NS</span><br>             <b>LISA Alumbrado:</b> NS<br>             <b>Total Delitos:</b> 7,954<br>             <b>Fallas Alumbrado:</b> 57         </div></div></div>`)[0];
+                popup_8916745d05462c156b8c1e40ff67121d.setContent(html_c6080f040392ecce083120800982b807);
+            
+        
+
+        circle_951ddcaf8b2944a812fbc5b436bcc7ea.bindPopup(popup_8916745d05462c156b8c1e40ff67121d)
+        ;
+
+        
+    
+    
+            var circle_marker_5f036391a6f794dc4af87ee86677ac76 = L.circleMarker(
+                [19.4361884879305, -99.191399274524],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_02fdfb377e2ee3ba19bd856842d5e4b1 = L.circle(
+                [19.199788230684, -99.037598511462],
+                {"bubblingMouseEvents": true, "color": "#555566", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_b133ee3df44bfe169611c0eafde5ad60 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_7f4cb4263df62ac2493108fccc82f3e8 = $(`<div id="html_7f4cb4263df62ac2493108fccc82f3e8" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Milpa Alta</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#555566;font-weight:700;'>NS</span><br>             <b>LISA Alumbrado:</b> NS<br>             <b>Total Delitos:</b> 1,445<br>             <b>Fallas Alumbrado:</b> 75         </div></div></div>`)[0];
+                popup_b133ee3df44bfe169611c0eafde5ad60.setContent(html_7f4cb4263df62ac2493108fccc82f3e8);
+            
+        
+
+        circle_02fdfb377e2ee3ba19bd856842d5e4b1.bindPopup(popup_b133ee3df44bfe169611c0eafde5ad60)
+        ;
+
+        
+    
+    
+            var circle_marker_0d7fc21b7f661e9d145cec6852c6247b = L.circleMarker(
+                [19.199788230684, -99.037598511462],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_265630df2454fada26291baabebf4d08 = L.circle(
+                [19.284020228962, -99.1713614240015],
+                {"bubblingMouseEvents": true, "color": "#555566", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_0e5d11bc5a7700162d1a660b856b0ec9 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_6e5504f716f812a1532c8c61adbdd3d0 = $(`<div id="html_6e5504f716f812a1532c8c61adbdd3d0" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Tlalpan</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#555566;font-weight:700;'>NS</span><br>             <b>LISA Alumbrado:</b> NS<br>             <b>Total Delitos:</b> 8,837<br>             <b>Fallas Alumbrado:</b> 193         </div></div></div>`)[0];
+                popup_0e5d11bc5a7700162d1a660b856b0ec9.setContent(html_6e5504f716f812a1532c8c61adbdd3d0);
+            
+        
+
+        circle_265630df2454fada26291baabebf4d08.bindPopup(popup_0e5d11bc5a7700162d1a660b856b0ec9)
+        ;
+
+        
+    
+    
+            var circle_marker_7cb84a3592cf5d07c8dfec33bb02d362 = L.circleMarker(
+                [19.284020228962, -99.1713614240015],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_358cbd04bf7c7ac794736609cef6a0d2 = L.circle(
+                [19.295090188055, -99.036257391576],
+                {"bubblingMouseEvents": true, "color": "#555566", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_78a0eef7e5363b22663889da17f6ffc7 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_1f2d60da38796d06cca35494a3373d98 = $(`<div id="html_1f2d60da38796d06cca35494a3373d98" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Tláhuac</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#555566;font-weight:700;'>NS</span><br>             <b>LISA Alumbrado:</b> NS<br>             <b>Total Delitos:</b> 4,307<br>             <b>Fallas Alumbrado:</b> 91         </div></div></div>`)[0];
+                popup_78a0eef7e5363b22663889da17f6ffc7.setContent(html_1f2d60da38796d06cca35494a3373d98);
+            
+        
+
+        circle_358cbd04bf7c7ac794736609cef6a0d2.bindPopup(popup_78a0eef7e5363b22663889da17f6ffc7)
+        ;
+
+        
+    
+    
+            var circle_marker_123a4afb69c474b1c50d3b2b0791dee5 = L.circleMarker(
+                [19.295090188055, -99.036257391576],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_a3c5963bfd855869156c790d1b557942 = L.circle(
+                [19.429749431632, -99.108284180976],
+                {"bubblingMouseEvents": true, "color": "#555566", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_ae34a7725094368f63298eaecd9f96dd = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_a4326da5602ff9cc7cfd93a2f510e377 = $(`<div id="html_a4326da5602ff9cc7cfd93a2f510e377" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Venustiano Carranza</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#555566;font-weight:700;'>NS</span><br>             <b>LISA Alumbrado:</b> LH<br>             <b>Total Delitos:</b> 7,545<br>             <b>Fallas Alumbrado:</b> 47         </div></div></div>`)[0];
+                popup_ae34a7725094368f63298eaecd9f96dd.setContent(html_a4326da5602ff9cc7cfd93a2f510e377);
+            
+        
+
+        circle_a3c5963bfd855869156c790d1b557942.bindPopup(popup_ae34a7725094368f63298eaecd9f96dd)
+        ;
+
+        
+    
+    
+            var circle_marker_8eb40f5883099215aa88b33d8ec33a35 = L.circleMarker(
+                [19.429749431632, -99.108284180976],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_e92d80f14b9db4ce4813bf0ed1f4a81d = L.circle(
+                [19.2501181257465, -99.08468228980149],
+                {"bubblingMouseEvents": true, "color": "#555566", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_e94fbd33f6b9f7ea3f68453cdbc86d09 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_e143649ee6dca6de203294611e92b2f4 = $(`<div id="html_e143649ee6dca6de203294611e92b2f4" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Xochimilco</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#555566;font-weight:700;'>NS</span><br>             <b>LISA Alumbrado:</b> NS<br>             <b>Total Delitos:</b> 4,475<br>             <b>Fallas Alumbrado:</b> 143         </div></div></div>`)[0];
+                popup_e94fbd33f6b9f7ea3f68453cdbc86d09.setContent(html_e143649ee6dca6de203294611e92b2f4);
+            
+        
+
+        circle_e92d80f14b9db4ce4813bf0ed1f4a81d.bindPopup(popup_e94fbd33f6b9f7ea3f68453cdbc86d09)
+        ;
+
+        
+    
+    
+            var circle_marker_08c843259cf1a0d5618958a9c62bcdf7 = L.circleMarker(
+                [19.2501181257465, -99.08468228980149],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+            var circle_e5c34891522fec2e144da6d647ffcb76 = L.circle(
+                [19.3598465376105, -99.212376686303],
+                {"bubblingMouseEvents": true, "color": "#555566", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500, "stroke": true, "weight": 1.5}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+    
+        var popup_4afd8796d2ed3f04bc56b3ab6cc02ac8 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_5ad85e6399d38ee2332bd879920b3b5b = $(`<div id="html_5ad85e6399d38ee2332bd879920b3b5b" style="width: 100.0%; height: 100.0%;">         <div style='font-family:Inter,sans-serif;padding:10px;min-width:200px;'>         <h4 style='margin:0 0 8px 0;color:#333;'>Álvaro Obregón</h4>         <div style='font-size:12px;color:#555;'>             <b>LISA Delitos:</b> <span style='color:#555566;font-weight:700;'>NS</span><br>             <b>LISA Alumbrado:</b> NS<br>             <b>Total Delitos:</b> 8,573<br>             <b>Fallas Alumbrado:</b> 178         </div></div></div>`)[0];
+                popup_4afd8796d2ed3f04bc56b3ab6cc02ac8.setContent(html_5ad85e6399d38ee2332bd879920b3b5b);
+            
+        
+
+        circle_e5c34891522fec2e144da6d647ffcb76.bindPopup(popup_4afd8796d2ed3f04bc56b3ab6cc02ac8)
+        ;
+
+        
+    
+    
+            var circle_marker_1a2369901bd9309b0426c6135c3bcf8f = L.circleMarker(
+                [19.3598465376105, -99.212376686303],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#555566", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_d131949f0c75a10716181d46a9de4bfd);
+        
+</script>
+</html>

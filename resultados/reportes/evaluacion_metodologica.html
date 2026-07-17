@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evaluación Metodológica — Smart City CDMX</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --dark: #0F1117; --panel: #1A1D27; --border: #2E3347;
+    --text: #E0E0E0; --muted: #A0AABF;
+    --purple: #7C5CFC; --cyan: #00D9A3; --red: #FF6B6B; --orange: #FFB347;
+  }
+  body { background: var(--dark); color: var(--text); font-family: 'Inter', sans-serif; min-height: 100vh; }
+  .hero {
+    background: linear-gradient(135deg, #1a0f3a 0%, #0f1a2e 50%, #0F1117 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 60px 40px 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 50% 0%, rgba(124,92,252,0.15) 0%, transparent 70%);
+  }
+  .hero h1 { font-size: 2.2rem; font-weight: 800; letter-spacing: -0.5px;
+    background: linear-gradient(90deg, #fff 0%, #7C5CFC 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; position: relative; }
+  .hero p { color: var(--muted); margin-top: 10px; font-size: 1rem; position: relative; }
+  .hero .fecha { margin-top: 8px; font-size: 0.8rem; color: #7C5CFC; letter-spacing: 1px; position: relative; }
+  .kpi-row { display: flex; gap: 20px; justify-content: center; padding: 30px 40px; flex-wrap: wrap; }
+  .kpi {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 14px; padding: 20px 30px; text-align: center; min-width: 160px;
+    backdrop-filter: blur(8px);
+  }
+  .kpi .num { font-size: 2.5rem; font-weight: 800; line-height: 1; }
+  .kpi .lbl { font-size: 0.75rem; color: var(--muted); text-transform: uppercase;
+                letter-spacing: 1px; margin-top: 6px; }
+  .main { max-width: 1100px; margin: 0 auto; padding: 20px 40px 60px; }
+  .section-title {
+    font-size: 0.72rem; font-weight: 700; color: var(--purple);
+    text-transform: uppercase; letter-spacing: 2px;
+    margin-bottom: 20px; margin-top: 40px;
+    padding-bottom: 8px; border-bottom: 1px solid var(--border);
+  }
+  .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(480px, 1fr)); gap: 20px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 14px; padding: 22px; transition: transform .2s, box-shadow .2s;
+  }
+  .card:hover { transform: translateY(-3px); box-shadow: 0 12px 40px rgba(0,0,0,0.4); }
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 16px; }
+  .card-title { font-size: 0.95rem; font-weight: 700; color: var(--text); }
+  .card-method { font-size: 0.75rem; color: var(--muted); margin-top: 4px; font-style: italic; }
+  .badge { font-size: 0.7rem; font-weight: 700; padding: 4px 10px; border-radius: 20px;
+            white-space: nowrap; flex-shrink: 0; }
+  .met-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-bottom: 12px; }
+  .met-table tr { border-bottom: 1px solid var(--border); }
+  .met-table tr:last-child { border-bottom: none; }
+  .mk { color: var(--muted); padding: 5px 0; width: 55%; }
+  .mv { color: var(--text); font-weight: 600; text-align: right; padding: 5px 0; }
+  .notas-list { list-style: none; padding: 0; border-top: 1px solid var(--border); padding-top: 10px; }
+  .notas-list li { font-size: 0.78rem; color: var(--muted); padding: 3px 0; padding-left: 14px; position: relative; }
+  .notas-list li::before { content: '›'; position: absolute; left: 0; color: var(--purple); }
+  .footer {
+    text-align: center; padding: 30px; border-top: 1px solid var(--border);
+    color: var(--muted); font-size: 0.78rem; margin-top: 40px;
+  }
+  .tag {
+    display: inline-block; background: rgba(124,92,252,0.15); color: var(--purple);
+    border: 1px solid rgba(124,92,252,0.3); border-radius: 6px;
+    font-size: 0.72rem; padding: 2px 8px; margin: 2px;
+  }
+  .legend { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 20px; }
+  .leg-item { display: flex; align-items: center; gap: 8px; font-size: 0.8rem; color: var(--muted); }
+  .leg-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>Evaluación Metodológica del Pipeline</h1>
+  <p>Análisis Inteligente de Infraestructura Urbana y Criminalidad — Ciudad de México</p>
+  <div class="fecha">Generado el 2026-07-17 08:56 · Smart City CDMX Analysis</div>
+</div>
+
+<div class="kpi-row">
+  <div class="kpi">
+    <div class="num" style="color:#E0E0E0">7</div>
+    <div class="lbl">Módulos evaluados</div>
+  </div>
+  <div class="kpi">
+    <div class="num" style="color:#00D9A3">3</div>
+    <div class="lbl">Ejecutados ✅</div>
+  </div>
+  <div class="kpi">
+    <div class="num" style="color:#FFB347">1</div>
+    <div class="lbl">Con advertencia ⚠️</div>
+  </div>
+  <div class="kpi">
+    <div class="num" style="color:#FF6B6B">3</div>
+    <div class="lbl">Pendientes 🔴</div>
+  </div>
+</div>
+
+<div class="main">
+
+  <div class="legend">
+    <div class="leg-item"><div class="leg-dot" style="background:#00D9A3"></div>Módulo ejecutado y con artefactos disponibles</div>
+    <div class="leg-item"><div class="leg-dot" style="background:#FFB347"></div>Ejecutado con advertencias o parcialmente</div>
+    <div class="leg-item"><div class="leg-dot" style="background:#FF6B6B"></div>Pendiente de ejecución</div>
+  </div>
+
+  <div class="section-title">Módulos de Análisis</div>
+  <div class="cards-grid">
+    
+    <div class="card" style="border-top: 3px solid #FF6B6B; background: #2D101033;">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Detección de Outliers (A-2)</div>
+          <div class="card-method">IQR · Z-Score · Isolation Forest</div>
+        </div>
+        <span class="badge" style="background:#FF6B6B22; color:#FF6B6B; border:1px solid #FF6B6B55;">🔴 Pendiente</span>
+      </div>
+      
+      
+    </div>
+
+    <div class="card" style="border-top: 3px solid #00D9A3; background: #0F302833;">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Correlación Temporal — Cross-Correlation (A-3)</div>
+          <div class="card-method">Pearson cross-correlation con rezagos semanales (-4 a +4)</div>
+        </div>
+        <span class="badge" style="background:#00D9A322; color:#00D9A3; border:1px solid #00D9A355;">✅ Ejecutado</span>
+      </div>
+      <table class='met-table'>
+        <tr>
+          <td class="mk">Gráfica generada</td>
+          <td class="mv">Sí</td>
+        </tr></table>
+      <ul class='notas-list'><li>Correlación cruzada alumbrado → delitos, lags -4 a +4 semanas</li></ul>
+    </div>
+
+    <div class="card" style="border-top: 3px solid #FF6B6B; background: #2D101033;">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Autocorrelación Espacial — Moran's I + LISA (A-4)</div>
+          <div class="card-method">Global Moran's I + LISA local</div>
+        </div>
+        <span class="badge" style="background:#FF6B6B22; color:#FF6B6B; border:1px solid #FF6B6B55;">🔴 Pendiente</span>
+      </div>
+      
+      
+    </div>
+
+    <div class="card" style="border-top: 3px solid #FF6B6B; background: #2D101033;">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Regresión Poisson / Binomial Negativa (A-5)</div>
+          <div class="card-method">GLM Poisson con offset log(población)</div>
+        </div>
+        <span class="badge" style="background:#FF6B6B22; color:#FF6B6B; border:1px solid #FF6B6B55;">🔴 Pendiente</span>
+      </div>
+      
+      
+    </div>
+
+    <div class="card" style="border-top: 3px solid #00D9A3; background: #0F302833;">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Índice de Riesgo Urbano — IRU (A-6)</div>
+          <div class="card-method">Composite Index: 5 componentes ponderados, escala 0-100, ajuste LISA</div>
+        </div>
+        <span class="badge" style="background:#00D9A322; color:#00D9A3; border:1px solid #00D9A355;">✅ Ejecutado</span>
+      </div>
+      <table class='met-table'>
+        <tr>
+          <td class="mk">Alcaldías evaluadas</td>
+          <td class="mv">16</td>
+        </tr>
+        <tr>
+          <td class="mk">IRU máximo</td>
+          <td class="mv">100.0</td>
+        </tr>
+        <tr>
+          <td class="mk">IRU mínimo</td>
+          <td class="mv">0.0</td>
+        </tr>
+        <tr>
+          <td class="mk">IRU promedio</td>
+          <td class="mv">25.1</td>
+        </tr>
+        <tr>
+          <td class="mk">Nivel Bajo</td>
+          <td class="mv">11 alcaldías</td>
+        </tr>
+        <tr>
+          <td class="mk">Nivel Medio</td>
+          <td class="mv">4 alcaldías</td>
+        </tr>
+        <tr>
+          <td class="mk">Nivel Muy Alto</td>
+          <td class="mv">1 alcaldías</td>
+        </tr></table>
+      <ul class='notas-list'><li>#1 Cuauhtemoc: IRU=100.0 [Muy Alto]</li><li>#2 Benito Juarez: IRU=42.0 [Medio]</li><li>#3 Iztacalco: IRU=41.7 [Medio]</li></ul>
+    </div>
+
+    <div class="card" style="border-top: 3px solid #00D9A3; background: #0F302833;">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Normalización Poblacional INEGI (Extra)</div>
+          <div class="card-method">Tasas por 1,000 hab. · Censo INEGI 2020 · 16 alcaldías</div>
+        </div>
+        <span class="badge" style="background:#00D9A322; color:#00D9A3; border:1px solid #00D9A355;">✅ Ejecutado</span>
+      </div>
+      <table class='met-table'>
+        <tr>
+          <td class="mk">Fuente poblacional</td>
+          <td class="mv">INEGI Censo 2020</td>
+        </tr>
+        <tr>
+          <td class="mk">Unidades</td>
+          <td class="mv">16 alcaldías CDMX</td>
+        </tr></table>
+      <ul class='notas-list'><li>Tasas integradas en IRU y Regresión Poisson</li></ul>
+    </div>
+
+    <div class="card" style="border-top: 3px solid #FFB347; background: #2D241033;">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Clustering Espacial — DBSCAN (Extra)</div>
+          <div class="card-method">DBSCAN (eps adaptativo, min_samples=5)</div>
+        </div>
+        <span class="badge" style="background:#FFB34722; color:#FFB347; border:1px solid #FFB34755;">⚠️  Advertencia</span>
+      </div>
+      <table class='met-table'>
+        <tr>
+          <td class="mk">Gráfica generada</td>
+          <td class="mv">No</td>
+        </tr></table>
+      <ul class='notas-list'><li>Identifica clusters densos de incidencias sin necesidad de k predefinido</li></ul>
+    </div>
+  </div>
+
+  <div class="section-title">Tecnologías y Fuentes de Datos</div>
+  <div class="card" style="border-top: 3px solid var(--purple);">
+    <div class="card-header">
+      <div>
+        <div class="card-title">Stack Tecnológico y Datos</div>
+        <div class="card-method">Librerías Python · Datasets oficiales CDMX 2024</div>
+      </div>
+    </div>
+    <div style="margin-bottom:12px;">
+      <span class="tag">pandas</span><span class="tag">numpy</span>
+      <span class="tag">scikit-learn</span><span class="tag">statsmodels</span>
+      <span class="tag">esda · libpysal</span><span class="tag">folium</span>
+      <span class="tag">matplotlib · seaborn</span><span class="tag">scipy</span>
+    </div>
+    <table class="met-table">
+      <tr><td class="mk">Dataset crímenes</td><td class="mv">FGJ CDMX — carpetasFGJ_2024</td></tr>
+      <tr><td class="mk">Dataset infraestructura</td><td class="mv">Locatel CDMX — locatel0311-2024</td></tr>
+      <tr><td class="mk">Datos poblacionales</td><td class="mv">INEGI Censo 2020 · 16 alcaldías</td></tr>
+      <tr><td class="mk">Unidad espacial primaria</td><td class="mv">Alcaldía (Moran, IRU, Poisson)</td></tr>
+      <tr><td class="mk">Unidad espacial secundaria</td><td class="mv">Colonia (Outliers, DBSCAN)</td></tr>
+      <tr><td class="mk">Periodo de análisis</td><td class="mv">2024 (enero – diciembre)</td></tr>
+    </table>
+  </div>
+
+</div>
+
+<div class="footer">
+  Reporte generado automáticamente por <strong>evaluacion_metodologica.py</strong> ·
+  Smart City CDMX Analysis Pipeline · 2026-07-17 08:56
+</div>
+
+</body>
+</html>

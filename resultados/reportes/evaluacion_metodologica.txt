@@ -1,0 +1,77 @@
+======================================================================
+REPORTE DE EVALUACIÓN METODOLÓGICA
+Análisis Inteligente de Infraestructura Urbana y Criminalidad — CDMX
+Fecha de generación: 2026-07-17 08:56
+======================================================================
+
+RESUMEN EJECUTIVO
+----------------------------------------------------------------------
+  Módulos evaluados : 7
+  Ejecutados        : 3
+  Con advertencias  : 1
+  Pendientes        : 3
+
+----------------------------------------------------------------------
+Detección de Outliers (A-2)  [PENDIENTE]
+Metodología: IQR · Z-Score · Isolation Forest
+
+----------------------------------------------------------------------
+Correlación Temporal — Cross-Correlation (A-3)  [EJECUTADO]
+Metodología: Pearson cross-correlation con rezagos semanales (-4 a +4)
+
+Métricas:
+  Gráfica generada                    Sí
+
+Observaciones:
+  • Correlación cruzada alumbrado → delitos, lags -4 a +4 semanas
+
+----------------------------------------------------------------------
+Autocorrelación Espacial — Moran's I + LISA (A-4)  [PENDIENTE]
+Metodología: Global Moran's I + LISA local
+
+----------------------------------------------------------------------
+Regresión Poisson / Binomial Negativa (A-5)  [PENDIENTE]
+Metodología: GLM Poisson con offset log(población)
+
+----------------------------------------------------------------------
+Índice de Riesgo Urbano — IRU (A-6)  [EJECUTADO]
+Metodología: Composite Index: 5 componentes ponderados, escala 0-100, ajuste LISA
+
+Métricas:
+  Alcaldías evaluadas                 16
+  IRU máximo                          100.0
+  IRU mínimo                          0.0
+  IRU promedio                        25.1
+  Nivel Bajo                          11 alcaldías
+  Nivel Medio                         4 alcaldías
+  Nivel Muy Alto                      1 alcaldías
+
+Observaciones:
+  • #1 Cuauhtemoc: IRU=100.0 [Muy Alto]
+  • #2 Benito Juarez: IRU=42.0 [Medio]
+  • #3 Iztacalco: IRU=41.7 [Medio]
+
+----------------------------------------------------------------------
+Normalización Poblacional INEGI (Extra)  [EJECUTADO]
+Metodología: Tasas por 1,000 hab. · Censo INEGI 2020 · 16 alcaldías
+
+Métricas:
+  Fuente poblacional                  INEGI Censo 2020
+  Unidades                            16 alcaldías CDMX
+
+Observaciones:
+  • Tasas integradas en IRU y Regresión Poisson
+
+----------------------------------------------------------------------
+Clustering Espacial — DBSCAN (Extra)  [ADVERTENCIA]
+Metodología: DBSCAN (eps adaptativo, min_samples=5)
+
+Métricas:
+  Gráfica generada                    No
+
+Observaciones:
+  • Identifica clusters densos de incidencias sin necesidad de k predefinido
+
+======================================================================
+FIN DEL REPORTE
+======================================================================

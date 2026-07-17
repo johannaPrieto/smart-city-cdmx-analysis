@@ -1,0 +1,30 @@
+======================================================================
+MODELO DE REGRESIÓN — SMART CITY CDMX
+Tipo: Binomial Negativa
+Variable dependiente: Total Delitos por Alcaldía
+Offset: log(Población INEGI 2020)
+Unidades de análisis: 16 alcaldías
+Razón Varianza/Media: 3231.69 → sobredispersión
+======================================================================
+
+                     NegativeBinomial Regression Results                      
+==============================================================================
+Dep. Variable:                      y   No. Observations:                   16
+Model:               NegativeBinomial   Df Residuals:                        9
+Method:                           MLE   Df Model:                            6
+Date:                Fri, 17 Jul 2026   Pseudo R-squ.:                 0.06469
+Time:                        09:14:32   Log-Likelihood:                -138.30
+converged:                       True   LL-Null:                       -147.87
+Covariance Type:            nonrobust   LLR p-value:                  0.003949
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -4.2613      0.052    -82.081      0.000      -4.363      -4.160
+x1            -0.4002      0.097     -4.143      0.000      -0.590      -0.211
+x2             0.0442      0.061      0.721      0.471      -0.076       0.164
+x3            -0.2103      0.145     -1.453      0.146      -0.494       0.073
+x4             0.2364      0.179      1.321      0.187      -0.114       0.587
+x5            -0.2725      0.210     -1.299      0.194      -0.683       0.139
+x6             0.5974      0.147      4.070      0.000       0.310       0.885
+alpha          0.0429      0.015      2.839      0.005       0.013       0.073
+==============================================================================
