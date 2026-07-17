@@ -58,7 +58,7 @@ GLOBAL_CSS = """
 
 body {
     font-family: 'Inter', sans-serif !important;
-    background-color: #0f1117;
+    background-color: #f8f9fa;
 }
 
 /* Glassmorphism Title */
@@ -311,7 +311,7 @@ def crear_mapa_base(titulo="", subtitulo="", stats=None):
     m = folium.Map(
         location=CDMX_CENTER,
         zoom_start=ZOOM_DEFAULT,
-        tiles="CartoDB dark_matter",
+        tiles="CartoDB positron",
         control_scale=True,
         prefer_canvas=True,
     )

@@ -39,7 +39,7 @@ CDMX_CENTER = [19.38, -99.14]
 GLOBAL_CSS = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-body { font-family: 'Inter', sans-serif !important; background-color: #0f1117; }
+body { font-family: 'Inter', sans-serif !important; background-color: #f8f9fa; }
 .modern-title {
     position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;
     background: rgba(20, 22, 30, 0.8); backdrop-filter: blur(12px);
@@ -126,7 +126,7 @@ def main():
 
     # 4. Generar Mapa
     print("[4/4] Generando mapa Dashboard de Clusters Críticos...")
-    m = folium.Map(location=CDMX_CENTER, zoom_start=11.5, tiles="CartoDB dark_matter", control_scale=True, prefer_canvas=True)
+    m = folium.Map(location=CDMX_CENTER, zoom_start=11.5, tiles="CartoDB positron", control_scale=True, prefer_canvas=True)
     m.get_root().html.add_child(folium.Element(GLOBAL_CSS))
 
     titulo_html = f"""

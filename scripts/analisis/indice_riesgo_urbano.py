@@ -99,7 +99,7 @@ COORDS_ALCALDIA = {
 GLOBAL_CSS = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-body { font-family: 'Inter', sans-serif !important; }
+body { font-family: 'Inter', sans-serif !important; background-color: #f8f9fa; }
 .modern-title {
     position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;
     background: rgba(20,22,30,0.85); backdrop-filter: blur(12px);
@@ -353,7 +353,7 @@ def plot_radar_top5(agg):
 def generar_mapa_riesgo(agg):
     """Mapa Folium con círculos proporcionales al IRU."""
     m = folium.Map(location=CDMX_CENTER, zoom_start=11,
-                   tiles="CartoDB dark_matter", control_scale=True)
+                   tiles="CartoDB positron", control_scale=True)
     m.get_root().html.add_child(folium.Element(GLOBAL_CSS))
 
     m.get_root().html.add_child(folium.Element("""

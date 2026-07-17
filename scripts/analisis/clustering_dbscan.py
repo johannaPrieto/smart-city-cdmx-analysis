@@ -59,7 +59,7 @@ plt.rcParams.update({
 GLOBAL_CSS = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-body { font-family: 'Inter', sans-serif !important; background-color: #0f1117; }
+body { font-family: 'Inter', sans-serif !important; background-color: #f8f9fa; }
 .modern-title {
     position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;
     background: rgba(20,22,30,0.82); backdrop-filter: blur(12px);
@@ -148,6 +148,8 @@ def calibrar_epsilon(coords_scaled, min_samples=10):
     deriv2 = np.gradient(np.gradient(k_distances))
     eps_idx = np.argmax(np.abs(deriv2[10:-10])) + 10
     eps_opt = float(k_distances[eps_idx])
+    # Limitar epsilon a 0.15 (aprox 1.5km en coords estandarizadas) para evitar un único macro-cluster
+    eps_opt = min(eps_opt, 0.15)
     return eps_opt, k_distances
 
 
@@ -157,7 +159,10 @@ def plot_comparacion(df_ml, labels_km, labels_db, best_k):
         f"Comparación de Algoritmos de Clustering — KMeans (K={best_k}) vs DBSCAN",
         fontsize=14, fontweight="bold", y=1.01)
 
-    cmap = plt.cm.get_cmap("tab20", best_k)
+    try:
+        cmap = plt.colormaps.get_cmap("tab20").resampled(best_k)
+    except AttributeError:
+        cmap = plt.get_cmap("tab20", best_k)
 
     for ax, labels, title in [
         (axes[0], labels_km, f"KMeans (K={best_k})"),
@@ -194,7 +199,7 @@ def plot_comparacion(df_ml, labels_km, labels_db, best_k):
 def generar_mapa_dbscan(df_ml, labels_db):
     n_clusters = len(set(labels_db[labels_db >= 0]))
     m = folium.Map(location=CDMX_CENTER, zoom_start=11,
-                   tiles="CartoDB dark_matter", control_scale=True, prefer_canvas=True)
+                   tiles="CartoDB positron", control_scale=True, prefer_canvas=True)
     m.get_root().html.add_child(folium.Element(GLOBAL_CSS))
     m.get_root().html.add_child(folium.Element(f"""
     <div class="modern-title">
@@ -314,10 +319,10 @@ def main():
     mask_valid = labels_db_full != -1
     sil_db = (silhouette_score(coords_scaled[mask_valid][::5],
                                labels_db_full[mask_valid][::5])
-              if mask_valid.sum() > 1000 else np.nan)
+              if (mask_valid.sum() > 1000 and n_clusters_db >= 2) else np.nan)
     db_db  = (davies_bouldin_score(coords_scaled[mask_valid][::5],
                                    labels_db_full[mask_valid][::5])
-              if mask_valid.sum() > 1000 else np.nan)
+              if (mask_valid.sum() > 1000 and n_clusters_db >= 2) else np.nan)
 
     print(f"\n   {'Métrica':<30} {'KMeans':>10} {'DBSCAN':>10}")
     print(f"   {'-'*50}")
